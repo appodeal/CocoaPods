@@ -38,6 +38,8 @@ Appodeal's goal is to cater to the needs of the publisher, not the advertiser, s
   s.dependency 'VungleAdvertiserSDK', '~> 3.0'
   s.dependency 'UnityAds', '~> 1.4'
 
+  s.dependency 'SVProgressHUD', '~> 1.1.3'
+
   s.dependency 'Bugsnag', '~> 4.0.7'
 
 end
