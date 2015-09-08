@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   s.name         = "NexageSourceKitCommon"
   s.version      = "1.0.3"
-  s.summary      = "SourceKit Common."
+  s.summary      = "SourceKit Common"
 
   s.description  = <<-DESC
 SourceKit Common are a set of utilities used across several SourceKit projects.
@@ -20,7 +20,7 @@ DESC
     LICENSE
   }
 
-  s.homepage     = "https://github.com/appodeal/sourcekit-common-ios"
+  s.homepage     = "https://github.com/nexage/sourcekit-common-ios"
   s.author       = { "Nexage, Inc." => "http://www.nexage.com" }
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/nexage/sourcekit-common-ios.git", :tag => "v#{s.version}", :submodules => true}
