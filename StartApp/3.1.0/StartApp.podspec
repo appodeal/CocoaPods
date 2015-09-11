@@ -30,9 +30,9 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   # s.platform     = :ios, "5.0"
 
-  s.source       = { :http => "http://s3.startapp.com.s3.amazonaws.com/Resource/SDK_TEMP/IOS-InApp%20SDK-InApp-3.1.0.zip" }
-  s.vendored_frameworks = "StartApp.framework"
-  s.resource  = "StartApp.bundle"
+  s.source       = { :http => "https://s3.amazonaws.com/appodeal-externalsdk/StartAppSDK.zip" }
+  s.vendored_frameworks = "StartAppSDK/StartApp.framework"
+  s.resource  = "StartAppSDK/StartApp.bundle"
 
   s.frameworks = "AdSupport", "StoreKit", "CoreTelephony", "SystemConfiguration", "CoreGraphics", "QuartzCore", "CoreMedia", "AVFoundation"
   s.library = "z"
