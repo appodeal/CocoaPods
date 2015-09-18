@@ -19,7 +19,7 @@ License text here
   s.author       = { "Rubicon Project" => "http://rubiconproject.com/contact-us/" }
 
   s.platform     = :ios
-  s.source       = { :http => 'https://s3.amazonaws.com/appodeal-externalsdk/RFMAdSDK.zip' }
+  s.source       = { :http => 'https://www.dropbox.com/s/mklk45omupmutks/RFMAdSDK.zip?dl=0' }
 
   s.ios.vendored_frameworks = "SDK/RFMAdSDK.framework"
   s.resource  = "SDK/RFMAdSDK.bundle"
