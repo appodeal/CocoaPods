@@ -5,9 +5,9 @@ Pod::Spec.new do |s|
   s.summary      = "Appodeal iOS Framework"
 
   s.description  = <<-DESC
-Appodeal’s supply-side platform is designed and built by veteran publishers,for publishers. Appodeal is not an ad network; it is a new approach to monetizing for publishers. 
-The platform is a large auction house, accompanied by a mediation layer, that exposes a publisher’s inventory to all available buyers on the market via relationships with every major ad network, RTB exchange, and DSP. Appodeal showcases publisher inventory to the advertiser, and offers the highest rate in real time. 
-Appodeal's goal is to cater to the needs of the publisher, not the advertiser, so you always know that you're in good hands.  
+Appodeal’s supply-side platform is designed and built by veteran publishers,for publishers. Appodeal is not an ad network; it is a new approach to monetizing for publishers.
+The platform is a large auction house, accompanied by a mediation layer, that exposes a publisher’s inventory to all available buyers on the market via relationships with every major ad network, RTB exchange, and DSP. Appodeal showcases publisher inventory to the advertiser, and offers the highest rate in real time.
+Appodeal's goal is to cater to the needs of the publisher, not the advertiser, so you always know that you're in good hands.
                    DESC
 
   s.homepage     = "http://appodeal.com"
@@ -30,7 +30,7 @@ Appodeal's goal is to cater to the needs of the publisher, not the advertiser, s
 
   s.dependency 'AdColony', '~> 2.5.3'
   s.dependency 'AmazonAds', '~> 2.2.10'
-  s.dependency 'AppLovinSDK', '~> 3.1.2'
+  s.dependency 'AppLovinSDK', '~> 3.1.3'
   s.dependency 'ChartboostSDK', '~> 5.5.3'
   s.dependency 'Google-Mobile-Ads-SDK', '~> 7.4.1'
   s.dependency 'InMobiSDK', '~> 4.5.1'
