@@ -21,7 +21,7 @@ License text here
   s.platform     = :ios
   s.source       = { :http => "https://s3.amazonaws.com/avocarrot_ios/Avocarrot-iOS-sdk.zip" }
 
-  s.vendored_frameworks = "Avocarrot-iOS-sdk/AvocarrotSDK.framework"
+  s.vendored_frameworks = "AvocarrotSDK.framework"
 
   s.frameworks = "AdSupport", "CoreTelephony", "SystemConfiguration"
 end
