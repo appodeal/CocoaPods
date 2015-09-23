@@ -41,5 +41,7 @@ Appodeal's goal is to cater to the needs of the publisher, not the advertiser, s
   s.dependency 'FBAudienceNetwork', '~> 4.6.0'
   s.dependency 'StartApp', '~> 3.2.0'
   s.dependency 'RevvForMobile', '~> 3.1.4'
+  s.dependency 'YandexMobileAds', '~> 1.9.1'
+  s.dependency 'YandexMobileMetrica', '~> 2.0.0'
 
 end
