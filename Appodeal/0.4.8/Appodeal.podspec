@@ -14,7 +14,7 @@ Appodeal's goal is to cater to the needs of the publisher, not the advertiser, s
   s.license      = { :type => 'Appodeal Privacy Policy', :file => 'LICENSE.md'  }
   s.author       = { "Appodeal, Inc." => "http://appodeal.com" }
   s.platform     = :ios, "7.0"
-  s.source       = { :http => "https://s3-us-west-1.amazonaws.com/appodeal-ios/0.4.7-1/pods/Appodeal.zip" }
+  s.source       = { :http => "https://s3-us-west-1.amazonaws.com/appodeal-ios/0.4.8/pods/Appodeal.zip" }
 
   s.vendored_frameworks = "Appodeal.framework"
 
@@ -28,18 +28,18 @@ Appodeal's goal is to cater to the needs of the publisher, not the advertiser, s
 
   s.dependency 'NexageSourceKitMRAID', '~> 1.0.6'
 
-  s.dependency 'AdColony', '~> 2.5.3'
-  s.dependency 'AmazonAds', '~> 2.2.10'
-  s.dependency 'AppLovinSDK', '~> 3.1.3'
-  s.dependency 'ChartboostSDK', '~> 5.5.3'
-  s.dependency 'Google-Mobile-Ads-SDK', '~> 7.4.1'
-  s.dependency 'InMobiSDK', '~> 4.5.1'
-  s.dependency 'mopub-ios-sdk', '~> 3.12.0'
-  s.dependency 'MyTarget', '~> 4.0.17'
-  s.dependency 'VungleAdvertiserSDK', '~> 3.1.2'
-  s.dependency 'UnityAds', '~> 1.5.1'
-  s.dependency 'FBAudienceNetwork', '~> 4.5.0'
-  s.dependency 'StartApp', '~> 3.1.0'
-  s.dependency 'RevvForMobile', '~> 3.1.4'
+  s.dependency 'AdColony', '2.5.3'
+  s.dependency 'AmazonAds', '2.2.10'
+  s.dependency 'AppLovinSDK', '3.1.2'
+  s.dependency 'ChartboostSDK', '5.5.3'
+  s.dependency 'Google-Mobile-Ads-SDK', '7.4.1'
+  s.dependency 'InMobiSDK', '4.5.1'
+  s.dependency 'mopub-ios-sdk', '3.12.0'
+  s.dependency 'MyTarget', '4.0.17'
+  s.dependency 'VungleAdvertiserSDK', '3.1.2'
+  s.dependency 'UnityAds', '1.5.1'
+  s.dependency 'FBAudienceNetwork', '4.5.0'
+  s.dependency 'StartApp', '3.1.0'
+  s.dependency 'RevvForMobile', '3.1.4'
 
 end
