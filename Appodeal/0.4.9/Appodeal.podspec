@@ -33,7 +33,7 @@ Appodeal's goal is to cater to the needs of the publisher, not the advertiser, s
   s.dependency 'AppLovin', '~> 3.1.3'
   s.dependency 'ChartboostSDK', '~> 5.5.3'
   s.dependency 'Google-Mobile-Ads-SDK', '~> 7.5'
-  s.dependency 'InMobiSDK', '~> 4.5.1'
+  s.dependency 'InMobiSDK', '~> 5.0.0'
   s.dependency 'mopub-ios-sdk', '~> 3.12.0'
   s.dependency 'MyTarget', '~> 4.0.17'
   s.dependency 'VungleAdvertiserSDK', '~> 3.1.2'
