@@ -1,0 +1,43 @@
+{
+  "name": "InMobiSDK",
+  "version": "4.5.2",
+  "summary": "InMobi iOS SDK. (Official 4.5.1 version)",
+  "homepage": "https://www.inmobi.com",
+  "license": {
+    "type": "proprietary",
+    "text": "Copyright (C) InMobi. All Right Reserved.\n"
+  },
+  "authors": "InMobi",
+  "source": {
+    "http": "https://s3.amazonaws.com/appodeal-externalsdk/InMobiSDK.zip"
+  },
+  "platforms": {
+    "ios": null
+  },
+  "source_files": "InMobiSDK/InMobi-iOS-SDK/Libs/*.h",
+  "public_header_files": "InMobiSDK/InMobi-iOS-SDK/Libs/*.h",
+  "libraries": [
+    "z",
+    "sqlite3.0"
+  ],
+  "frameworks": [
+    "AudioToolbox",
+    "AVFoundation",
+    "CoreTelephony",
+    "EventKit",
+    "EventKitUI",
+    "MessageUI",
+    "MediaPlayer",
+    "Security",
+    "SystemConfiguration"
+  ],
+  "weak_frameworks": [
+    "AdSupport",
+    "Social",
+    "StoreKit"
+  ],
+  "vendored_libraries": "InMobiSDK/InMobi-iOS-SDK/Libs/libInMobi.a",
+  "xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC"
+  }
+}
