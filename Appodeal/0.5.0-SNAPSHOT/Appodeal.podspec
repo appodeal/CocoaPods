@@ -32,7 +32,7 @@ Appodeal's goal is to cater to the needs of the publisher, not the advertiser, s
 
   s.dependency 'AdColony', '~> 2.6'
   s.dependency 'AmazonAds', '~> 2.2.10'
-  s.dependency 'AppLovin', '~> 3.1.3'
+  s.dependency 'AppLovin', '~> 3.1.4'
   s.dependency 'ChartboostSDK', '~> 5.5.3'
   s.dependency 'Google-Mobile-Ads-SDK', '~> 7.5'
   s.dependency 'InMobiSDK', '~> 4.5.1'
