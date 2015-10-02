@@ -47,6 +47,7 @@ Appodeal's goal is to cater to the needs of the publisher, not the advertiser, s
   s.dependency 'YandexMobileMetrica', '~> 2.0.0'
   s.dependency 'Avocarrot', '~> 3.4.2'
   s.dependency 'PubNative', '~> 1.3.0'
-  s.dependency 'Flurry-iOS-SDK', '~> 7.2.0'
+  s.dependency 'Flurry-iOS-SDK/FlurrySDK', '~> 7.2.0'
+  s.dependency 'Flurry-iOS-SDK/FlurryAds', '~> 7.2.0'
 
 end
