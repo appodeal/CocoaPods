@@ -39,7 +39,7 @@ Appodeal's goal is to cater to the needs of the publisher, not the advertiser, s
   s.dependency 'mopub-ios-sdk', '~> 3.13.0'
   s.dependency 'MyTarget', '~> 4.0.17'
   s.dependency 'VungleAdvertiserSDK', '~> 3.1.2'
-  s.dependency 'UnityAds', '~> 1.5.2'
+  s.dependency 'UnityAds', '~> 1.5.3'
   s.dependency 'FBAudienceNetwork', '~> 4.6.0'
   s.dependency 'StartApp', '~> 3.2.0'
   s.dependency 'RevvForMobile', '~> 3.1.4'
