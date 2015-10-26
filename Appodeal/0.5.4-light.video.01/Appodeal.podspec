@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "Appodeal"
-  s.version      = "0.5.4-light.video"
+  s.version      = "0.5.4-light.video.01"
   s.summary      = "Appodeal iOS Framework"
 
   s.description  = <<-DESC
