@@ -16,7 +16,6 @@ Pod::Spec.new do |s|
 
   s.libraries = 'xml2'
 
-  s.dependency 'YandexMobileMetrica', '2.0.0'
   s.dependency 'TOWebViewController'
   s.dependency 'ColorArt'
   s.frameworks = 'CoreTelephony', 'AdSupport'
