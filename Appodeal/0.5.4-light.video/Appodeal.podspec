@@ -31,7 +31,7 @@ Appodeal's goal is to cater to the needs of the publisher, not the advertiser, s
   s.dependency 'NexageSourceKitMRAID', '~> 1.0.6'
 
   s.dependency 'AdColony', '~> 2.6'
-  s.dependency 'AppLovin', '~> 3.1.5'
+  s.dependency 'AppLovin', '~> 3.1.6'
   s.dependency 'ChartboostSDK', '~> 5.5.3'
   s.dependency 'mopub-ios-sdk', '~> 3.13.0'
   s.dependency 'VungleAdvertiserSDK', '~> 3.1.2'
