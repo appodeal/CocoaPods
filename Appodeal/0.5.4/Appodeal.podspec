@@ -20,11 +20,11 @@ Appodeal's goal is to cater to the needs of the publisher, not the advertiser, s
 
   s.resources = "Resources/*.png"
 
-  s.dependency 'CocoaLumberjack', '~> 2.0.1'
+  s.dependency 'CocoaLumberjack', '~> 2.0'
   s.dependency 'AFNetworking', '~> 2.6'
-  s.dependency 'Mantle', '~> 2.0.5'
+  s.dependency 'Mantle', '~> 2.0'
   s.dependency 'Godzippa', '~> 1.1'
-  s.dependency 'SVProgressHUD', '~> 1.1.3'
+  s.dependency 'SVProgressHUD', '~> 1.1'
   s.dependency 'Masonry', '~> 0.6'
   s.dependency 'HCSStarRatingView', '~> 1.4'
 
@@ -32,10 +32,10 @@ Appodeal's goal is to cater to the needs of the publisher, not the advertiser, s
 
   s.dependency 'AdColony', '~> 2.6'
   s.dependency 'AmazonAds', '~> 2.2.10'
-  s.dependency 'AppLovin', '~> 3.1.6'
+  s.dependency 'AppLovin', '~> 3.1'
   s.dependency 'ChartboostSDK', '~> 5.5.3'
   s.dependency 'Google-Mobile-Ads-SDK', '~> 7.5.1'
-  s.dependency 'InMobiSDK', '~> 5.0.1'
+  s.dependency 'InMobiSDK', '~> 5.0'
   s.dependency 'mopub-ios-sdk', '~> 3.13.0'
   s.dependency 'MyTarget', '~> 4.0.17'
   s.dependency 'VungleAdvertiserSDK', '~> 3.1.2'
