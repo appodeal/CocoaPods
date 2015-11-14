@@ -37,7 +37,7 @@ Appodeal's goal is to cater to the needs of the publisher, not the advertiser, s
   s.dependency 'ChartboostSDK', '~> 6.0'
   s.dependency 'Google-Mobile-Ads-SDK', '~> 7.5'
   s.dependency 'InMobiSDK', '~> 5.0'
-  s.dependency 'mopub-ios-sdk', '~> 4.0.0-appodeal'
+  s.dependency 'mopub-ios-sdk', '~> 4.0'
   s.dependency 'MyTarget', '~> 4.0'
   s.dependency 'VungleAdvertiserSDK', '3.1.2'
   s.dependency 'UnityAds', '~> 1.5.3'
@@ -50,7 +50,7 @@ Appodeal's goal is to cater to the needs of the publisher, not the advertiser, s
   s.dependency 'YandexMobileMetrica', '~> 2.0'
   s.dependency 'Flurry-iOS-SDK/FlurrySDK', '~> 7.2'
   s.dependency 'Flurry-iOS-SDK/FlurryAds', '~> 7.2'
-  s.dependency 'SpotX-SDK', '~> 2.0'
+  s.dependency 'SpotX-SDK', '2.0.4-fix'
   s.dependency 'FacebookAdsSDK', '~> 4.6'
 
 
