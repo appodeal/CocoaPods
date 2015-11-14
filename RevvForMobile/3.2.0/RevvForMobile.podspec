@@ -19,10 +19,10 @@ License text here
   s.author       = { "Rubicon Project" => "http://rubiconproject.com/contact-us/" }
 
   s.platform     = :ios
-  s.source       = { :http => 'https://s3.amazonaws.com/appodeal-externalsdk/Rubicon/RFM_SDK_3.1.4_iOS.zip' }
+  s.source       = { :http => 'https://s3.amazonaws.com/appodeal-externalsdk/Rubicon/RFM_SDK_3.2.0_iOS.zip' }
 
-  s.ios.vendored_frameworks = "SDK/RFMAdSDK.framework"
-  s.resource  = "SDK/RFMAdSDK.bundle"
+  s.ios.vendored_frameworks = "SDK/RFMSDK/RFMAdSDK.framework"
+  s.resource  = "SDK/RFMSDK/RFMAdSDK.bundle"
 
 
   s.frameworks = "AdSupport", "AudioToolbox", "AVFoundation", "CoreGraphics", "CoreTelephony", "EventKit", "EventKitUI", "MediaPlayer", "MessageUI", "StoreKit", "UIKit", "Foundation"
