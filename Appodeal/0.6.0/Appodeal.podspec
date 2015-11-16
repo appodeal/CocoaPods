@@ -17,6 +17,7 @@ Appodeal's goal is to cater to the needs of the publisher, not the advertiser, s
   s.source       = { :http => "https://s3-us-west-1.amazonaws.com/appodeal-ios/0.6.0/pods/Appodeal.zip" }
 
   s.vendored_frameworks = "Appodeal.framework"
+  s.public_header_files = "Appodeal.framework/Headers/*.h"
 
   s.resources = "Resources/*.png"
 
