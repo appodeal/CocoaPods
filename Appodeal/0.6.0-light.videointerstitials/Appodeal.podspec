@@ -45,7 +45,7 @@ Appodeal's goal is to cater to the needs of the publisher, not the advertiser, s
   s.dependency 'Avocarrot', '~> 3.4'
   s.dependency 'YandexMobileAds', '~> 1.9'
   s.dependency 'YandexMobileMetrica', '~> 2.0'
-  s.dependency 'SpotX-SDK', '~> 2.0'
+  s.dependency 'SpotX-SDK', '2.0.4-fix'
   s.dependency 'FacebookAdsSDK', '~> 4.6'
   s.dependency 'Haneke', '~> 1.0'
 
