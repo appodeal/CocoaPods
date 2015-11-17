@@ -28,6 +28,7 @@ Appodeal's goal is to cater to the needs of the publisher, not the advertiser, s
   s.dependency 'SVProgressHUD', '~> 1.1'
   s.dependency 'Masonry', '~> 0.6'
   s.dependency 'HCSStarRatingView', '~> 1.4'
+  s.dependency 'Haneke', '~> 1.0'
 
   s.dependency 'NexageSourceKitMRAID', '~> 1.0.6'
   s.dependency 'NexageSourceKitVAST', '~> 1.0.6'
