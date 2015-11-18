@@ -9,7 +9,7 @@
   },
   "authors": "InMobi",
   "source": {
-    "http": "https://dl.inmobi.com/SDK/InMobi_iOS_SDK.zip"
+    "http": "https://s3.amazonaws.com/appodeal-externalsdk/inmobi/5.0.2/InMobi_iOS_SDK.zip"
   },
   "platforms": {
     "ios": null
