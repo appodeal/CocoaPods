@@ -35,7 +35,7 @@ Appodeal's goal is to cater to the needs of the publisher, not the advertiser, s
 
   s.dependency 'AppLovin', '~> 3.1'
   s.dependency 'InMobiSDK', '~> 5.0'
-  s.dependency 'mopub-ios-sdk', '~> 4.0'
+  s.dependency 'mopub-ios-sdk', '~> 4.1'
   s.dependency 'MyTarget', '~> 4.0'
   s.dependency 'FBAudienceNetwork', '~> 4.6'
   s.dependency 'StartApp', '~> 3.2'
