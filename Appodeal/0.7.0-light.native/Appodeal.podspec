@@ -43,7 +43,6 @@ Appodeal's goal is to cater to the needs of the publisher, not the advertiser, s
   s.dependency 'PubNative', '~> 1.3'
   s.dependency 'Flurry-iOS-SDK/FlurrySDK', '~> 7.2'
   s.dependency 'Flurry-iOS-SDK/FlurryAds', '~> 7.2'
-  s.dependency 'FacebookAdsSDK', '~> 4.6'
   s.dependency 'MillenialMediaSDK', '~> 6.1'
 
 
