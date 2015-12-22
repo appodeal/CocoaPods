@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.libraries = 'xml2'
 
-  s.dependency 'TOWebViewController', '2.2'
+  s.dependency 'TOWebViewController', '2.1.1'
   s.dependency 'ColorArt'
   s.frameworks = 'CoreTelephony', 'AdSupport'
 
