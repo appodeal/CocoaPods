@@ -19,7 +19,7 @@
     "Libs/**/*.h"
   ],
   "public_header_files": "Libs/**/*.h",
-  "preserve_paths": "Libs/**/*.a",
+  "vendored_libraries": "Libs/*.a",        
   "frameworks": [
     "AdSupport",
     "AudioToolbox",
