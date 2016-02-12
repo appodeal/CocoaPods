@@ -43,7 +43,7 @@ Appodeal's goal is to cater to the needs of the publisher, not the advertiser, s
   s.dependency 'MyTarget', '~> 4.0'
   s.dependency 'VungleAdvertiserSDK', '3.1.2'
   s.dependency 'UnityAds', '~> 1.5.3'
-  s.dependency 'FBAudienceNetwork', '~> 4.6'
+  s.dependency 'FBAudienceNetwork', '4.9.1'
   s.dependency 'StartApp', '~> 3.2'
   s.dependency 'RevvForMobile', '~> 3.1'
   s.dependency 'Avocarrot', '~> 3.4'
