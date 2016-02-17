@@ -12,7 +12,7 @@
     "ios": "7.0"
   },
   "source": {
-    "http": "https://dl.inmobi.com/SDK/InMobi-iOS-SDK-5.2.0.zip"
+    "http": "https://s3.amazonaws.com/appodeal-externalsdk/inmobi/5.2.0/InMobi-iOS-SDK-5.2.0.zip"
   },
   "source_files": [
     "Libs",
