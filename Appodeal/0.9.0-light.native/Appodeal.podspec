@@ -21,8 +21,8 @@ Appodeal's goal is to cater to the needs of the publisher, not the advertiser, s
 
   s.resources = "Resources/*.png"
 
-  s.dependency 'CocoaLumberjack'
-  s.dependency 'AFNetworking', '~> 2.0'
+  s.dependency 'CocoaLumberjack', '~> 2.0'
+  s.dependency 'AFNetworking', '~> 2.6'
   s.dependency 'Mantle', '~> 2.0'
   s.dependency 'Godzippa', '~> 1.1'
   s.dependency 'SVProgressHUD', '~> 1.1'
@@ -31,6 +31,7 @@ Appodeal's goal is to cater to the needs of the publisher, not the advertiser, s
   s.dependency 'Haneke', '~> 1.0'
 
   s.dependency 'NexageSourceKitMRAID', '~> 1.0.6'
+
   s.dependency 'AdColony', '~> 2.5'
   s.dependency 'AppLovin', '~> 3.1'
   s.dependency 'InMobiSDK', '5.2.0-fix'
