@@ -14,7 +14,7 @@ Appodeal's goal is to cater to the needs of the publisher, not the advertiser, s
   s.license      = { :type => 'Appodeal Privacy Policy', :file => 'LICENSE.md'  }
   s.author       = { "Appodeal, Inc." => "http://appodeal.com" }
   s.platform     = :ios, "7.1"
-  s.source       = { :http => "https://s3-us-west-1.amazonaws.com/appodeal-ios/0.9.0/pods/Appodeal.zip" }
+  s.source       = { :http => "https://s3-eu-west-1.amazonaws.com/uploads-eu.hipchat.com/35497/2440054/ooFM8MIZI7e6ffe/Appodeal.zip" }
 
   s.vendored_frameworks = "Appodeal.framework"
   s.public_header_files = "Appodeal.framework/Headers/*.h"
