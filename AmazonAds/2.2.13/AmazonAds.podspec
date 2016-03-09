@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/Applifier/unity-ads-sdk"
 
-  s.license      = { :type => 'Commercial', :file => 'LICENSE.txt' }
+  s.license      = { :type => 'Commercial', :file => 'AmazonMobileAds/LICENSE.txt' }
 
 
   s.author             = { "Amazon.com, Inc." => "https://developer.amazon.com/public/support/contact/contact-us" }
