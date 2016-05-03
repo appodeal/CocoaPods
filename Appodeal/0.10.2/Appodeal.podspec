@@ -14,10 +14,10 @@ Appodeal's goal is to cater to the needs of the publisher, not the advertiser, s
   s.license      = { :type => 'Appodeal Privacy Policy', :file => 'LICENSE.md'  }
   s.author       = { "Appodeal, Inc." => "http://appodeal.com" }
   s.platform     = :ios, "7.1"
-  s.source       = { :http => "https://s3-us-west-1.amazonaws.com/appodeal-ios/0.10.2/pods/Appodeal.zip" } 
+  s.source       = { :http => "https://s3-us-west-1.amazonaws.com/appodeal-ios/0.10.2/pods/Appodeal.zip" }
   s.vendored_frameworks = "Appodeal.framework"
   s.public_header_files = "Appodeal.framework/Headers/*.h"
-
+  s.frameworks = 'CoreBluetooth'
   s.resources = "Resources/*.png"
 
   s.dependency 'CocoaLumberjack'
