@@ -15,7 +15,7 @@
     "ios": null
   },
   "source": {
-    "http": "https://s3.amazonaws.com/appodeal-externalsdk/applovin/applovin-ios-sdk-3.3.1.tar.bz2"
+    "http": "http://s3.amazonaws.com/appodeal-externalsdk/applovin/applovin-ios-sdk-3.3.1.tar.bz2"
   },
   "source_files": "headers",
   "preserve_paths": "libAppLovinSdk.a",
