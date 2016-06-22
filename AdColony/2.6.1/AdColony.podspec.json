@@ -12,7 +12,7 @@
     "AdColony Support": "support@adcolony.com"
   },
   "source": {
-    "http": "https://s3.amazonaws.com/appodeal-externalsdk/adcolony/2.6.1/AdColony.framework-2.6.1.zip"
+    "http": "http://s3.amazonaws.com/appodeal-externalsdk/adcolony/2.6.1/AdColony.framework-2.6.1.zip"
   },
   "platforms": {
     "ios": "5.0"
