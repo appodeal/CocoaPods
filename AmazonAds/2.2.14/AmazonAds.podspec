@@ -28,7 +28,7 @@ These materials are distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDI
   # s.ios.deployment_target = "5.0"
   # s.osx.deployment_target = "10.7"
 
-  s.source       = { :http => "https://s3.amazonaws.com/appodeal-externalsdk/amazonads/2.2.14/Amazon-iOS-SDKs-2.2.14.zip" }
+  s.source       = { :http => "http://s3.amazonaws.com/appodeal-externalsdk/amazonads/2.2.14/Amazon-iOS-SDKs-2.2.14.zip" }
   s.vendored_frameworks = 'Amazon-iOS-SDKs/AmazonMobileAds/AmazonAd.framework'
 
   s.frameworks = "AdSupport", "CoreLocation", "SystemConfiguration", "CoreTelephony", "CoreGraphics", "MediaPlayer", "EventKit", "EventKitUI"
