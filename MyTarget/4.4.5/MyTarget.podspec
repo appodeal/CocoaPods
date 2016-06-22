@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.author       = { "My.com U.S." => "http://press.my.com/contact-us/" }
 
   s.platform     = :ios
-  s.source       = { :http => 'https://s3.amazonaws.com/appodeal-externalsdk/mytarget/mytarget_ios_4.4.5.zip' }
+  s.source       = { :http => 'http://s3.amazonaws.com/appodeal-externalsdk/mytarget/mytarget_ios_4.4.5.zip' }
 
   s.vendored_frameworks = "MyTargetSDK.framework"
   s.frameworks = "AdSupport", "StoreKit", "AVFoundation", "CoreLocation", "CoreMedia", "SystemConfiguration"
