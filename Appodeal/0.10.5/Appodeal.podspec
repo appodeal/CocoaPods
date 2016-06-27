@@ -31,7 +31,6 @@ Appodeal's goal is to cater to the needs of the publisher, not the advertiser, s
 
   s.dependency 'NexageSourceKitMRAID', '~> 1.0.6'
 
-  s.dependency 'Toast', '~> 3.0'
 
   s.dependency 'AdColony', '~> 2.5'
   s.dependency 'AmazonAds', '~> 2.2'
