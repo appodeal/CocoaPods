@@ -1,0 +1,37 @@
+{
+  "name": "YandexMobileAds",
+  "version": "2.2.1",
+  "summary": "The Yandex Mobile Ads SDK provides mobile interfaces for Yandex Advertising Network",
+  "homepage": "https://tech.yandex.ru/mobile-ads/",
+  "license": {
+    "type": "PROPRIETARY",
+    "file": "LICENSE.txt"
+  },
+  "authors": {
+    "Andrey Shender": "ashender@yandex-team.ru",
+    "Kanstantsin Charnukha": "xardas@yandex-team.ru"
+  },
+  "platforms": {
+    "ios": "6.0"
+  },
+  "source": {
+    "http": "https://s3.amazonaws.com/appodeal-externalsdk/yandex/ads/2.2.1/yandex-ads-sdk-ios-master-2.2.1.zip"
+  },
+  "source_files": "yandex-ads-sdk-ios-master/SDK/YandexMobileAds/**/*.h",
+  "header_mappings_dir": "yandex-ads-sdk-ios-master/SDK/YandexMobileAds",
+  "public_header_files": "yandex-ads-sdk-ios-master/SDK/YandexMobileAds/**/*.h",
+  "vendored_libraries": "yandex-ads-sdk-ios-master/SDK/libYandexMobileAds.a",
+  "libraries": "xml2",
+  "dependencies": {
+    "YandexMobileMetrica": [
+      ">= 2.4.1",
+      "<= 2.5.0"
+    ]
+  },
+  "frameworks": [
+    "CoreTelephony",
+    "AdSupport"
+  ],
+  "weak_frameworks": "SafariServices",
+  "requires_arc": true
+}
