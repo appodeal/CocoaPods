@@ -19,7 +19,7 @@ License text here
   s.author       = { "Avocarrot" => "http://www.avocarrot.com/contact/" }
 
   s.platform     = :ios, '8.0'
-  s.source       = { :http => "https://s3-eu-west-1.amazonaws.com/uploads-eu.hipchat.com/35497/2440054/1w0BZT8vCbcTRSv/AvocarrotSDK.zip" }
+  s.source       = { :http => "https://s3.amazonaws.com/appodeal-externalsdk/avocarrot/Avocarrot-iOS-sdk-4.0.1-fix2.zip" }
 
   s.vendored_frameworks = "AvocarrotSDK.framework"
 
