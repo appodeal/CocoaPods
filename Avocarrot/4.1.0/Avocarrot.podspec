@@ -23,5 +23,10 @@ License text here
 
   s.vendored_frameworks = "AvocarrotSDK.framework"
 
+  s.xcconfig            = {
+    'FRAMEWORK_SEARCH_PATHS' => '"${PODS_ROOT}/AvocarrotSDK"',
+    'LD_RUNPATH_SEARCH_PATHS' => '@loader_path/../Frameworks'
+  }
+  
   s.frameworks = "AdSupport", "CoreTelephony", "SystemConfiguration"
 end
