@@ -19,14 +19,9 @@ License text here
   s.author       = { "Avocarrot" => "http://www.avocarrot.com/contact/" }
 
   s.platform     = :ios, '8.0'
-  s.source       = { :http => "https://s3.amazonaws.com/appodeal-externalsdk/avocarrot/Avocarrot-iOS-sdk-4.1.0.zip" }
+  s.source       = { :http => "https://s3.amazonaws.com/appodeal-externalsdk/avocarrot/Avocarrot-iOS-sdk-4.1.0-universal-bitcoded.zip" }
 
   s.vendored_frameworks = "AvocarrotSDK.framework"
 
-  s.xcconfig            = {
-    'FRAMEWORK_SEARCH_PATHS' => '"${PODS_ROOT}/AvocarrotSDK"',
-    'LD_RUNPATH_SEARCH_PATHS' => '@loader_path/../Frameworks'
-  }
-  
   s.frameworks = "AdSupport", "CoreTelephony", "SystemConfiguration"
 end
