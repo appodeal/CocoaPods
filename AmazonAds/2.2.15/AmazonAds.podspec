@@ -31,6 +31,6 @@ These materials are distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDI
   s.source       = { :http => "https://s3.amazonaws.com/appodeal-externalsdk/amazonads/Amazon-iOS-SDKs-2.2.15.zip" }
   s.vendored_frameworks = 'Amazon-iOS-SDKs/AmazonMobileAds/AmazonAd.framework'
 
-  s.frameworks = "AdSupport", "CoreLocation", "SystemConfiguration", "CoreTelephony", "CoreGraphics", "MediaPlayer", "EventKit", "EventKitUI"
+  s.frameworks = "AdSupport", "CoreLocation", "SystemConfiguration", "JavaScriptCore", "CoreTelephony", "CoreGraphics", "MediaPlayer", "EventKit", "EventKitUI"
 
 end
