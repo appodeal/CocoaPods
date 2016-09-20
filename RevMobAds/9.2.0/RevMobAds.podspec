@@ -19,7 +19,7 @@ License text here
   s.author       = { "Avocarrot" => "https://revmobmobileadnetwork.com" }
 
   s.platform     = :ios, '8.0'
-  s.source       = { :http => "https://s3-eu-west-1.amazonaws.com/uploads-eu.hipchat.com/35497/2440054/SkrNlvTElg664w8/RevMobAds.framework.zip" }
+  s.source       = { :http => "https://s3.amazonaws.com/appodeal-externalsdk/revmob/RevMobAds.framework-9.2.0.zip" }
 
   s.vendored_frameworks = "RevMobAds.framework"
 
