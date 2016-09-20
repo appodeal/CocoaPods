@@ -28,6 +28,4 @@ DESC
 
   s.source_files = 'src/**/*.{h,m}'
 
-  s.dependency 'NexageSourceKitCommon', '~> 1.0.3'
-
 end
