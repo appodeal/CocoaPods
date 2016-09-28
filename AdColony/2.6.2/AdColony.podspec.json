@@ -23,7 +23,6 @@
   "preserve_paths": "AdColony.framework",
   "libraries": "z",
   "frameworks": [
-    "AdColony",
     "AudioToolbox",
     "AVFoundation",
     "CoreGraphics",
