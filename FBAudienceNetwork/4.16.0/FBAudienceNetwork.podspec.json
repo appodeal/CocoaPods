@@ -13,7 +13,7 @@
     "ios": "7.0"
   },
   "source": {
-    "http": "https://s3.amazonaws.com/appodeal-externalsdk/FBAudience/FBAudienceNetwork-4.16.0.zip"
+    "http": "https://s3.amazonaws.com/appodeal-externalsdk/FBAudience/FBAudienceNetwork-4.16.1.zip"
   },
   "source_files": "FBAudienceNetwork.framework/**/*.h",
   "public_header_files": "FBAudienceNetwork.framework/**/*.h",
