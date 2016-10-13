@@ -15,7 +15,7 @@
     "ios": null
   },
   "source": {
-    "http" : "https://github.com/Unity-Technologies/unity-ads-ios/releases/download/2.0.5/UnityAds.framework.zip"
+    "http" : "https://s3.amazonaws.com/appodeal-externalsdk/unityads/UnityAds.framework-2.0.5.zip"
   },
   "vendored_frameworks": "UnityAds.framework",
   "frameworks": [
