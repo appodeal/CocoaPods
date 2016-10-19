@@ -24,7 +24,6 @@ Appodeal's goal is to cater to the needs of the publisher, not the advertiser, s
     ss.dependency 'Appodeal/AmazonAdsAdapter'
     ss.dependency 'Appodeal/AppLovinAdapter'
     ss.dependency 'Appodeal/APDAvocarrotAdapter'
-    ss.dependency 'Appodeal/AppLovinAdapter'
     ss.dependency 'Appodeal/ChartboostAdapter'
     ss.dependency 'Appodeal/FacebookAudienceAdapter'
     ss.dependency 'Appodeal/GoogleAdMobAdapter'
@@ -40,6 +39,57 @@ Appodeal's goal is to cater to the needs of the publisher, not the advertiser, s
     ss.dependency 'Appodeal/YandexAdapter'
   end
 
+  s.subspec 'Video' do |ss|
+    ss.dependency 'Appodeal/AdColonyAdapter'
+    ss.dependency 'Appodeal/AppLovinAdapter'
+    ss.dependency 'Appodeal/ChartboostAdapter'
+    ss.dependency 'Appodeal/InMobyAdapter'
+    ss.dependency 'Appodeal/MyTargetAdapter'
+    ss.dependency 'Appodeal/RevMobAdapter'
+    ss.dependency 'Appodeal/StartAppAdapter'
+    ss.dependency 'Appodeal/TapjoyAdapter'
+    ss.dependency 'Appodeal/TwitterMoPubAdapter'
+    ss.dependency 'Appodeal/UnityAdapter'
+    ss.dependency 'Appodeal/VungleAdapter'
+  end
+
+  s.subspec 'Banner' do |ss|
+    ss.dependency 'Appodeal/AmazonAdsAdapter'
+    ss.dependency 'Appodeal/FacebookAudienceAdapter'
+    ss.dependency 'Appodeal/GoogleAdMobAdapter'
+    ss.dependency 'Appodeal/InMobyAdapter'
+    ss.dependency 'Appodeal/MyTargetAdapter'
+    ss.dependency 'Appodeal/RevMobAdapter'
+    ss.dependency 'Appodeal/StartAppAdapter'
+    ss.dependency 'Appodeal/TwitterMoPubAdapter'
+    ss.dependency 'Appodeal/YandexAdapter'
+  end
+
+  s.subspec 'Interstitial' do |ss|
+    ss.dependency 'Appodeal/AmazonAdsAdapter'
+    ss.dependency 'Appodeal/AppLovinAdapter'
+    ss.dependency 'Appodeal/ChartboostAdapter'
+    ss.dependency 'Appodeal/FacebookAudienceAdapter'
+    ss.dependency 'Appodeal/GoogleAdMobAdapter'
+    ss.dependency 'Appodeal/InMobyAdapter'
+    ss.dependency 'Appodeal/MyTargetAdapter'
+    ss.dependency 'Appodeal/RevMobAdapter'
+    ss.dependency 'Appodeal/StartAppAdapter'
+    ss.dependency 'Appodeal/TwitterMoPubAdapter'
+    ss.dependency 'Appodeal/YandexAdapter'
+  end
+
+  s.subspec 'Native' do |ss|
+    ss.dependency 'Appodeal/AppLovinAdapter'
+    ss.dependency 'Appodeal/APDAvocarrotAdapter'
+    ss.dependency 'Appodeal/FacebookAudienceAdapter'
+    ss.dependency 'Appodeal/InMobyAdapter'
+    ss.dependency 'Appodeal/MyTargetAdapter'
+    ss.dependency 'Appodeal/PubnativeAdapter'
+    ss.dependency 'Appodeal/StartAppAdapter'
+    ss.dependency 'Appodeal/RevMobAdapter'
+    ss.dependency 'Appodeal/TwitterMoPubAdapter'
+  end
 
   s.subspec 'Core' do |ss|
     ss.resources = "Appodeal.bundle"
