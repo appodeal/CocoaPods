@@ -15,8 +15,18 @@
     "tvos": null
   },
   "source": {
-    "http": "https://sdk.applovin.com/applovin-tvos-sdk-3.2.0.tar.bz2"
+    "http": "https://s3-eu-west-1.amazonaws.com/uploads-eu.hipchat.com/35497/2440054/OxLLkmA51mMIIsj/applovin-tvos-sdk-3.2.0.tar.bz2"
   },
+  "frameworks": [
+    "AdSupport",
+    "AVFoundation",
+    "CoreGraphics",
+    "CoreMedia",
+    "CoreTelephony",
+    "MediaPlayer",
+    "SystemConfiguration",
+    "UIKit"
+  ],
   "source_files": "headers",
   "preserve_paths": "libAppLovinTVOS.a",
   "libraries": "AppLovinTVOS",
