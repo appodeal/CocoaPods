@@ -1,0 +1,42 @@
+{
+  "name": "IronSource",
+  "version": "6.4.21",
+  "summary": "Iron Source mobile sdk",
+  "description": "Iron Source mobile sdk monetisation",
+  "homepage": "http://developers.ironsrc.com/ironsource-mobile/",
+  "license": {
+    "type": "Copyright",
+    "text": " __ !!! __ "
+  },
+  "authors": "IronSource",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://s3-eu-west-1.amazonaws.com/uploads-eu.hipchat.com/35497/2440054/HwHLqfjKkrS8rlt/Supersonic.framework.zip"
+  },
+  "frameworks": [
+    "AdSupport",
+    "AVFoundation",
+    "CoreGraphics",
+    "CoreLocation",
+    "CoreMedia",
+    "CFNetwork",
+    "CoreTelephony",
+    "CoreVideo",
+    "Foundation",
+    "MobileCoreServices",
+    "QuartzCore",
+    "SystemConfiguration",
+    "StoreKit",
+    "Security",
+    "WebKit"
+  ],
+  "libraries": [
+    "z",
+    "xml2"
+  ],
+  "vendored_frameworks": "Supersonic.framework",
+  "preserve_paths": "Supersonic.framework",
+  "requires_arc": true
+}
