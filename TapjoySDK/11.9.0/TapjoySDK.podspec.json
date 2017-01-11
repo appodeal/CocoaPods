@@ -12,16 +12,16 @@
     "Tapjoy": "http://dev.tapjoy.com"
   },
   "source": {
-    "http": "https://s3.amazonaws.com/appodeal-externalsdk/tapjoy/TapjoySDK_iOS_v11.9.0.zip"
+    "http": "https://s3.amazonaws.com/appodeal-externalsdk/tapjoy/TapjoySDK_iOS_v11.9.1.zip"
   },
-  "source_files": "TapjoySDK_iOS_v11.9.0/Libraries/Tapjoy.embeddedframework/Tapjoy.framework/**/*.h",
+  "source_files": "TapjoySDK_iOS_v11.9.1/Libraries/Tapjoy.embeddedframework/Tapjoy.framework/**/*.h",
   "platforms": {
     "ios": null
   },
-  "resources": "TapjoySDK_iOS_v11.9.0/Libraries/Tapjoy.embeddedframework/**/*.bundle",
-  "public_header_files": "TapjoySDK_iOS_v11.9.0/Libraries/Tapjoy.embeddedframework/Tapjoy.framework/**/*.h",
-  "preserve_paths": "TapjoySDK_iOS_v11.9.0/Libraries/Tapjoy.embeddedframework/Tapjoy.framework",
-  "vendored_frameworks": "TapjoySDK_iOS_v11.9.0/Libraries/Tapjoy.embeddedframework/Tapjoy.framework",
+  "resources": "TapjoySDK_iOS_v11.9.1/Libraries/Tapjoy.embeddedframework/**/*.bundle",
+  "public_header_files": "TapjoySDK_iOS_v11.9.1/Libraries/Tapjoy.embeddedframework/Tapjoy.framework/**/*.h",
+  "preserve_paths": "TapjoySDK_iOS_v11.9.1/Libraries/Tapjoy.embeddedframework/Tapjoy.framework",
+  "vendored_frameworks": "TapjoySDK_iOS_v11.9.1/Libraries/Tapjoy.embeddedframework/Tapjoy.framework",
   "frameworks": [
     "Security",
     "CoreData",
