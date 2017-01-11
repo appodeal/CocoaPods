@@ -1,0 +1,38 @@
+{
+  "name": "YandexMobileMetrica",
+  "version": "2.7.0",
+  "summary": "This library is designed to be a part of mobile apps and provide app usage stats to Yandex AppMetrica",
+  "homepage": "http://appmetrica.yandex.com/",
+  "license": {
+    "type": "PROPRIETARY",
+    "file": "LICENSE.txt"
+  },
+  "authors": {
+    "Yandex LLC": "appmetrica@yandex-team.com"
+  },
+  "platforms": {
+    "ios": "6.0"
+  },
+  "source": {
+    "http": "https://s3.amazonaws.com/appodeal-externalsdk/yandex/metrica/YandexMobileMetrica-2.7.0-ios-7058b11a-d987-4519-8c64-028c75b67eab.zip"
+  },
+  "preserve_paths": "static/YandexMobileMetrica.framework",
+  "public_header_files": "static/YandexMobileMetrica.framework/Versions/A/Headers/*.h",
+  "vendored_frameworks": "static/YandexMobileMetrica.framework",
+  "libraries": [
+    "c++",
+    "z",
+    "sqlite3"
+  ],
+  "frameworks": [
+    "SystemConfiguration",
+    "UIKit",
+    "Foundation",
+    "CoreTelephony",
+    "CoreLocation",
+    "CoreGraphics",
+    "AdSupport"
+  ],
+  "weak_frameworks": "SafariServices",
+  "requires_arc": true
+}
