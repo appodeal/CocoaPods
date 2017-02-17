@@ -13,10 +13,9 @@
     "ios": null
   },
   "source": {
-    "http": "https://s3.amazonaws.com/appodeal-externalsdk/applovin/applovin-ios-sdk-3.4.3.tar.bz2"
+    "http": "https://s3-us-west-1.amazonaws.com/appodeal-ios/1.3.9/AppLovinSdk.framework.zip"
   },
-  "source_files": "headers",
-  "preserve_paths": "libAppLovinSdk.a",
+  "vendored_frameworks": "AppLovinSdk.framework",
   "frameworks": [
     "AdSupport",
     "AVFoundation",
@@ -25,9 +24,9 @@
     "CoreMedia",
     "MediaPlayer",
     "SystemConfiguration",
-    "UIKit"
+    "UIKit",
+    "StoreKit"
   ],
-  "libraries": "AppLovinSdk",
   "xcconfig": {
     "LIBRARY_SEARCH_PATHS": "$(PODS_ROOT)/AppLovinSDK/"
   }
