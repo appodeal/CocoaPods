@@ -15,12 +15,9 @@
     "ios": "6.0"
   },
   "source": {
-    "http" : "https://s3.amazonaws.com/appodeal-externalsdk/yandex/ads/yandex-ads-sdk-ios-2.5.0.zip"
+    "http" : "https://s3-eu-west-1.amazonaws.com/uploads-eu.hipchat.com/35497/2440054/94CLoNoJCEEcrtt/YandexMobileAds.framework.zip"
   },
-  "source_files": "yandex-ads-sdk-ios-2.5.0/SDK/YandexMobileAds/**/*.h",
-  "header_mappings_dir": "yandex-ads-sdk-ios-2.5.0/SDK/YandexMobileAds",
-  "public_header_files": "yandex-ads-sdk-ios-2.5.0/SDK/YandexMobileAds/**/*.h",
-  "vendored_libraries": "yandex-ads-sdk-ios-2.5.0/SDK/libYandexMobileAds.a",
+  "vendored_frameworks": "YandexMobileAds.framework",
   "libraries": "xml2",
   "dependencies": {
     "YandexMobileMetrica": [
