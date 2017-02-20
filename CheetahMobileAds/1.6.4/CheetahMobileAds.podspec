@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary      = "Pegasi SDK is a mobile advertising SDK that serves monitization for publishers."
   s.homepage     = "https://github.com/CMAdSDK/pegasi-ios-sdk.git"
   s.author       = { "cmcm.ads" => "cmcm.ads@gmail.com" }
-  s.source       = { :http => 'https://s3-us-west-1.amazonaws.com/appodeal-ios/2.0.0/CheetahMobileAds.zip' }
+  s.source       = { :http => 'https://s3-eu-west-1.amazonaws.com/uploads-eu.hipchat.com/35497/2440054/rX3HfMO3Az5ASei/CheetahMobileAds.zip' }
   s.platform     = :ios, "7.0"
 
   s.frameworks   = "AdSupport", "CoreTelephony", "StoreKit", "CoreLocation", "Security", "SystemConfiguration"
