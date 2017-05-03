@@ -42,6 +42,6 @@
   ],
   "requires_arc": true,
   "source": {
-    "http": "https://s3-eu-west-1.amazonaws.com/uploads-eu.hipchat.com/35497/2440054/VsB9kEwT1qPoOgA/AOL.zip"
+    "http": "https://s3.amazonaws.com/appodeal-externalsdk/mmedia/mm-ios-ad-sdk-dist-6.4.0.zip"
   }
 }
