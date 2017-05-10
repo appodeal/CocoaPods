@@ -1,0 +1,46 @@
+{
+  "name": "InnerActiveSDK",
+  "version": "6.0.0",
+  "summary": "Marketing Automation and Analytics for your iOS apps",
+  "description": "InnerActiveSDK advertising network AOL advertising network InnerActiveSDK advertising network",
+  "homepage": "https://confluence.inner-active.com/display/TD/Inneractive+iOS+SDK+-+Developer%27s+Guide",
+  "license": {
+    "type": "Commercial",
+    "text": "LICENSE"
+  },
+  "authors": "InnerActiveSDK",
+  "platforms": {
+    "ios": null
+  },
+  "vendored_frameworks": [
+    "InneractiveSDK.framework"
+  ],
+  "source_files": [
+  ],
+  "preserve_paths": [
+  ],
+  "weak_frameworks": [
+  ],
+  "frameworks": [
+    "SystemConfiguration",
+    "CoreGraphics",
+    "EventKit",
+    "EventKitUI",
+    "MediaPlayer",
+    "MessageUI",
+    "CoreTelephony",
+    "StoreKit",
+    "AdSupport",
+    "AudioToolbox",
+    "AVFoundation",
+    "CoreMedia",
+    "UIKit"
+  ],
+  "libraries":[
+    "xml2.2"
+  ],
+  "requires_arc": true,
+  "source": {
+    "http": "https://s3-eu-west-1.amazonaws.com/uploads-eu.hipchat.com/35497/2440054/MXJRSpfkELX7MWP/InneractiveSDK.framework.zip"
+  }
+}
