@@ -1,0 +1,41 @@
+{
+  "name": "OpenXSDK",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "version": "4.2.0",
+  "summary": "OpenX Mobile SDK for iOS v4.2.0",
+  "description": "The OpenX SDK for iOS allows a user of the OpenX Ad Server to incorporate ads into their iOS applications.",
+  "homepage": "http://www.openx.com",
+  "authors": "OpenX Technologies, Inc. | maintained by @lawrenceleach",
+  "documentation_url": "https://community.openx.com/s/article/ka180000000PQJRAA4/Mobile-SDK-Integration-Instructions",
+  "license": {
+    "type": "commercial",
+    "text": "Copyright 2014 OpenX Technologies, Inc. All rights reserved."
+  },
+  "source": {
+    "http": "https://s3-eu-west-1.amazonaws.com/uploads-eu.hipchat.com/35497/2440054/wdkwC1YcSXSvgVt/OpenXSDKCore.framework.zip"
+  },
+  "source_files": "OpenXSDKCore.framework/**/*.h",
+  "public_header_files": "OpenXSDKCore.framework/**/*.h",
+  "vendored_frameworks": "OpenXSDKCore.framework",
+  "resources": [
+    "OpenXSDKCore.framework/*.js",
+    "OpenXSDKCore.framework/*.car",
+    "OpenXSDKCore.framework/*.nib",
+    "OpenXSDKCore.framework/*.plist",
+    "OpenXSDKCore.framework/*.storyboardc"
+  ],
+  "requires_arc": true,
+  "frameworks": [
+    "SystemConfiguration",
+    "AdSupport",
+    "CoreGraphics",
+    "CoreLocation",
+    "CoreTelephony",
+    "EventKit",
+    "EventKitUI",
+    "MapKit",
+    "MediaPlayer"
+  ]
+}
