@@ -20,11 +20,7 @@
   "public_header_files": "OpenXSDKCore.framework/**/*.h",
   "vendored_frameworks": "OpenXSDKCore.framework",
   "resources": [
-    "OpenXSDKCore.framework/*.js",
-    "OpenXSDKCore.framework/*.car",
-    "OpenXSDKCore.framework/*.nib",
-    "OpenXSDKCore.framework/*.plist",
-    "OpenXSDKCore.framework/*.storyboardc"
+    "OpenXSDKCore.framework/*.{js,car,nib,storyboardc}"
   ],
   "requires_arc": true,
   "frameworks": [
