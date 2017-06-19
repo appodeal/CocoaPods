@@ -13,7 +13,7 @@
     "ios": null
   },
   "vendored_frameworks": [
-    "MobvistaSDK.framework"
+    "MVSDK.framework"
   ],
   "source_files": [
   ],
@@ -39,6 +39,6 @@
   ],
   "requires_arc": true,
   "source": {
-    "http": "https://s3-eu-west-1.amazonaws.com/uploads-eu.hipchat.com/35497/2440054/FkUGSn8BGMANUXc/MobvistaSDK.framework.zip"
+    "http": "https://s3-us-west-1.amazonaws.com/appodeal-ios/external-sdks/Mobvista/1.6.5/MVSDK.framework.zip"
   }
 }
