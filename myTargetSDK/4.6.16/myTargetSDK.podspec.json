@@ -1,0 +1,33 @@
+{
+  "name": "myTargetSDK",
+  "version": "4.6.16",
+  "summary": "iOS SDK of myTarget Advertising Network",
+  "description": "The myTarget Advertising Network allows developers to monetize their websites and mobile apps using myTarget ads",
+  "homepage": "https://target.my.com",
+  "documentation_url": "https://target.my.com/partners/help/sdk",
+  "license": {
+    "type": "LGPL-3.0"
+  },
+  "authors": {
+    "My.com": "sdk_mytarget@corp.my.com"
+  },
+  "platforms": {
+    "ios": "6.0"
+  },
+  "source": {
+    "http": "https://s3-us-west-1.amazonaws.com/appodeal-ios/external-sdks/MyTargetSDK/4.6.16/MyTargetSDK.framework.zip"
+  },
+  "vendored_frameworks": "MyTargetSDK.framework",
+  "frameworks": [
+    "AdSupport",
+    "StoreKit",
+    "SystemConfiguration",
+    "CoreGraphics",
+    "CoreTelephony",
+    "AVFoundation",
+    "CoreLocation",
+    "CoreMedia"
+  ],
+  "weak_frameworks": "SafariServices",
+  "requires_arc": true
+}
