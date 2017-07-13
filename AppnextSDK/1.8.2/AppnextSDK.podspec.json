@@ -1,0 +1,35 @@
+{
+    "name": "AppnextSDK",
+    "version": "1.8.2",
+    "summary": "Appnext iOS SDK",
+    "description": "This is the Appnext iOS SDK. Please proceed to https://selfservice.appnext.com/Apps/Tools.aspx#ios/ios-nativeadssdk/examples_ios/introduction for more information.",
+    "homepage": "http://www.appnext.com",
+    "license": "Custom",
+    "authors": {
+        "InMobi": "sdk-dev-support@appnext.com"
+    },
+    "platforms": {
+        "ios": "8.0"
+    },
+    "source": {
+        "http": "https://s3-us-west-1.amazonaws.com/appodeal-ios/external-sdks/AppnextSDK/1.8.2/AppnextSDK.framework.zip"
+    },
+    "vendored_frameworks": "AppnextSDK.framework",
+    "frameworks": [
+      "QuartzCore",
+        "Security",
+        "CFNetwork",
+        "AVFoundation",
+        "SystemConfiguration",
+        "MobileCoreServices",
+        "CoreGraphics",
+        "CoreMedia",
+        "AdSupport",
+        "UIKit",
+        "Foundation",
+        "CoreTelephony"
+    ],
+    "xcconfig": {
+        "OTHER_LDFLAGS": "-ObjC"
+    }
+}
