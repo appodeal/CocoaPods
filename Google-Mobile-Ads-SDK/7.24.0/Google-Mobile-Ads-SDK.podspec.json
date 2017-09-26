@@ -1,0 +1,43 @@
+{
+  "name": "Google-Mobile-Ads-SDK",
+  "version": "7.24.0",
+  "summary": "Monetize your mobile applications with Google ads",
+  "description": "The Google Mobile Ads SDK is the latest generation in Google mobile advertising featuring refined ad formats and streamlined APIs for access to mobile ad networks and advertising solutions. The SDK enables mobile app developers to maximize their monetization on Android, iOS, and Windows Phone 8. The Google Mobile Ads SDK is available to AdMob, DoubleClick for Publishers (DFP), and Ad Exchange customers.",
+  "homepage": "https://developers.google.com/mobile-ads-sdk/",
+  "authors": "Google, Inc.",
+  "license": {
+    "text": "Copyright 2017 Google",
+    "type": "Copyright"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "http": "https://s3-us-west-1.amazonaws.com/appodeal-ios/external-sdks/GoogleMobileAds/7.24.0/GoogleMobileAds.framework.zip"
+  },
+  "vendored_frameworks": [
+    "GoogleMobileAds.framework"
+  ],
+  "frameworks": [
+    "AudioToolbox",
+    "AVFoundation",
+    "CoreGraphics",
+    "CoreMedia",
+    "CoreMotion",
+    "CoreTelephony",
+    "CoreVideo",
+    "GLKit",
+    "MediaPlayer",
+    "MessageUI",
+    "MobileCoreServices",
+    "OpenGLES",
+    "StoreKit",
+    "SystemConfiguration"
+  ],
+  "weak_frameworks": [
+    "AdSupport",
+    "JavaScriptCore",
+    "SafariServices",
+    "WebKit"
+  ]
+}
