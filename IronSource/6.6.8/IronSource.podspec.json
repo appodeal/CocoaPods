@@ -1,0 +1,41 @@
+{
+    "name": "IronSource",
+    "version": "6.6.8",
+    "summary": "Iron Source mobile sdk",
+    "description": "Iron Source mobile sdk monetisation",
+    "homepage": "http://developers.ironsrc.com/ironsource-mobile/",
+    "license": {
+        "type": "Copyright",
+        "text": " __ !!! __ "
+    },
+    "authors": "IronSource",
+    "platforms": {
+        "ios": "8.0"
+    },
+    "source": {
+        "http": "https://s3-us-west-1.amazonaws.com/appodeal-ios/external-sdks/IronSourceSDK/6.6.8/IronSource.framework.zip"
+    },
+    "frameworks": [
+        "AdSupport",
+        "AVFoundation",
+        "CoreGraphics",
+        "CoreLocation",
+        "CoreMedia",
+        "CFNetwork",
+        "CoreTelephony",
+        "CoreVideo",
+        "Foundation",
+        "MobileCoreServices",
+        "QuartzCore",
+        "SystemConfiguration",
+        "StoreKit",
+        "Security",
+        "WebKit"
+    ],
+    "libraries": [
+        "z",
+        "xml2"
+    ],
+    "vendored_frameworks": "IronSource.framework",
+    "requires_arc": true
+}
