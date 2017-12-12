@@ -23,7 +23,7 @@ DESC
   s.homepage     = "https://www.appodeal.com"
   s.author       = { "Appodeal, Inc." => "https://www.appodeal.com" }
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/appodeal/HeaderBiddingSDK-iOS.git", :branch => "master", :submodules => true}
+  s.source       = { :git => "https://github.com/appodeal/AppodealAdExchangeSDK-iOS.git", :branch => "master", :submodules => true}
 
   s.exclude_files = 'AppodealAdExchangeSDK/AppodealAdExchangeSDKTests/**/*.{h,m}'
   s.source_files = 'AppodealAdExchangeSDK/**/*.{h,m}'
