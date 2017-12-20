@@ -26,5 +26,5 @@ License text here
 
 
   s.frameworks = "AdSupport", "AudioToolbox", "AVFoundation", "CoreBluetooth", "CoreGraphics", "CoreLocation", "CoreTelephony", "CoreMedia", "EventKit", "EventKitUI", "Foundation", "MediaPlayer", "MessageUI", "StoreKit", "SystemConfiguration", "UIKit"
-  s.libraries = "xml2", "libxml2"
+  s.libraries = "xml2"
 end
