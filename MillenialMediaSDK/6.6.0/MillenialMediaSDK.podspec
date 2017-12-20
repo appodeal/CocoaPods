@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MillenialMediaSDK"
-  s.version      = "6.1.0"
+  s.version      = "6.6.0"
   s.summary      = "Millenial Media ios SDK"
 
   s.description  = <<-DESC
@@ -19,7 +19,7 @@ License text here
   s.author       = { "Millenial Media" => "http://www.millennialmedia.com/sdk6" }
 
   s.platform     = :ios
-  s.source       = { :http => 'https://s3.amazonaws.com/appodeal-externalsdk/mmedia/MMAdSDK.framework.zip' }
+  s.source       = { :http => 'https://s3-us-west-1.amazonaws.com/appodeal-ios/external-sdks/MillenialMedia/6.6.0/MMAdSDK.framework.zip' }
 
   s.ios.vendored_frameworks = "MMAdSDK.framework"
   #s.resource  = "";
