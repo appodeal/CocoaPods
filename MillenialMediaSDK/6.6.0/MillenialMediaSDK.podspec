@@ -25,6 +25,6 @@ License text here
   #s.resource  = "";
 
 
-  s.frameworks = "AdSupport", "AudioToolbox", "AVFoundation", "CoreBluetooth", "CoreGraphics", "CoreLocation", "CoreTelephony", "EventKit", "EventKitUI", "Foundation", "MediaPlayer", "MessageUI", "StoreKit", "SystemConfiguration", "UIKit"
-  s.libraries = "xml2"
+  s.frameworks = "AdSupport", "AudioToolbox", "AVFoundation", "CoreBluetooth", "CoreGraphics", "CoreLocation", "CoreTelephony", "CoreMedia", "EventKit", "EventKitUI", "Foundation", "MediaPlayer", "MessageUI", "StoreKit", "SystemConfiguration", "UIKit"
+  s.libraries = "xml2", "libxml2"
 end
