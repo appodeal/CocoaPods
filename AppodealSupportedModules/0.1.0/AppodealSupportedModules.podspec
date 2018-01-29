@@ -27,8 +27,22 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.source       = { :git => "https://github.com/appodeal/Supported-Modules-iOS", :branch => "master" }
 
+  s.subspec 'Full' do |ss| 
+    ss.dependency "AppodealSupportedModules/ASKCrypto"
+    ss.dependency "AppodealSupportedModules/ASKGZipper"
+    ss.dependency "AppodealSupportedModules/ASKJSON" 
+  end
+
   s.subspec 'ASKCrypto' do |ss|
     ss.vendored_frameworks = "Release/ASKCrypto.framework"
   end
-  
+
+  s.subspec 'ASKGZipper' do |ss|
+    ss.vendored_frameworks = "Release/ASKGZipper.framework"
+  end
+
+  s.subspec 'ASKJSON' do |ss|
+    ss.vendored_frameworks = "Release/ASKJSON.framework"
+  end
+
 end
