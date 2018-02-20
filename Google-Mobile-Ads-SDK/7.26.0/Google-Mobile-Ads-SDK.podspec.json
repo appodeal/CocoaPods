@@ -10,7 +10,7 @@
     "type": "Copyright"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "6.0"
   },
   "source": {
     "http": "https://s3-us-west-1.amazonaws.com/appodeal-ios/external-sdks/GoogleMobileAds/7.26.0/GoogleMobileAds.framework.zip"
