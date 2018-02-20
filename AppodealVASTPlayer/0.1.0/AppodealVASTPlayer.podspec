@@ -23,7 +23,7 @@ DESC
   s.homepage     = "https://appodeal.com"
   s.author       = { "Appodeal, Inc." => "https://appodeal.com" }
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/appodeal/AppodealVASTPlayer-iOS.git", :branch => "master", :submodules => true}
+  s.source       = { :git => "git@github.com:appodeal/AppodealVASTPlayer-iOS.git", :branch => "master", :submodules => true}
 
   s.source_files = 'AppodealVASTPlayer/**/*.{h,m}'
   s.libraries = "xml2"
