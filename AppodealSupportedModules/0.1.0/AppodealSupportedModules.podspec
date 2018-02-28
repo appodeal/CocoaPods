@@ -25,13 +25,18 @@ Pod::Spec.new do |s|
   s.author       = { "Appodeal" => "http://www.appodeal.com" }
 
   s.platform     = :ios, '8.0'
-  s.source       = { :git => "git@github.com:appodeal/Supported-Modules-iOS.git", :branch => "master" }
+  s.source       = { :git => "https://github.com/appodeal/Supported-Modules-iOS", :branch => "master" }
+
+  s.default_subspec = "Full"
 
   s.subspec 'Full' do |ss| 
     ss.dependency "AppodealSupportedModules/ASKCrypto"
     ss.dependency "AppodealSupportedModules/ASKGZipper"
     ss.dependency "AppodealSupportedModules/ASKJSON" 
+    ss.dependency "AppodealSupportedModules/ASKProductPresentation"
+    ss.dependency "AppodealSupportedModules/ASKLogger"
   end
+
 
   s.subspec 'ASKCrypto' do |ss|
     ss.vendored_frameworks = "Release/ASKCrypto.framework"
@@ -43,6 +48,14 @@ Pod::Spec.new do |s|
 
   s.subspec 'ASKJSON' do |ss|
     ss.vendored_frameworks = "Release/ASKJSON.framework"
+  end
+
+  s.subspec 'ASKProductPresentation' do |ss|
+    ss.vendored_frameworks = "Release/ASKProductPresentation.framework"
+  end
+
+  s.subspec 'ASKLogger' do |ss|
+    ss.vendored_frameworks = "Release/ASKLogger.framework"
   end
 
 end
