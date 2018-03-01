@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.author       = { "Appodeal" => "http://www.appodeal.com" }
 
   s.platform     = :ios, '8.0'
-  s.source       = { :git => "https://github.com/appodeal/Supported-Modules-iOS", :branch => "master" }
+  s.source       = { :git => "git@github.com:appodeal/Supported-Modules-iOS.git", :branch => "master" }
 
   s.default_subspec = "Full"
 
