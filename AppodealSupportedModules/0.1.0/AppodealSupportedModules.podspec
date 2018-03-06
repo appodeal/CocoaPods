@@ -35,6 +35,7 @@ Pod::Spec.new do |s|
     ss.dependency "AppodealSupportedModules/ASKJSON" 
     ss.dependency "AppodealSupportedModules/ASKProductPresentation"
     ss.dependency "AppodealSupportedModules/ASKLogger"
+    ss.dependency "AppodealSupportedModules/ASKSpinner"
   end
 
 
@@ -56,6 +57,10 @@ Pod::Spec.new do |s|
 
   s.subspec 'ASKLogger' do |ss|
     ss.vendored_frameworks = "Release/ASKLogger.framework"
+  end
+
+  s.subspec 'ASKSpinner' do |ss|
+    ss.vendored_frameworks = "Release/ASKSpinner.framework"
   end
 
 end
