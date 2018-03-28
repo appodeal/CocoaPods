@@ -26,5 +26,5 @@ DESC
   s.source       = { :git => "https://github.com/appodeal/AppodealAdExchangeSDK-iOS.git", :branch => "master", :submodules => true}
 
   s.vendored_frameworks = 'Release/AppodealAdExchangeSDK.framework'
-
+  s.dependency 'AppodealSupportedModules/ASKLogger'
 end
