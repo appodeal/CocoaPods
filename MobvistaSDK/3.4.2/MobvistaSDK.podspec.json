@@ -1,0 +1,44 @@
+{
+  "name": "MobvistaSDK",
+  "version": "3.4.2",
+  "summary": "Marketing Automation and Analytics for your iOS apps",
+  "description": "MobvistaSDK advertising network MobvistaSDK advertising network MobvistaSDK advertising network",
+  "homepage": "http://cdn-adn.rayjump.com.s3.amazonaws.com/cdn-adn/markdown/index.html?file=sdk_document_mobvista_sdk_ios_english",
+  "license": {
+    "type": "Commercial",
+    "text": "LICENSE"
+  },
+  "authors": "MobvistaSDK",
+  "platforms": {
+    "ios": null
+  },
+  "vendored_frameworks": [
+    "MVSDK.framework"
+  ],
+  "source_files": [
+  ],
+  "preserve_paths": [
+  ],
+  "weak_frameworks": [
+  ],
+  "frameworks": [
+    "CoreGraphics",
+    "Foundation",
+    "UIKit",
+    "AdSupport",
+    "StoreKit",
+    "QuartzCore",
+    "CoreLocation",
+    "CoreTelephony",
+    "MobileCoreServices",
+    "Accelerate"
+  ],
+  "libraries":[
+    "sqlite3.0",
+    "z"
+  ],
+  "requires_arc": true,
+  "source": {
+    "http": "https://s3-us-west-1.amazonaws.com/appodeal-ios/external-sdks/Mobvista/3.4.2/MVSDK.framework.zip"
+  }
+}
