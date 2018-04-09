@@ -25,7 +25,8 @@ DESC
   s.platform     = :ios, "8.0"
   s.source       = { :git => "git@github.com:appodeal/AppodealMRAIDKit-iOS.git", :branch => "master", :submodules => true}
 
-  s.source_files = 'AppodealMRAIDKit/**/*.{h,m}'
-  s.exclude_files = 'AppodealMRAIDKit/AppodealMRAIDKitTests/**/*.{h,m}'
+  s.vendored_frameworks = "Release/AppodealMRAIDKit.framework"
 
+  s.dependency 'AppodealSupportedModules/ASKProductPresentation'
+  s.dependency 'AppodealSupportedModules/ASKSpinner'
 end
