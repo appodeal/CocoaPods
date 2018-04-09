@@ -25,7 +25,7 @@ DESC
   s.platform     = :ios, "8.0"
   s.source       = { :git => "git@github.com:appodeal/AppodealVASTPlayer-iOS.git", :branch => "master", :submodules => true}
 
-  s.source_files = 'AppodealVASTPlayer/**/*.{h,m}'
+  s.vendored_frameworks = "Release/AppodealVASTPlayer.framework"
   s.libraries = "xml2"
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
 
