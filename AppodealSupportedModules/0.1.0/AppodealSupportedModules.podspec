@@ -36,12 +36,20 @@ Pod::Spec.new do |s|
     ss.dependency "AppodealSupportedModules/ASKProductPresentation"
     ss.dependency "AppodealSupportedModules/ASKLogger"
     ss.dependency "AppodealSupportedModules/ASKSpinner"
+    ss.dependency "AppodealSupportedModules/ASKExtension"
+    ss.dependency "AppodealSupportedModules/AWEPromise"
+    ss.dependency "AppodealSupportedModules/ASKViewability"
+    ss.dependency "AppodealSupportedModules/ASKCryptoGenerator"
   end
 
 
   s.subspec 'ASKCrypto' do |ss|
     ss.vendored_frameworks = "Release/ASKCrypto.framework"
   end
+
+  s.subspec 'ASKCryptoGenerator' do |ss|
+    ss.vendored_frameworks = "Release/ASKCryptoGenerator.framework"
+  end 
 
   s.subspec 'ASKGZipper' do |ss|
     ss.vendored_frameworks = "Release/ASKGZipper.framework"
@@ -61,6 +69,18 @@ Pod::Spec.new do |s|
 
   s.subspec 'ASKSpinner' do |ss|
     ss.vendored_frameworks = "Release/ASKSpinner.framework"
+  end
+
+  s.subspec 'ASKExtension' do |ss|
+    ss.vendored_frameworks = "Release/ASKExtension.framework"
+  end
+
+  s.subspec 'AWEPromise' do |ss|
+    ss.vendored_frameworks = "Release/AWEPromise.framework"
+  end
+
+  s.subspec 'ASKViewability' do |ss|
+    ss.vendored_frameworks = "Release/ASKViewabilityTracker.framework"
   end
 
 end
