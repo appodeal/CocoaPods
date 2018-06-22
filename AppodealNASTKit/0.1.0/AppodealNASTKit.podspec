@@ -26,5 +26,6 @@ DESC
   s.source       = { :git => "git@github.com:appodeal/AppodealNASTKit-iOS.git", :branch => "master", :submodules => true}
 
   s.vendored_frameworks = "Release/AppodealNASTKit.framework"
+  s.dependency 'AppodealDocumentParser'
 
 end
