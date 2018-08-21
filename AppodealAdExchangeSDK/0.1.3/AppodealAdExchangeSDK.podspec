@@ -23,7 +23,7 @@ DESC
   s.homepage     = "https://www.appodeal.com"
   s.author       = { "Appodeal, Inc." => "https://www.appodeal.com" }
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/appodeal/AppodealAdExchangeSDK-iOS.git", :tag => "v#{s.version}", :submodules => true}
+  s.source       = { :git => "git@github.com:appodeal/AppodealAdExchangeSDK-iOS.git", :tag => "v#{s.version}", :submodules => true}
 
   s.vendored_frameworks = 'Release/AppodealAdExchangeSDK.framework'
 end
