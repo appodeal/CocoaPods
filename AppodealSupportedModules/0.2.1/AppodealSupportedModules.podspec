@@ -32,6 +32,7 @@ Pod::Spec.new do |s|
   s.subspec 'Full' do |ss| 
     ss.dependency "AppodealSupportedModules/ASKCrypto"
     ss.dependency "AppodealSupportedModules/ASKGZipper"
+    ss.dependency "AppodealSupportedModules/ASKDiskUtils" 
     ss.dependency "AppodealSupportedModules/ASKJSON" 
     ss.dependency "AppodealSupportedModules/ASKProductPresentation"
     ss.dependency "AppodealSupportedModules/ASKLogger"
@@ -53,6 +54,10 @@ Pod::Spec.new do |s|
 
   s.subspec 'ASKGZipper' do |ss|
     ss.vendored_frameworks = "Release/ASKGZipper.framework"
+  end
+
+  s.subspec 'ASKDiskUtils' do |ss|
+    ss.vendored_frameworks = "Release/ASKDiskUtils.framework"
   end
 
   s.subspec 'ASKJSON' do |ss|
