@@ -23,7 +23,7 @@ DESC
   s.homepage     = "https://appodeal.com"
   s.author       = { "Appodeal, Inc." => "https://appodeal.com" }
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "git@github.com:appodeal/AppodealDocumentParser.git", :branch => "master", :submodules => true}
+  s.source       = { :git => "git@github.com:appodeal/AppodealDocumentParser.git", :tag => "v#{s.version}", :submodules => true}
   s.libraries    = "xml2"
 
   s.vendored_frameworks = "Release/AppodealDocumentParser.framework"
