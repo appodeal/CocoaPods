@@ -44,6 +44,7 @@ Pod::Spec.new do |s|
     ss.dependency "AppodealSupportedModules/ASKGraphicButton"
     ss.dependency "AppodealSupportedModules/OverlayPosition"
     ss.dependency "AppodealSupportedModules/UIExtension"
+    ss.dependency "AppodealSupportedModules/AdComplain"
   end
 
   s.subspec 'ASKCrypto' do |ss|
@@ -96,6 +97,10 @@ Pod::Spec.new do |s|
 
   s.subspec 'OverlayPosition' do |ss|
     ss.vendored_frameworks = "OverlayPosition.framework"
+  end
+
+  s.subspec 'AdComplain' do |ss|
+    ss.vendored_frameworks = "AdComplain.framework"
   end
 
   s.subspec 'UIExtension' do |ss|
