@@ -16,7 +16,7 @@
     "ios": "8.0"
   },
   "source": {
-    "http" :  "https://s3-us-west-1.amazonaws.com/appodeal-ios/external-sdks/MoPubSDK/5.4.1/MoPubSDK.framework.zip"
+    "http" :  "https://s3-us-west-1.amazonaws.com/appodeal-ios/external-sdks/MoPubSDK/5.5.0/MoPubSDK.framework.zip"
   },
   "resources": "MoPubSDK.framework/Resources/*.*",
   "vendored_frameworks": "MoPubSDK.framework",
