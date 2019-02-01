@@ -63,6 +63,7 @@ Pod::Spec.new do |s|
     ss.dependency 'MobileAdDisplayManagers/AppodealVASTAssets'
     ss.dependency 'MobileAdDisplayManagers/AppodealVideoPlayer'
     ss.dependency 'NexageSourceKitMRAID', '~> 1.3'
+    ss.dependency 'AppodealSupportedModules/ASKLogger', '~> 0.4'
   end
 
   s.subspec 'AppodealNASTKit' do |ss|
