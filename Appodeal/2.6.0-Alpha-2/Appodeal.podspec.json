@@ -1,0 +1,106 @@
+{
+  "authors": {
+    "Appodeal, Inc.": "https://appodeal.com"
+  },
+  "default_subspecs": "Full",
+  "description": "Appodeal’s supply-side platform is designed and built by veteran publishers,for publishers. Appodeal is not an ad network; it is a new approach to monetizing for publishers.\nThe platform is a large auction house, accompanied by a mediation layer, that exposes a publisher’s inventory to all available buyers on the market via relationships with every major ad network, RTB exchange, and DSP. Appodeal showcases publisher inventory to the advertiser, and offers the highest rate in real time.\nAppodeal's goal is to cater to the needs of the publisher, not the advertiser, so you always know that you're in good hands.",
+  "homepage": "http://appodeal.com",
+  "license": {
+    "file": "LICENSE.md",
+    "type": "Appodeal Privacy Policy"
+  },
+  "name": "Appodeal",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "http": "https://s3-us-west-1.amazonaws.com/appodeal-ios/2.6.0-Alpha-2/cococapods/Appodeal.zip"
+  },
+  "summary": "Appodeal iOS Framework",
+  "version": "2.6.0-Alpha-2",
+  "subspecs": [
+    {
+      "dependencies": {
+        "Appodeal/Banner": [],
+        "Appodeal/Core": [],
+        "Appodeal/Interstitial": [],
+        "Appodeal/Native": [],
+        "Appodeal/Video": []
+      },
+      "name": "Full"
+    },
+    {
+      "dependencies": {
+        "Appodeal/GoogleAdMobAdapter": []
+      },
+      "name": "Video"
+    },
+    {
+      "dependencies": {
+        "Appodeal/GoogleAdMobAdapter": []
+      },
+      "name": "Banner"
+    },
+    {
+      "dependencies": {
+        "Appodeal/GoogleAdMobAdapter": []
+      },
+      "name": "Interstitial"
+    },
+    {
+      "dependencies": {
+        "Appodeal/GoogleAdMobAdapter": []
+      },
+      "name": "Native"
+    },
+    {
+      "frameworks": [
+        "Security",
+        "CoreMedia",
+        "CoreGraphics",
+        "CoreImage",
+        "SystemConfiguration",
+        "AVFoundation",
+        "MediaPlayer",
+        "QuartzCore",
+        "UIKit",
+        "WebKit",
+        "ImageIO",
+        "MobileCoreServices",
+        "CoreTelephony",
+        "CoreLocation"
+      ],
+      "libraries": [
+        "z",
+        "xml2"
+      ],
+      "name": "Core",
+      "preserve_paths": "Appodeal.framework",
+      "vendored_frameworks": "Appodeal.framework",
+      "source_files": "Dummy.swift",
+      "weak_frameworks": [
+        "AdSupport",
+        "StoreKit"
+      ]
+    },
+    {
+      "dependencies": {
+        "Appodeal/Core": []
+      },
+      "frameworks": [
+        "AudioToolbox",
+        "CoreMedia",
+        "CoreMotion",
+        "CoreVideo",
+        "EventKitUI",
+        "GLKit",
+        "MessageUI",
+        "OpenGLES"
+      ],
+      "libraries": "sqlite3.0",
+      "name": "GoogleAdMobAdapter",
+      "vendored_frameworks": "APDGoogleAdMobAdapter.embeddedframework/*.framework",
+      "vendored_libraries": "APDGoogleAdMobAdapter.embeddedframework/*.a"
+    }
+  ]
+}
