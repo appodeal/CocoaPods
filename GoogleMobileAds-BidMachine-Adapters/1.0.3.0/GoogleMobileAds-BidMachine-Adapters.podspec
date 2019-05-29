@@ -22,7 +22,7 @@ limitations under the License.
 
   spec.author       = { "Appodeal" => "http://www.appodeal.com" }
   spec.platform     = :ios, '9.0'
-  spec.source       = { :git => "git@github.com:appodeal/googleads-mobile-ios-bidmachine.git", :tag => "v#{spec.version}" }
+  spec.source       = { :git => "https://github.com/bidmachine/googleads-mobile-ios-bidmachine.git", :tag => "v#{spec.version}" }
 
   spec.source_files = 'BidMachineAdapter/**/*.{h,m}'
   spec.static_framework = true
