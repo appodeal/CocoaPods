@@ -190,6 +190,7 @@
     },
     {
       "dependencies": {
+        "FBSDKCoreKit/Basics": [],
         "Appodeal/Core": []
       },
       "frameworks": [
@@ -199,7 +200,7 @@
       ],
       "libraries": "c++",
       "name": "FacebookAudienceAdapter",
-      "vendored_frameworks": "APDFacebookAudienceAdapter.embeddedframework/*.framework",
+      "vendored_frameworks": "APDFacebookAudienceAdapter.embeddedframework/FBAudienceNetwork.framework",
       "vendored_libraries": "APDFacebookAudienceAdapter.embeddedframework/*.a",
       "weak_frameworks": "CoreMotion"
     },
