@@ -1,0 +1,29 @@
+{
+  "name": "UnityAds",
+  "version": "3.2.0",
+  "summary": "Unity Ads SDK for iOS.",
+  "description": "Unity Ads is a monetization tool that allows you to display video trailers of other games to your users, earn money with each view, and reward users with a virtual item. To monetize your users with Unity Ads, the product must be integrated into your game. This document will guide you through that process.",
+  "homepage": "http://unityads.unity3d.com",
+  "license": {
+        "type": "Copyright",
+        "text": " __ !!! __ "
+    },
+  "authors": "UnityAds",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "http" : "https://s3-us-west-1.amazonaws.com/appodeal-ios/external-sdks/UnityAds/3.2.0/UnityAds.framework.zip"
+  },
+  "vendored_frameworks": "UnityAds.framework",
+  "frameworks": [
+    "AdSupport",
+    "AVFoundation",
+    "CFNetwork",
+    "CoreFoundation",
+    "CoreMedia",
+    "CoreTelephony",
+    "StoreKit",
+    "SystemConfiguration"
+  ]
+}
