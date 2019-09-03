@@ -9,26 +9,28 @@ Pod::Spec.new do |spec|
                    DESC
   spec.homepage     = "https://appodeal.com"
   spec.license      = { :type => "Appodeal Privacy Policy", :file => "LICENSE.md" }
-  spec.author             = { "Appodeal, Inc" => "https://appodeal.com" }
+  spec.author       = { "Appodeal, Inc" => "https://appodeal.com" }
  
   spec.platform     = :ios, "9.0"
   spec.source       = { :http => "https://s3-us-west-1.amazonaws.com/appodeal-ios/#{spec.version}/modular/Appodeal.zip" }
 
-
   spec.requires_arc = true
-  spec.static_framework = true
-  spec.xcconfig = { "OTHER_LDFLAGS" => "-ObjC" }
-  spec.swift_version = '4.2'
-  spec.default_subspecs = "Core"
+  # spec.static_framework = true
+
+  spec.default_subspecs  = "Core"
 
   spec.subspec 'Core' do |ss|
     ss.vendored_frameworks = 'Appodeal.framework'
+    ss.preserve_paths = 'Appodeal.framework'
     ss.source_files = 'Dummy.swift'
-    ss.dependency 'StackModules', '~> 0.6.3'
-    ss.dependency 'StackIAB', '~> 0.5.0'
-    ss.dependency 'Protobuf', '~> 3.9'
 
-    ss.weak_frameworks = 'AdSupport'
+    ss.frameworks = 'Security', 'CoreMedia', 'CoreGraphics', 'CoreImage', 'SystemConfiguration', 'AVFoundation', 'MediaPlayer', 'QuartzCore', 'UIKit', 'WebKit', 'ImageIO', 'MobileCoreServices', 'CoreTelephony', 'CoreLocation'
+    ss.weak_frameworks = 'AdSupport', 'StoreKit'
+    ss.libraries = 'z', 'xml2'
+
+    # ss.dependency 'StackModules', '~> 0.6.3'
+    # ss.dependency 'StackIAB', '~> 0.5.0'
+    # ss.dependency 'Protobuf', '~> 3.9'
   end
 
   # spec.subspec 'Full' do |ss|
@@ -96,14 +98,15 @@ Pod::Spec.new do |spec|
   #   ss.dependency 'Appodeal/SmaatoAdapter'
   # end
 
-  # spec.subspec 'AdColonyAdapter' do |ss|
-  #   ss.vendored_frameworks = 'AdColonyAdapter.embeddedframework/*.framework'
-  #   ss.vendored_libraries = 'AdColonyAdapter.embeddedframework/*.a'
-  #   ss.dependency 'Appodeal/Core'
-  #   ss.frameworks = 'AdSupport', 'AudioToolbox', 'AVFoundation', 'CoreMedia', 'CoreTelephony', 'JavaScriptCore', 'MessageUI', 'MobileCoreServices', 'SystemConfiguration'
-  #   ss.weak_frameworks = 'Social', 'StoreKit', 'WatchConnectivity', 'WebKit'
-  #   ss.libraries = 'z'
-  # end
+  spec.subspec 'AdColonyAdapter' do |ss|
+    ss.vendored_frameworks = 'AdColonyAdapter.embeddedframework/*.framework'
+    ss.vendored_libraries = 'AdColonyAdapter.embeddedframework/*.a'
+
+    ss.frameworks = 'AdSupport', 'AudioToolbox', 'JavaScriptCore', 'MessageUI'
+    ss.weak_frameworks = 'Social', 'StoreKit', 'WatchConnectivity'
+    
+    ss.dependency 'Appodeal/Core'
+  end
 
   # spec.subspec 'AmazonAdsAdapter' do |ss|
   #   ss.vendored_frameworks = 'AmazonAdsAdapter.embeddedframework/*.framework'
@@ -115,6 +118,8 @@ Pod::Spec.new do |spec|
   # spec.subspec 'AppLovinAdapter' do |ss|
   #   ss.vendored_frameworks = 'AppLovinAdapter.embeddedframework/*.framework'
   #   ss.vendored_libraries = 'AppLovinAdapter.embeddedframework/*.a'
+  #   ss.source_files = 'Dummy.swift'
+
   #   ss.dependency 'Appodeal/Core'
   #   ss.frameworks = 'AdSupport', 'AVFoundation', 'CoreGraphics', 'CoreMedia', 'CoreTelephony', 'SafariServices', 'StoreKit', 'SystemConfiguration', 'UIKit', 'WebKit'
   #   ss.libraries = 'z'
