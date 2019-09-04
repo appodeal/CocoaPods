@@ -22,6 +22,8 @@ Pod::Spec.new do |spec|
   spec.subspec 'Core' do |ss|
     ss.vendored_frameworks = 'Appodeal.framework'
     ss.preserve_paths = 'Appodeal.framework'
+    ss.source_files = 'Appodeal.framework/Headers/*.h'
+    ss.public_header_files = 'Appodeal.framework/Headers/*.h'
 
     ss.frameworks = 'Security', 'CoreMedia', 'CoreGraphics', 'CoreImage', 'SystemConfiguration', 'AVFoundation', 'MediaPlayer', 'QuartzCore', 'UIKit', 'WebKit', 'ImageIO', 'MobileCoreServices', 'CoreTelephony', 'CoreLocation'
     ss.weak_frameworks = 'AdSupport', 'StoreKit'
@@ -276,7 +278,7 @@ Pod::Spec.new do |spec|
     ss.vendored_frameworks = 'YandexAdapter.embeddedframework/*.framework'
     ss.vendored_libraries = 'YandexAdapter.embeddedframework/*.a'
     ss.source_files = 'Dummy.swift'
-    
+
     ss.dependency 'Appodeal/Core'
     ss.frameworks = 'Foundation'
     ss.libraries = 'sqlite3.0', 'c++'
