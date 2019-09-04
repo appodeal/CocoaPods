@@ -16,13 +16,12 @@ Pod::Spec.new do |spec|
 
   spec.requires_arc = true
 
-  spec.default_subspecs  = 'Core'
+  spec.default_subspecs  = 'Full'
   spec.swift_versions = '4.0', '4.2', '5.0'
 
   spec.subspec 'Core' do |ss|
     ss.vendored_frameworks = 'Appodeal.framework'
     ss.preserve_paths = 'Appodeal.framework'
-    ss.source_files = 'Dummy.swift'
 
     ss.frameworks = 'Security', 'CoreMedia', 'CoreGraphics', 'CoreImage', 'SystemConfiguration', 'AVFoundation', 'MediaPlayer', 'QuartzCore', 'UIKit', 'WebKit', 'ImageIO', 'MobileCoreServices', 'CoreTelephony', 'CoreLocation'
     ss.weak_frameworks = 'AdSupport', 'StoreKit'
@@ -98,6 +97,7 @@ Pod::Spec.new do |spec|
     ss.vendored_frameworks = 'AdColonyAdapter.embeddedframework/*.framework'
     ss.vendored_libraries = 'AdColonyAdapter.embeddedframework/*.a'
 
+    ss.source_files = 'Dummy.swift'
     ss.frameworks = 'AudioToolbox', 'JavaScriptCore', 'MessageUI'
     ss.weak_frameworks = 'Social', 'WatchConnectivity'
     
@@ -107,6 +107,8 @@ Pod::Spec.new do |spec|
   spec.subspec 'AmazonAdsAdapter' do |ss|
     ss.vendored_frameworks = 'AmazonAdsAdapter.embeddedframework/*.framework'
     ss.vendored_libraries = 'AmazonAdsAdapter.embeddedframework/*.a'
+
+    ss.source_files = 'Dummy.swift'
     ss.dependency 'Appodeal/Core'
     ss.frameworks = 'JavaScriptCore', 'SafariServices', 'EventKit', 'EventKitUI'
   end
@@ -122,12 +124,16 @@ Pod::Spec.new do |spec|
 
   spec.subspec 'AdExchangeAdapter' do |ss|
     ss.vendored_libraries = 'AppodealAdExchangeAdapter.embeddedframework/*.a'
+    ss.source_files = 'Dummy.swift'
+
     ss.dependency 'Appodeal/Core'
   end
 
   spec.subspec 'ChartboostAdapter' do |ss|
     ss.vendored_frameworks = 'ChartboostAdapter.embeddedframework/*.framework'
     ss.vendored_libraries = 'ChartboostAdapter.embeddedframework/*.a'
+    ss.source_files = 'Dummy.swift'
+
     ss.dependency 'Appodeal/Core'
     ss.frameworks = 'Foundation'
   end
@@ -135,6 +141,8 @@ Pod::Spec.new do |spec|
   spec.subspec 'FacebookAudienceAdapter' do |ss|
     ss.vendored_frameworks = 'FacebookAudienceAdapter.embeddedframework/*.framework'
     ss.vendored_libraries = 'FacebookAudienceAdapter.embeddedframework/*.a'
+    ss.source_files = 'Dummy.swift'
+
     ss.dependency 'Appodeal/Core'
     ss.dependency 'FBSDKCoreKit/Basics', '~> 5.2.1'
     ss.frameworks = 'AudioToolbox', 'Foundation'
@@ -145,6 +153,8 @@ Pod::Spec.new do |spec|
   spec.subspec 'GoogleAdMobAdapter' do |ss|
     ss.vendored_frameworks = 'GoogleAdMobAdapter.embeddedframework/*.framework'
     ss.vendored_libraries = 'GoogleAdMobAdapter.embeddedframework/*.a'
+    ss.source_files = 'Dummy.swift'
+
     ss.dependency 'Appodeal/Core'
     ss.frameworks = 'AudioToolbox', 'CoreBluetooth', 'EventKit', 'EventKitUI', 'MessageUI'
   end
@@ -152,6 +162,8 @@ Pod::Spec.new do |spec|
   spec.subspec 'InMobiAdapter' do |ss|
     ss.vendored_frameworks = 'InMobiAdapter.embeddedframework/*.framework'
     ss.vendored_libraries = 'InMobiAdapter.embeddedframework/*.a'
+    ss.source_files = 'Dummy.swift'
+
     ss.dependency 'Appodeal/Core'
     ss.frameworks = 'AudioToolbox', 'EventKit', 'EventKitUI', 'Foundation', 'MessageUI', 'Social', 'SafariServices'
     ss.libraries = 'sqlite3.0'
@@ -159,12 +171,16 @@ Pod::Spec.new do |spec|
 
   spec.subspec 'InnerActiveAdapter' do |ss|
     ss.vendored_libraries = 'InnerActiveAdapter.embeddedframework/*.a'
+    ss.source_files = 'Dummy.swift'
+
     ss.dependency 'Appodeal/Core'
   end
 
   spec.subspec 'IronSourceAdapter' do |ss|
     ss.vendored_frameworks = 'IronSourceAdapter.embeddedframework/*.framework'
     ss.vendored_libraries = 'IronSourceAdapter.embeddedframework/*.a'
+    ss.source_files = 'Dummy.swift'
+
     ss.dependency 'Appodeal/Core'
     ss.frameworks = 'Foundation', 'CoreVideo', 'CFNetwork', 'AudioToolbox'
   end
@@ -172,6 +188,8 @@ Pod::Spec.new do |spec|
   spec.subspec 'MintegralAdapter' do |ss|
     ss.vendored_frameworks = 'MintegralAdapter.embeddedframework/*.framework'
     ss.vendored_libraries = 'MintegralAdapter.embeddedframework/*.a'
+    ss.source_files = 'Dummy.swift'
+
     ss.dependency 'Appodeal/Core'
     ss.frameworks = 'Foundation', 'Accelerate'
     ss.libraries = 'sqlite3.0'
@@ -180,22 +198,30 @@ Pod::Spec.new do |spec|
   spec.subspec 'MyTargetAdapter' do |ss|
     ss.vendored_frameworks = 'MyTargetAdapter.embeddedframework/*.framework'
     ss.vendored_libraries = 'MyTargetAdapter.embeddedframework/*.a'
+    ss.source_files = 'Dummy.swift'
+
     ss.dependency 'Appodeal/Core'
     ss.weak_frameworks = 'SafariServices'
   end
 
   spec.subspec 'OpenXAdapter' do |ss|
     ss.vendored_libraries = 'OpenXAdapter.embeddedframework/*.a'
+    ss.source_files = 'Dummy.swift'
+
     ss.dependency 'Appodeal/Core'
   end
 
   spec.subspec 'PubnativeAdapter' do |ss|
     ss.vendored_libraries = 'PubnativeAdapter.embeddedframework/*.a'
+    ss.source_files = 'Dummy.swift'
+
     ss.dependency 'Appodeal/Core'
   end
 
   spec.subspec 'SmaatoAdapter' do |ss|
     ss.vendored_libraries = 'SmaatoAdapter.embeddedframework/*.a'
+    ss.source_files = 'Dummy.swift'
+
     ss.dependency 'Appodeal/Core'
   end
 
@@ -203,6 +229,8 @@ Pod::Spec.new do |spec|
     ss.vendored_frameworks = 'StartAppAdapter.embeddedframework/*.framework'
     ss.vendored_libraries = 'StartAppAdapter.embeddedframework/*.a'
     ss.resources = 'StartAppAdapter.embeddedframework/Resources/*'
+    ss.source_files = 'Dummy.swift'
+
     ss.dependency 'Appodeal/Core'
   end
 
@@ -210,6 +238,8 @@ Pod::Spec.new do |spec|
     ss.vendored_frameworks = 'TapjoyAdapter.embeddedframework/*.framework'
     ss.vendored_libraries = 'TapjoyAdapter.embeddedframework/*.a'
     ss.resources = 'TapjoyAdapter.embeddedframework/**/*.bundle'
+    ss.source_files = 'Dummy.swift'
+
     ss.dependency 'Appodeal/Core'
     ss.frameworks = 'CoreData', 'CFNetwork', 'CoreMotion', 'EventKitUI', 'EventKit', 'Foundation', 'MapKit', 'MessageUI'
     ss.libraries = 'sqlite3.0', 'c++'
@@ -217,6 +247,8 @@ Pod::Spec.new do |spec|
 
   spec.subspec 'TwitterMoPubAdapter' do |ss|
     ss.vendored_libraries = 'TwitterMoPubAdapter.embeddedframework/*.a'
+    ss.source_files = 'Dummy.swift'
+
     ss.dependency 'Appodeal/Core'
     ss.dependency 'mopub-ios-sdk', '5.2.0'
   end
@@ -224,6 +256,8 @@ Pod::Spec.new do |spec|
   spec.subspec 'UnityAdapter' do |ss|
     ss.vendored_frameworks = 'UnityAdapter.embeddedframework/*.framework'
     ss.vendored_libraries = 'UnityAdapter.embeddedframework/*.a'
+    ss.source_files = 'Dummy.swift'
+
     ss.dependency 'Appodeal/Core'
     ss.frameworks = 'CFNetwork', 'CoreFoundation'
   end
@@ -231,6 +265,8 @@ Pod::Spec.new do |spec|
   spec.subspec 'VungleAdapter' do |ss|
     ss.vendored_frameworks = 'VungleAdapter.embeddedframework/*.framework'
     ss.vendored_libraries = 'VungleAdapter.embeddedframework/*.a'
+    ss.source_files = 'Dummy.swift'
+
     ss.dependency 'Appodeal/Core'
     ss.frameworks = 'AudioToolbox', 'CFNetwork', 'Foundation'
     ss.libraries = 'sqlite3.0'
@@ -239,6 +275,8 @@ Pod::Spec.new do |spec|
   spec.subspec 'YandexAdapter' do |ss|
     ss.vendored_frameworks = 'YandexAdapter.embeddedframework/*.framework'
     ss.vendored_libraries = 'YandexAdapter.embeddedframework/*.a'
+    ss.source_files = 'Dummy.swift'
+    
     ss.dependency 'Appodeal/Core'
     ss.frameworks = 'Foundation'
     ss.libraries = 'sqlite3.0', 'c++'
