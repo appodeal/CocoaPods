@@ -18,6 +18,10 @@ Pod::Spec.new do |spec|
 
   spec.default_subspecs  = 'Full'
   spec.swift_versions = '4.0', '4.2', '5.0'
+  spec.source_files = 'Appodeal.framework/Headers'
+  spec.public_header_files = 'Appodeal.framework/Headers'
+
+  spec.pod_target_xcconfig = { 'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/Appodeal.framework/Headers' }
 
   spec.subspec 'Core' do |ss|
     ss.vendored_frameworks = 'Appodeal.framework'
