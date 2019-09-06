@@ -16,6 +16,7 @@ Pod::Spec.new do |spec|
 	spec.source       = { :http => "https://s3-us-west-1.amazonaws.com/appodeal-ios/Appodeal/Modular/APDAdColonyAdapter/#{spec.version}/APDAdColonyAdapter.zip" }
 	
 	spec.static_framework = true
+	spec.swift_versions 		= "4.0", "4.2", "5.0"
 	spec.vendored_libraries 	= "APDAdColonyAdapter.embeddedframework/*.a"
 	spec.vendored_frameworks 	= "APDAdColonyAdapter.embeddedframework/*.framework"
 	spec.source_files 	= "Dummy.swift"
