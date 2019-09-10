@@ -1,0 +1,38 @@
+{
+  "name": "YandexMobileAds",
+  "version": "2.13.2",
+  "summary": "The Yandex Mobile Ads SDK provides mobile interfaces for Yandex Advertising Network",
+  "homepage": "https://tech.yandex.ru/mobile-ads/",
+  "license": {
+        "type": "Copyright",
+        "text": " __ !!! __ "
+  },
+  "authors": {
+    "Yandex LLC": "mobads@yandex-team.ru"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http" : "https://appodeal-ios.s3-us-west-1.amazonaws.com/external-sdks/YandexMobileAds/2.13.2/YandexMobileAds.framework.zip"
+  },
+  "vendored_frameworks": "YandexMobileAds.framework",
+  "libraries": "xml2",
+  "dependencies": {
+    "YandexMobileMetrica": [
+          ">= 3.2.0",
+          "< 4.0.0"
+        ]
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "CoreTelephony",
+    "CoreLocation",
+    "CoreGraphics",
+    "AdSupport",
+    "StoreKit"
+  ],
+  "weak_frameworks": "WebKit",
+  "requires_arc": true
+}
