@@ -19,7 +19,9 @@ Pod::Spec.new do |spec|
   spec.swift_versions = '4.0', '4.2', '5.0'
 
   spec.vendored_frameworks = 'StackConsentDialog.framework'
-  spec.source_files = 'Dummy.swift'
+  spec.public_header_files = "StackConsentDialog.framework/Headers/*.h"
+  spec.source_files = "StackConsentDialog.framework/Headers/*.h"
+  spec.user_target_xcconfig = { "LIBRARY_SEARCH_PATHS" => "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)" }
 
   spec.dependency 'StackModules/StackFoundation', '~> 0.6'
   spec.dependency 'StackModules/StackUIKit', '~> 0.6'
