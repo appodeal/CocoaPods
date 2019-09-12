@@ -17,8 +17,6 @@ Pod::Spec.new do |s|
   s.source       = { :http => "https://s3-us-west-1.amazonaws.com/appodeal-ios/StackModules/v#{s.version}/StackModules.zip" }
 
   s.default_subspec = "StackUIKit"
-  s.swift_versions = '4.0', '4.2', '5.0'
-  s.user_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }  
   
   s.subspec 'StackFoundation' do |ss|
     ss.vendored_frameworks = 'StackFoundation.framework'
@@ -29,14 +27,5 @@ Pod::Spec.new do |s|
   s.subspec 'StackUIKit'  do |ss|
     ss.vendored_frameworks = 'StackUIKit.framework'
     ss.dependency'StackModules/StackFoundation'
-  end
-
-  s.subspec 'StackConsentDialog'  do |ss|
-    ss.vendored_frameworks = 'StackConsentDialog.framework'
-    ss.source_files = 'Dummy.swift'
-
-    ss.dependency 'StackModules/StackFoundation'
-    ss.dependency 'StackModules/StackUIKit'
-    ss.dependency 'PersonalizedAdConsent', '~> 1.0'
   end
 end
