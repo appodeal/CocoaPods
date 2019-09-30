@@ -1,0 +1,54 @@
+{
+  "name": "SmaatoSDK",
+  "version": "21.1.2",
+  "summary": "Marketing Automation and Analytics for your iOS apps",
+  "description": "SmaatoSDK advertising network SmaatoSDK advertising network SmaatoSDK advertising network",
+  "homepage": "https://www.smaato.com/resources/sdks/",
+  "license": {
+    "type": "Commercial",
+    "text": "LICENSE"
+  },
+  "authors": "SmaatoSDK",
+  "platforms": {
+    "ios": null
+  },
+  "vendored_frameworks": [
+    "SmaatoSDKBanner.framework",
+    "SmaatoSDKCore.framework",
+    "SmaatoSDKInterstitial.framework",
+    "SmaatoSDKOpenMeasurement.framework",
+    "SmaatoSDKRewardedAds.framework",
+    "SmaatoSDKRichMedia.framework",
+    "SmaatoSDKUnifiedBidding.framework",
+    "SmaatoSDKVideo.framework",
+    "vendor/OMSDK_Smaato.framework"
+  ],
+  "source_files": [
+  ],
+  "preserve_paths": [
+  ],
+  "weak_frameworks": [
+  ],
+  "frameworks": [
+    "CoreGraphics",
+    "Foundation",
+    "UIKit",
+    "AdSupport",
+    "StoreKit",
+    "QuartzCore",
+    "CoreLocation",
+    "CoreTelephony",
+    "MobileCoreServices",
+    "Accelerate",
+    "WebKit"
+  ],
+  "libraries":[
+    "sqlite3.0",
+    "z",
+    "c++"
+  ],
+  "requires_arc": true,
+  "source": {
+    "http": "https://appodeal-ios.s3-us-west-1.amazonaws.com/external-sdks/SmaatoSDK/21.1.2/SmaatoSDK.zip"
+  }
+}
