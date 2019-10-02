@@ -1,0 +1,35 @@
+{
+    "name": "StartApp",
+    "version": "4.2.0",
+    "summary": "StartApp SDK for iOS",
+    "description": "StartApp SDK for iOS.",
+    "homepage": "https://www.startapp.com",
+    "license": {
+        "type": "Copyright",
+        "text": " __ !!! __ "
+    },
+    "authors": "StartApp",
+    "platforms": {
+        "ios": "8.0"
+    },
+    "source": {
+        "http": "https://s3-us-west-1.amazonaws.com/appodeal-ios/external-sdks/StartApp/4.2.0/StartApp.zip"
+    },
+    "frameworks": [
+        "AdSupport",
+         "StoreKit", 
+         "CoreTelephony", 
+         "SystemConfiguration", 
+         "CoreGraphics", 
+         "QuartzCore",
+          "CoreMedia", 
+          "AVFoundation", 
+          "WebKit"
+    ],
+    "libraries": [
+        "z"
+    ],
+    "vendored_frameworks": "StartApp.framework",
+    "resources": "StartApp.bundle",
+    "requires_arc": true
+}
