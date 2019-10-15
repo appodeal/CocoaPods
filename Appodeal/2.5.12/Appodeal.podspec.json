@@ -14,10 +14,8 @@
     "ios": "9.0"
   },
   "source": {
-    "http": "https://s3-us-west-1.amazonaws.com/appodeal-ios/2.5.12-FMGames/cococapods/Appodeal.zip"
+    "http": "https://s3-us-west-1.amazonaws.com/appodeal-ios/2.5.12/cococapods/Appodeal.zip"
   },
-  "summary": "Appodeal iOS Framework",
-  "version": "2.5.12-FMGames",
   "subspecs": [
     {
       "dependencies": {
@@ -337,17 +335,17 @@
       "resources": "APDTapjoyAdapter.embeddedframework/Tapjoy.framework/Resources/*",
       "vendored_frameworks": "APDTapjoyAdapter.embeddedframework/*.framework",
       "vendored_libraries": "APDTapjoyAdapter.embeddedframework/*.a",
-      "resources": "APDTapjoyAdapter.embeddedframework/Resources/*",
       "weak_frameworks": "StoreKit"
     },
     {
       "dependencies": {
-        "Appodeal/Core": []
+        "Appodeal/Core": [],
+        "mopub-ios-sdk": [
+          "5.9.0"
+        ]
       },
       "name": "TwitterMoPubAdapter",
-      "vendored_libraries": "APDTwitterMoPubAdapter.embeddedframework/*.a",
-      "vendored_frameworks": "APDTwitterMoPubAdapter.embeddedframework/*.framework",
-      "resources": "APDTwitterMoPubAdapter.embeddedframework/Resources/*"
+      "vendored_libraries": "APDTwitterMoPubAdapter.embeddedframework/*.a"
     },
     {
       "dependencies": {
