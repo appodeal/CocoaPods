@@ -30,7 +30,7 @@
     {
       "dependencies": {
         "Appodeal/AdColonyAdapter": [],
-        "Appodeal/AdExchangeAdapter": [],
+        "Appodeal/AppodealAdExchangeAdapter": [],
         "Appodeal/AppLovinAdapter": [],
         "Appodeal/ChartboostAdapter": [],
         "Appodeal/FacebookAudienceAdapter": [],
@@ -50,7 +50,7 @@
     },
     {
       "dependencies": {
-        "Appodeal/AdExchangeAdapter": [],
+        "Appodeal/AppodealAdExchangeAdapter": [],
         "Appodeal/AmazonAdsAdapter": [],
         "Appodeal/AppLovinAdapter": [],
         "Appodeal/FacebookAudienceAdapter": [],
@@ -76,7 +76,7 @@
     },
     {
       "dependencies": {
-        "Appodeal/AdExchangeAdapter": [],
+        "Appodeal/AppodealAdExchangeAdapter": [],
         "Appodeal/AppLovinAdapter": [],
         "Appodeal/FacebookAudienceAdapter": [],
         "Appodeal/GoogleAdMobAdapter": [],
@@ -120,7 +120,7 @@
     },
     {
       "dependencies": {
-        "Appodeal/AdExchangeAdapter": [],
+        "Appodeal/AppodealAdExchangeAdapter": [],
         "Appodeal/Core": []
       },
       "frameworks": [
@@ -144,7 +144,7 @@
       "dependencies": {
         "Appodeal/Core": []
       },
-      "name": "AdExchangeAdapter",
+      "name": "AppodealAdExchangeAdapter",
       "vendored_frameworks": "APDAppodealAdExchangeAdapter.embeddedframework/*.framework",
       "vendored_libraries": "APDAppodealAdExchangeAdapter.embeddedframework/*.a"
     },
@@ -164,7 +164,7 @@
     },
     {
       "dependencies": {
-        "Appodeal/AdExchangeAdapter": [],
+        "Appodeal/AppodealAdExchangeAdapter": [],
         "Appodeal/Core": []
       },
       "frameworks": "CoreMedia",
@@ -253,7 +253,7 @@
     },
     {
       "dependencies": {
-        "Appodeal/AdExchangeAdapter": [],
+        "Appodeal/AppodealAdExchangeAdapter": [],
         "Appodeal/Core": []
       },
       "name": "PubnativeAdapter",
@@ -261,7 +261,7 @@
     },
     {
       "dependencies": {
-        "Appodeal/AdExchangeAdapter": [],
+        "Appodeal/AppodealAdExchangeAdapter": [],
         "Appodeal/Core": []
       },
       "name": "OpenXAdapter",
@@ -269,7 +269,7 @@
     },
     {
       "dependencies": {
-        "Appodeal/AdExchangeAdapter": [],
+        "Appodeal/AppodealAdExchangeAdapter": [],
         "Appodeal/Core": []
       },
       "name": "InnerActiveAdapter",
@@ -277,7 +277,7 @@
     },
     {
       "dependencies": {
-        "Appodeal/AdExchangeAdapter": [],
+        "Appodeal/AppodealAdExchangeAdapter": [],
         "Appodeal/Core": []
       },
       "frameworks": [
@@ -361,7 +361,7 @@
     },
     {
       "dependencies": {
-        "Appodeal/AdExchangeAdapter": [],
+        "Appodeal/AppodealAdExchangeAdapter": [],
         "Appodeal/Core": []
       },
       "frameworks": [
