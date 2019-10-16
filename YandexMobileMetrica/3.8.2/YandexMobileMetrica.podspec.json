@@ -1,0 +1,35 @@
+{
+  "name": "YandexMobileMetrica",
+  "version": "3.8.2",
+  "summary": "This library is designed to be a part of mobile apps and provide app usage stats to Yandex AppMetrica",
+  "homepage": "http://appmetrica.yandex.com/",
+  "license": {
+    "type": "PROPRIETARY",
+    "file": "LICENSE.md"
+  },
+  "authors": {
+    "Yandex LLC": "appmetrica@yandex-team.com"
+  },
+  "source": {
+    "http": "https://s3-us-west-1.amazonaws.com/appodeal-ios/external-sdks/YandexMobileMetrica/3.8.2/YandexMobileMetrica.zip"
+  },
+  "vendored_frameworks": "YandexMobileMetrica.framework",
+  "libraries": [
+    "c++",
+    "z",
+    "sqlite3"
+  ],
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "CoreTelephony",
+    "CoreLocation",
+    "CoreGraphics",
+    "AdSupport",
+    "SystemConfiguration"
+  ],
+  "requires_arc": true,
+  "platforms": {
+    "ios": "8.0"
+  }
+}
