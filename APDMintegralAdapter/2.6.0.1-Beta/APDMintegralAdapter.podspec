@@ -18,7 +18,14 @@ Pod::Spec.new do |spec|
 	spec.static_framework = true
 	spec.swift_versions 		= "4.0", "4.2", "5.0"
 	spec.vendored_libraries 	= "APDMintegralAdapter.embeddedframework/*.a"
-	spec.vendored_frameworks 	= "APDMintegralAdapter.embeddedframework/*.framework"
+	spec.vendored_frameworks 	= 
+		"APDMintegralAdapter.embeddedframework/MTGSDK.framework", 
+		"APDMintegralAdapter.embeddedframework/MTGSDKBidding.framework", 
+		"APDMintegralAdapter.embeddedframework/MTGSDKInterstitial.framework", 
+		"APDMintegralAdapter.embeddedframework/MTGSDKReward.framework", 
+		"APDMintegralAdapter.embeddedframework/MTGSDKBanner.framework", 
+		"APDMintegralAdapter.embeddedframework/MTGSDKInterActive.framework", 
+		"APDMintegralAdapter.embeddedframework/MTGSDKInterstitialVideo.framework"
 	
 	spec.source_files 	= "Dummy.swift"
 	spec.dependency "Appodeal", "2.6.0-Beta"
