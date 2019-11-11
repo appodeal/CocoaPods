@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 	
 	spec.static_framework = true
 	spec.vendored_libraries 	= "APDVungleAdapter.embeddedframework/*.a"
-	spec.vendored_frameworks 	= "APDVungleAdapter.embeddedframework/*.framework"
+	spec.vendored_frameworks 	= "APDVungleAdapter.embeddedframework/VungleSDK.framework"
 	spec.swift_versions 		= "4.0", "4.2", "5.0"
 
 	spec.source_files 	= "Dummy.swift"
