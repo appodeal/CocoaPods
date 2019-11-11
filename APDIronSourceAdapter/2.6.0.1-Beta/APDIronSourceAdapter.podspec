@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 	
 	spec.static_framework = true
 	spec.vendored_libraries 	= "APDIronSourceAdapter.embeddedframework/*.a"
-	spec.vendored_frameworks 	= "APDIronSourceAdapter.embeddedframework/*.framework"
+	spec.vendored_frameworks 	= "APDIronSourceAdapter.embeddedframework/IronSource.framework"
 	
 	spec.swift_versions 		= "4.0", "4.2", "5.0"
 	spec.source_files 	= "Dummy.swift"
