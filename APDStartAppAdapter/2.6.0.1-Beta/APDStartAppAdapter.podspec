@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
 	spec.static_framework = true
 	spec.swift_versions 		= "4.0", "4.2", "5.0"
 	spec.vendored_libraries 	= "APDStartAppAdapter.embeddedframework/*.a"
-	spec.vendored_frameworks 	= "APDStartAppAdapter.embeddedframework/*.framework"
+	spec.vendored_frameworks 	= "APDStartAppAdapter.embeddedframework/StartApp.framework"
 	spec.resources 		= 'APDStartAppAdapter.embeddedframework/**/*.bundle'
 
 	spec.source_files 	= "Dummy.swift"
