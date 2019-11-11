@@ -18,7 +18,16 @@ Pod::Spec.new do |spec|
 	spec.static_framework = true
 	spec.swift_versions 		= "4.0", "4.2", "5.0"
 	spec.vendored_libraries 	= "APDSmaatoAdapter.embeddedframework/*.a"
-	spec.vendored_frameworks    = "APDSmaatoAdapter.embeddedframework/*.framework"
+	spec.vendored_frameworks    = 
+		"APDSmaatoAdapter.embeddedframework/OMSDK_Smaato.framework",
+		"APDSmaatoAdapter.embeddedframework/SmaatoSDKRewardedAds.framework",
+		"APDSmaatoAdapter.embeddedframework/SmaatoSDKBanner.framework",
+		"APDSmaatoAdapter.embeddedframework/SmaatoSDKRichMedia.framework",
+		"APDSmaatoAdapter.embeddedframework/SmaatoSDKCore.framework",
+		"APDSmaatoAdapter.embeddedframework/SmaatoSDKUnifiedBidding.framework",
+		"APDSmaatoAdapter.embeddedframework/SmaatoSDKInterstitial.framework",
+		"APDSmaatoAdapter.embeddedframework/SmaatoSDKVideo.framework",
+		"APDSmaatoAdapter.embeddedframework/SmaatoSDKOpenMeasurement.framework"
 
 	spec.dependency "Appodeal", "2.6.0-Beta"
 	spec.source_files 	= "Dummy.swift"
