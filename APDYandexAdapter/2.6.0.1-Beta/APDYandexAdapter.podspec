@@ -17,11 +17,13 @@ Pod::Spec.new do |spec|
 	
 	spec.static_framework = true
 	spec.vendored_libraries 	= "APDYandexAdapter.embeddedframework/*.a"
-	spec.vendored_frameworks 	= "APDYandexAdapter.embeddedframework/*.framework"
+	spec.vendored_frameworks 	= "APDYandexAdapter.embeddedframework/YandexMobileAds.framework"
+	    
 	spec.swift_versions 		= "4.0", "4.2", "5.0"
 
 	spec.source_files 	= "Dummy.swift"
 	spec.dependency "Appodeal", "2.6.0-Beta"
+	spec.dependency "YandexMobileMetrica", ">= 3.2.0", "< 4.0.0"
 
 	spec.libraries 		= 'sqlite3.0', 'c++'
 end
