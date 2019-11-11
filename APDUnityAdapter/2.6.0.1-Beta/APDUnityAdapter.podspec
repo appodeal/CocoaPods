@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 	
 	spec.static_framework = true
 	spec.vendored_libraries 	= "APDUnityAdapter.embeddedframework/*.a"
-	spec.vendored_frameworks 	= "APDUnityAdapter.embeddedframework/*.framework"
+	spec.vendored_frameworks 	= "APDUnityAdapter.embeddedframework/UnityAds.framework"
 	spec.swift_versions 		= "4.0", "4.2", "5.0"
 
 	spec.source_files 	= "Dummy.swift"
