@@ -18,11 +18,11 @@ Pod::Spec.new do |spec|
 	spec.static_framework = true
 	spec.swift_versions 		= "4.0", "4.2", "5.0"
 	spec.vendored_libraries 	= "APDFacebookAudienceAdapter.embeddedframework/*.a"
-	spec.vendored_frameworks 	= "APDFacebookAudienceAdapter.embeddedframework/*.framework"
+	spec.vendored_frameworks 	= "APDFacebookAudienceAdapter.embeddedframework/FBAudienceNetwork.framework"
 	
 	spec.source_files 	= "Dummy.swift"
 	spec.dependency "Appodeal", "2.6.0-Beta"
-	spec.dependency "FBSDKCoreKit/Basics", "~> 5.2.1"
+	spec.dependency "FBSDKCoreKit/Basics", "~> 5.6.0"
 
 	spec.frameworks 	 = 'AudioToolbox', 'Foundation'
 	spec.libraries 		 = 'c++'
