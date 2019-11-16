@@ -14,7 +14,7 @@
     "ios": "9.0"
   },
   "source": {
-    "http": "https://s3-us-west-1.amazonaws.com/appodeal-ios/2.5.13/cococapods/Appodeal.zip"
+    "http": "https://appodeal-ios.s3-us-west-1.amazonaws.com/2.5.13-BPMobile/cocoapods/Appodeal.zip"
   },
   "subspecs": [
     {
