@@ -29,6 +29,7 @@
     },
     {
       "dependencies": {
+        "Appodeal/TwitterMoPubAdapter": [],
         "Appodeal/AdColonyAdapter": [],
         "Appodeal/AppodealAdExchangeAdapter": [],
         "Appodeal/AppLovinAdapter": [],
@@ -50,6 +51,7 @@
     },
     {
       "dependencies": {
+        "Appodeal/TwitterMoPubAdapter": [],
         "Appodeal/AppodealAdExchangeAdapter": [],
         "Appodeal/AmazonAdsAdapter": [],
         "Appodeal/AppLovinAdapter": [],
@@ -121,24 +123,13 @@
     {
       "dependencies": {
         "Appodeal/AppodealAdExchangeAdapter": [],
-        "Appodeal/Core": []
+        "Appodeal/Core": [],
+        "AdColony": [
+          "4.1.2"
+        ]
       },
-      "frameworks": [
-        "AudioToolbox",
-        "CoreMedia",
-        "EventKit",
-        "EventKitUI",
-        "MessageUI",
-        "Social",
-        "GLKit"
-      ],
       "name": "AdColonyAdapter",
-      "vendored_frameworks": "APDAdColonyAdapter.embeddedframework/*.framework",
-      "vendored_libraries": "APDAdColonyAdapter.embeddedframework/*.a",
-      "weak_frameworks": [
-        "JavaScriptCore",
-        "WatchConnectivity"
-      ]
+      "vendored_libraries": "APDAdColonyAdapter.embeddedframework/*.a"
     },
     {
       "dependencies": {
@@ -165,62 +156,40 @@
     {
       "dependencies": {
         "Appodeal/AppodealAdExchangeAdapter": [],
-        "Appodeal/Core": []
+        "Appodeal/Core": [],
+        "AppLovinSDK": [
+          "6.10.0"
+        ]
       },
-      "frameworks": "CoreMedia",
       "name": "AppLovinAdapter",
-      "resources": "APDAppLovinAdapter.embeddedframework/Resources/*",
-      "vendored_frameworks": "APDAppLovinAdapter.embeddedframework/*.framework",
       "vendored_libraries": "APDAppLovinAdapter.embeddedframework/*.a"
     },
     {
       "dependencies": {
-        "Appodeal/Core": []
+        "Appodeal/Core": [],
+        "ChartboostSDK": [
+          "8.0.3"
+        ]
       },
-      "frameworks": [
-        "CoreMedia",
-        "CoreData"
-      ],
       "name": "ChartboostAdapter",
-      "vendored_frameworks": "APDChartboostAdapter.embeddedframework/*.framework",
       "vendored_libraries": "APDChartboostAdapter.embeddedframework/*.a"
     },
     {
       "dependencies": {
         "Appodeal/Core": [],
-        "FBSDKCoreKit/Basics": [
-          ">= 5.2.1"
+        "FBAudienceNetwork": [
+          "5.6.0"
         ]
       },
-      "frameworks": [
-        "AudioToolbox",
-        "VideoToolbox",
-        "CoreMedia"
-      ],
-      "libraries": "c++",
       "name": "FacebookAudienceAdapter",
-      "vendored_frameworks": "APDFacebookAudienceAdapter.embeddedframework/FBAudienceNetwork.framework",
-      "vendored_libraries": "APDFacebookAudienceAdapter.embeddedframework/*.a",
-      "weak_frameworks": "CoreMotion"
-    },
+      "vendored_libraries": "APDFacebookAudienceAdapter.embeddedframework/*.a"    },
     {
       "dependencies": {
         "Appodeal/Core": [],
         "Google-Mobile-Ads-SDK": [
-          ">= 7.50.0"
+          "7.52.0"
         ]
       },
-      "frameworks": [
-        "AudioToolbox",
-        "CoreMedia",
-        "CoreMotion",
-        "CoreVideo",
-        "EventKitUI",
-        "GLKit",
-        "MessageUI",
-        "OpenGLES"
-      ],
-      "libraries": "sqlite3.0",
       "name": "GoogleAdMobAdapter",
       "vendored_libraries": "APDGoogleAdMobAdapter.embeddedframework/*.a"
     },
@@ -315,27 +284,13 @@
     },
     {
       "dependencies": {
-        "Appodeal/Core": []
+        "Appodeal/Core": [],
+        "TapjoySDK": [
+          "12.3.4"
+        ]
       },
-      "frameworks": [
-        "CoreData",
-        "CFNetwork",
-        "CoreMotion",
-        "Foundation",
-        "MapKit",
-        "MessageUI",
-        "EventKitUI"
-      ],
-      "libraries": [
-        "sqlite3.0",
-        "z",
-        "c++"
-      ],
       "name": "TapjoyAdapter",
-      "resources": "APDTapjoyAdapter.embeddedframework/Tapjoy.framework/Resources/*",
-      "vendored_frameworks": "APDTapjoyAdapter.embeddedframework/*.framework",
-      "vendored_libraries": "APDTapjoyAdapter.embeddedframework/*.a",
-      "weak_frameworks": "StoreKit"
+      "vendored_libraries": "APDTapjoyAdapter.embeddedframework/*.a"
     },
     {
       "dependencies": {
@@ -349,32 +304,23 @@
     },
     {
       "dependencies": {
-        "Appodeal/Core": []
+        "Appodeal/Core": [],
+        "UnityAds": [
+          "3.3.0"
+        ]
       },
-      "frameworks": [
-        "CFNetwork",
-        "CoreMedia"
-      ],
       "name": "UnityAdapter",
-      "vendored_frameworks": "APDUnityAdapter.embeddedframework/*.framework",
       "vendored_libraries": "APDUnityAdapter.embeddedframework/*.a"
     },
     {
       "dependencies": {
         "Appodeal/AppodealAdExchangeAdapter": [],
-        "Appodeal/Core": []
+        "Appodeal/Core": [],
+        "VungleSDK": [
+          "6.4.5"
+        ]
       },
-      "frameworks": [
-        "AudioToolbox",
-        "CFNetwork",
-        "CoreMedia"
-      ],
-      "libraries": [
-        "z",
-        "sqlite3"
-      ],
       "name": "VungleAdapter",
-      "vendored_frameworks": "APDVungleAdapter.embeddedframework/*.framework",
       "vendored_libraries": "APDVungleAdapter.embeddedframework/*.a"
     },
     {
@@ -392,13 +338,15 @@
     },
     {
       "dependencies": {
-        "Appodeal/Core": []
+        "Appodeal/Core": [],
+        "Flurry-iOS-SDK/FlurrySDK": [
+          "10.0.2"
+        ],
+        "Flurry-iOS-SDK/FlurryAds": [ 
+          "10.0.2"
+        ]
       },
-      "frameworks": [
-        "SafariServices"
-      ],
       "name": "FlurryAdapter",
-      "vendored_frameworks": "APDFlurryAdapter.embeddedframework/*.framework",
       "vendored_libraries": "APDFlurryAdapter.embeddedframework/*.a"
     },
     {
@@ -414,13 +362,12 @@
     },
     {
       "dependencies": {
-        "Appodeal/Core": []
+        "Appodeal/Core": [],
+        "IronSourceSDK": [
+          "6.8.7.0"
+        ]
       },
-      "frameworks": [
-        "WatchConnectivity"
-      ],
       "name": "IronSourceAdapter",
-      "vendored_frameworks": "APDIronSourceAdapter.embeddedframework/*.framework",
       "vendored_libraries": "APDIronSourceAdapter.embeddedframework/*.a"
     },
     {
