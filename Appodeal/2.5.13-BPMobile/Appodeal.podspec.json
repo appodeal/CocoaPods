@@ -316,7 +316,7 @@
       "dependencies": {
         "Appodeal/AppodealAdExchangeAdapter": [],
         "Appodeal/Core": [],
-        "VungleSDK": [
+        "VungleSDK-iOS": [
           "6.4.5"
         ]
       },
