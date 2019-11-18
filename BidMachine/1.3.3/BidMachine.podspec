@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.subspec 'Core' do |ss|
     ss.vendored_frameworks = "BidMachine.framework"
     ss.dependency 'StackModules', '~> 0.6.3'
-    ss.dependency 'StackIAB', '~> 0.5.0'
+    ss.dependency 'StackIAB', '0.5.4'
     ss.dependency 'Protobuf', '~> 3.9'
   end
 
