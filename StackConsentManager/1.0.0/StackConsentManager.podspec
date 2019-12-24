@@ -13,7 +13,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '9.0'
   s.source       = { :http => "https://s3-us-west-1.amazonaws.com/appodeal-ios/StackConsentManager/v#{s.version}/StackConsentManager.zip"  }
 
-  s.dependency 'StackModules', '~> 0.6'
   s.frameworks = 'WebKit', 'AdSupport'
   s.library = 'z'
   s.vendored_frameworks = 'StackConsentManager.framework'
