@@ -1,0 +1,43 @@
+{
+  "name": "MoPubSDK",
+  "version": "5.10.0",
+  "summary": "The Official MoPub Client SDK allows developers to easily monetize their apps by showing banner, interstitial, and native ads.",
+  "description": "                    MoPub is a hosted ad serving solution built specifically for mobile publishers.\n                    Grow your mobile advertising business with powerful ad management, optimization \n                    and reporting capabilities, and earn revenue by connecting to the world's largest \n                    mobile ad exchange. \n\n                    To learn more or sign up for an account, go to http://www.mopub.com. \n",
+  "homepage": "https://github.com/mopub/mopub-ios-sdk",
+  "license": {
+    "type": "New BSD",
+    "text": "The MoPub SDK License can be found at http://www.mopub.com/legal/sdk-license-agreement/"
+  },
+  "authors": {
+    "MoPub": "support@mopub.com"
+  },
+  "social_media_url": "http://twitter.com/mopub",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "http" :  "https://s3-us-west-1.amazonaws.com/appodeal-ios/external-sdks/MoPubSDK/5.10.0/MoPubSDK.zip"
+  },
+  "resources": "Resources/*.*",
+  "vendored_frameworks": "MoPubSDK.framework",
+  "frameworks": [
+    "AVFoundation",
+    "AVKit",
+    "CoreGraphics",
+    "CoreLocation",
+    "CoreMedia",
+    "CoreTelephony",
+    "Foundation",
+    "MediaPlayer",
+    "QuartzCore",
+    "SystemConfiguration",
+    "UIKit",
+    "SafariServices"
+  ],
+  "weak_frameworks": [
+    "SafariServices",
+    "AdSupport",
+    "StoreKit"
+  ],
+  "requires_arc": true
+}
