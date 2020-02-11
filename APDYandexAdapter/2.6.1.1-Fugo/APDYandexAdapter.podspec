@@ -22,6 +22,6 @@ Pod::Spec.new do |spec|
 
 	spec.source_files 	= "Dummy.swift"
 	spec.dependency "Appodeal", "2.6.1-Fugo"
-	spec.dependency "YandexMobileAds", "~> 2.14"
+	spec.dependency "YandexMobileAds", "~> 2.14.0"
 end
 	
