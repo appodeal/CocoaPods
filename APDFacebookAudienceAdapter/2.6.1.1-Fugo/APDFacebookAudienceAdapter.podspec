@@ -21,6 +21,6 @@ Pod::Spec.new do |spec|
 	
 	spec.source_files 	= "Dummy.swift"
 	spec.dependency "Appodeal", "2.6.1-Fugo"
-	spec.dependency "FBAudienceNetwork", "~> 5.6"
+	spec.dependency "FBAudienceNetwork", "~> 5.5.1"
 end
 	
