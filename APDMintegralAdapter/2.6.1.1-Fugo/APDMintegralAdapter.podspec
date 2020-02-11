@@ -22,9 +22,9 @@ Pod::Spec.new do |spec|
 	spec.source_files 	= "Dummy.swift"
 	
 	spec.dependency "Appodeal", "2.6.1-Fugo"
-	spec.dependency "MintegralAdSDK", "~> 5.8"
-  	spec.dependency "MintegralAdSDK/RewardVideoAd", "~> 5.8"
-  	spec.dependency "MintegralAdSDK/InterstitialVideoAd", "~> 5.8"
-  	spec.dependency "MintegralAdSDK/InterstitialAd", "~> 5.8"
+	spec.dependency "MintegralAdSDK", "~> 5.8.6"
+  	spec.dependency "MintegralAdSDK/RewardVideoAd", "~> 5.8.6"
+  	spec.dependency "MintegralAdSDK/InterstitialVideoAd", "~> 5.8.6"
+  	spec.dependency "MintegralAdSDK/InterstitialAd", "~> 5.8.6"
 end
 	
