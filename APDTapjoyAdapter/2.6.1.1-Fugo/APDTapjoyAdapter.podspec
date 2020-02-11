@@ -21,6 +21,6 @@ Pod::Spec.new do |spec|
 	
 	spec.source_files 	= "Dummy.swift"
 	spec.dependency "Appodeal", "2.6.1-Fugo"
-	spec.dependency "TapjoySDK", "~> 12.3"
+	spec.dependency "TapjoySDK", "~> 12.4.0"
 end
 	
