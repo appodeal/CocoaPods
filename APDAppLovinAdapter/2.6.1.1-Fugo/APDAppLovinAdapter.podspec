@@ -21,6 +21,6 @@ Pod::Spec.new do |spec|
 	
 	spec.source_files 	= "Dummy.swift"
 	spec.dependency "Appodeal", "2.6.1-Fugo"
-	spec.dependency "AppLovinSDK", "~> 6.9"
+	spec.dependency "AppLovinSDK", "6.11.1"
 end
 	
