@@ -21,6 +21,6 @@ Pod::Spec.new do |spec|
 	spec.swift_versions 		= "4.0", "4.2", "5.0"
 	spec.source_files 	= "Dummy.swift"
 	spec.dependency "Appodeal", "2.6.1-Fugo"
-	spec.dependency "IronSourceSDK", "~> 6.8"
+	spec.dependency "IronSourceSDK", "~> 6.11.0"
 end
 	
