@@ -21,6 +21,6 @@ Pod::Spec.new do |spec|
 
 	spec.source_files 	= "Dummy.swift"
 	spec.dependency "Appodeal", "2.6.1-Fugo"
-	spec.dependency 'mopub-ios-sdk', '5.10.0'
+	spec.dependency 'mopub-ios-sdk', '~> 5.11.0'
 end
 	
