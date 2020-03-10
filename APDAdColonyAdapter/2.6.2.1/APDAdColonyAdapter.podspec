@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 	
 	spec.static_framework = true
 	spec.swift_versions 		= "4.0", "4.2", "5.0"
-	spec.vendored_libraries 	= "APDAdColonyAdapter.embeddedframework/*.a"
+	spec.vendored_libraries 	= "APDAdColonyAdapter.embeddedframework/libAPDAdColonyAdapter.a"
 	spec.vendored_frameworks 	= "APDAdColonyAdapter.embeddedframework/AdColony.framework"
 	spec.source_files 	= "Dummy.swift"
 	spec.dependency "Appodeal", "2.6.2"
