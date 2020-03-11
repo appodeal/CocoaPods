@@ -1,0 +1,22 @@
+{
+  "name": "CriteoPublisherSdk",
+  "version": "3.4.1",
+  "summary": "Display Criteo ads in your app.",
+  "description": "Criteo Publisher SDK maximizes revenue by directly connecting your premium inventory to our premium demand. That means you retain the full value of every impression we buy.",
+  "homepage": "https://criteo.com",
+  "license": {
+    "type": "Apache",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Criteo": "contact@criteo.com"
+  },
+  "source": {
+    "http": "https://appodeal-ios.s3-us-west-1.amazonaws.com/external-sdks/CriteoPublisherSdk/3.4.1/CriteoPublisherSdk.framework.zip"
+  },
+  "vendored_frameworks": "CriteoPublisherSdk.framework",
+  "platforms": {
+    "ios": null
+  },
+  "weak_frameworks": "WebKit"
+}
