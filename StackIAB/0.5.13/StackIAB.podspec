@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '9.0'
   s.source       = { :http => "https://s3-us-west-1.amazonaws.com/appodeal-ios/StackIAB/v#{s.version}/StackIAB.zip"  }
 
-  s.dependency 'StackModules', '~> 0.6.3'
+  s.dependency 'StackModules', '~> 0.6'
 
   s.subspec 'StackXML' do |ss|
     ss.vendored_frameworks = 'StackXML.framework' 
