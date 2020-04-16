@@ -21,4 +21,7 @@ Pod::Spec.new do |spec|
   spec.frameworks       = 'Security', 'CoreMedia', 'CoreGraphics', 'CoreImage', 'SystemConfiguration', 'AVFoundation', 'MediaPlayer', 'QuartzCore', 'UIKit', 'WebKit', 'ImageIO', 'MobileCoreServices', 'CoreTelephony', 'CoreLocation'
   spec.weak_frameworks  = 'AdSupport', 'StoreKit'
   spec.libraries        = 'z', 'xml2'
+
+  spec.dependency 'StackAPI', '~> 0.2'
+  spec.dependency 'Protobuf', '>= 3.11.0'
 end
