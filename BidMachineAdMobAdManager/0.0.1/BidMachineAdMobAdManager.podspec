@@ -23,7 +23,8 @@ limitations under the License.
   spec.author       = { "Appodeal" => "http://www.appodeal.com" }
   spec.platform     = :ios, '9.0'
   spec.source       = { :http => "https://appodeal-ios.s3-us-west-1.amazonaws.com/external-sdks/BidMachineAdMobAdManager/#{spec.version}/BidMachineAdMobAdManager.framework.zip" }
-
+  
+  spec.vendored_frameworks = 'BidMachineAdMobAdManager.framework'
   spec.dependency 'BidMachine', '1.4.4'
   spec.dependency 'Google-Mobile-Ads-SDK', '7.59.0'
 end
