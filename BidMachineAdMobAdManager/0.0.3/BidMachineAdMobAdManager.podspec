@@ -24,5 +24,5 @@ limitations under the License.
   
   spec.vendored_frameworks = 'BidMachineAdMobAdManager.framework'
   spec.dependency 'BidMachine', '1.4.4'
-  spec.dependency 'Google-Mobile-Ads-SDK', '7.59.0'
+  spec.dependency 'Google-Mobile-Ads-SDK', '7.60.0'
 end
