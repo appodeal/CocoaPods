@@ -23,6 +23,9 @@ Pod::Spec.new do |spec|
 	spec.dependency "Appodeal", "2.7.2-Beta"
 	spec.dependency "Google-Mobile-Ads-SDK", "~> 7.63.0"
 
-	spec.xcconfig = { "VALID_ARCHS": "arm64 arm64e armv7 armv7s x86_64" }
+	spec.xcconfig = { 
+		"VALID_ARCHS": "arm64 arm64e armv7 armv7s",
+    	"VALID_ARCHS[sdk=iphonesimulator*]": "x86_64"
+    }
 end
 	
