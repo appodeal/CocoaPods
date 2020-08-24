@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
 	
 	spec.source_files 	= "Dummy.swift"
 	spec.dependency "Appodeal", "2.7.3-FMGames"
-	spec.dependency "FBSDKCoreKit/Basics", "~> 5.6"
+	spec.dependency "FBSDKCoreKit/Basics", ">= 5.6"
 
 	spec.frameworks 	 = 'AudioToolbox', 'Foundation'
 	spec.libraries 		 = 'c++'
