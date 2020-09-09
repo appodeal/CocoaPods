@@ -18,8 +18,17 @@ Pod::Spec.new do |spec|
 	spec.static_framework 		= true
 	spec.swift_versions 		= "4.0", "4.2", "5.0"	
 	spec.source_files 			= "Dummy.swift"
-	
-	spec.dependency "Appodeal", "2.8.0-Alpha"
-	spec.dependency "BidMachine", "1.6.0-beta3"
+	spec.default_subspec 		= 'HeaderBidding'
+
+	spec.subspec 'Core' do |ss|
+    	spec.vendored_libraries = "APDBidMachineAdapter.embeddedframework/*.a"
+
+    	spec.dependency "Appodeal", "2.8.0-Alpha"
+    	spec.dependency "BidMachine", "1.6.0-beta3"
+  	end
+
+  	spec.subspec 'HeaderBidding' do |ss|
+    	ss.dependency "BidMachine/Adapters", "1.6.0-beta3"
+  	end	
 end
 	
