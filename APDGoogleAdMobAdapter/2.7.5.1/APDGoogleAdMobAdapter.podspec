@@ -21,7 +21,7 @@ Pod::Spec.new do |spec|
 	spec.vendored_libraries 	= "APDGoogleAdMobAdapter.embeddedframework/*.a"
 
 	spec.dependency "Appodeal", "2.7.5"
-	spec.dependency "Google-Mobile-Ads-SDK", "~> 7.65.0"
+	spec.dependency "Google-Mobile-Ads-SDK", "~> 7.66.0"
 
 	spec.xcconfig = { "VALID_ARCHS": "arm64 arm64e armv7 armv7s x86_64" }
 end
