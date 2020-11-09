@@ -14,6 +14,16 @@ Pod::Spec.new do |s|
 
   s.dependency 'StackModules', '~> 1.0.0'
 
+  s.pod_target_xcconfig = {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64 arm64e armv7 armv7s",
+    "EXCLUDED_ARCHS[sdk=iphoneos*]": "i386 x86_64"
+  }
+
+  s.user_target_xcconfig = {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64 arm64e armv7 armv7s",
+    "EXCLUDED_ARCHS[sdk=iphoneos*]": "i386 x86_64"
+  }
+
   s.subspec 'StackXML' do |ss|
     ss.vendored_frameworks = 'StackXML.framework' 
     ss.library = 'xml2'
