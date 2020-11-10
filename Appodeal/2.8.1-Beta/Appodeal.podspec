@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
     "EXCLUDED_ARCHS[sdk=iphoneos*]": "i386 x86_64"
   }
 
-  spec.dependency 'StackModules', '~> 1.0.1'
-  spec.dependency 'StackIAB', '~> 1.1.0'
+  spec.dependency 'StackModules', '~> 1.0.2'
+  spec.dependency 'StackIAB', '~> 1.1.1'
   spec.dependency 'Protobuf', '~> 3.12'
 end
