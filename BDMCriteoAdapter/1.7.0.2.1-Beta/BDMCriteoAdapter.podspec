@@ -18,6 +18,8 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => 'GPL 3.0', :file => 'LICENSE' }
   spec.author       = { "Stack" => "https://explorestack.com/bidmachine/" }
 
+  spec.swift_versions  = "5.0"
+
   spec.platform     = :ios, "10.0"
   spec.source       = { :git => 'git@github.com:bidmachine/BidMachine-iOS-Adaptors.git', :tag => "v#{tag}" }
   spec.source_files = "#{sourceName}/*.{swift,h,m}"
