@@ -54,7 +54,7 @@ Pod::Spec.new do |spec|
   	ss.vendored_libraries = "#{spec.name}.embeddedframework/libBDMFacebookAdapter.a"
     ss.source_files       = "Dummy.swift"
   	ss.dependency "#{spec.name}/Core"
-  	ss.dependency "FBAudienceNetwork", "6.2.0"
+  	ss.dependency "FBAudienceNetwork", "6.2.1"
   end 
 
   spec.subspec 'Tapjoy' do |ss|
@@ -89,7 +89,7 @@ Pod::Spec.new do |spec|
   	ss.vendored_libraries = "#{spec.name}.embeddedframework/libBDMMyTargetAdapter.a"
     ss.source_files       = "Dummy.swift"
   	ss.dependency "#{spec.name}/Core"
-  	ss.dependency "myTargetSDK", "5.9.7"
+  	ss.dependency "myTargetSDK", "5.9.11"
   end 
 
   spec.subspec 'Smaato' do |ss|
@@ -103,7 +103,7 @@ Pod::Spec.new do |spec|
   	ss.vendored_libraries = "#{spec.name}.embeddedframework/libBDMVungleAdapter.a"
     ss.source_files       = "Dummy.swift"
   	ss.dependency "#{spec.name}/Core"
-  	ss.dependency "VungleSDK-iOS", "6.8.1"
+  	ss.dependency "VungleSDK-iOS", "6.9.1"
   end 
 
   spec.subspec 'AppRoll' do |ss|
