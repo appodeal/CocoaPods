@@ -10,21 +10,24 @@ Pod::Spec.new do |spec|
                                 DESC
 
   spec.homepage                 = "https://bidmachine.io"
-  spec.license                  = { :type => 'GPL 3.0', :file => 'LICENSE' }
+  spec.license                  = { :type => 'GPL 3.0', :file => 'OMSDK_Appodeal/OMLICENSE' }
   spec.author                   = { "Stack" => "https://explorestack.com/bidmachine/" }
 
   spec.platform                 = :ios, '10.0'
-  spec.source                   = { :http => "https://s3-us-west-1.amazonaws.com/appodeal-ios/external-sdks/OMSDK_Appodeal/#{spec.version}/OMSDK_Appodeal.xcframework.zip" }
+  spec.source                   = { :http => "https://s3-us-west-1.amazonaws.com/appodeal-ios/external-sdks/OMSDK_Appodeal/#{spec.version}/OMSDK_Appodeal.zip" }
 
+  spec.vendored_frameworks 		= "OMSDK_Appodeal/OMSDK_Appodeal.framework"
   spec.frameworks               = "AdSupport"
   spec.libraries                = "z"
   
-  spec.pod_target_xcconfig      = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
-  spec.user_target_xcconfig     = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
+  spec.pod_target_xcconfig = {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64 arm64e armv7 armv7s",
+    "EXCLUDED_ARCHS[sdk=iphoneos*]": "i386 x86_64"
+  }
 
-  spec.default_subspec = 'Core'
-  spec.subspec 'Core' do |ss|
-    ss.vendored_frameworks = "OMSDK_Appodeal.xcframework"
-  end
+  spec.user_target_xcconfig = {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64 arm64e armv7 armv7s",
+    "EXCLUDED_ARCHS[sdk=iphoneos*]": "i386 x86_64"
+  }
   
 end
