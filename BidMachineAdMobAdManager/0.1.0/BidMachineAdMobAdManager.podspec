@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :http => "https://s3-us-west-1.amazonaws.com/appodeal-ios/BidMachineAdMobAdManager/#{spec.version}/BidMachineAdMobAdManager-#{spec.version}.zip" }
 
   spec.vendored_frameworks = 'BidMachineAdMobAdManager.framework'
-  spec.dependency 'BidMachine', '1.7.0.2-Beta'
+  spec.dependency 'BDMIABAdapter', '1.7.0.2.0-Beta'
   spec.dependency 'Google-Mobile-Ads-SDK', '8.1.0'
 
   spec.pod_target_xcconfig = {
