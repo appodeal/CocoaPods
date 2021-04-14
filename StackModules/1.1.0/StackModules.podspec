@@ -17,7 +17,9 @@ Pod::Spec.new do |s|
   s.source       = { :http => "https://s3-us-west-1.amazonaws.com/appodeal-ios/StackModules/#{s.version}/StackModules.zip" }
 
   s.default_subspec = "StackProductPresentation"
-  
+  s.source_files = "Dummy.swift"
+  s.swift_versions = "4.0", "4.2", "5.0"
+
   s.subspec 'StackFoundation' do |ss|
     ss.vendored_frameworks = 'StackFoundation.xcframework'
     ss.library = 'z'
