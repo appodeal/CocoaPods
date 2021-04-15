@@ -39,12 +39,14 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = {
     "VALID_ARCHS": "arm64 armv7 armv7s x86_64",
     "VALID_ARCHS[sdk=iphoneos*]": "arm64 armv7 armv7s",
-    "VALID_ARCHS[sdk=iphonesimulator*]": "x86_64"
+    "VALID_ARCHS[sdk=iphonesimulator*]": "x86_64",
+    "OTHER_LDFLAGS": '-lObjC'
   }
 
   s.user_target_xcconfig = {
     "VALID_ARCHS": "arm64 armv7 armv7s x86_64",
     "VALID_ARCHS[sdk=iphoneos*]": "arm64 armv7 armv7s",
-    "VALID_ARCHS[sdk=iphonesimulator*]": "x86_64"
+    "VALID_ARCHS[sdk=iphonesimulator*]": "x86_64",
+    "OTHER_LDFLAGS": '-lObjC'
   }
 end
