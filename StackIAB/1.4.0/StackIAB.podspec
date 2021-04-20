@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
 
   s.dependency 'StackModules', '~> 1.1.0'
   s.source_files = "Dummy.swift"
+  s.static_framework = true
   s.swift_versions = "4.0", "4.2", "5.0"
 
   s.pod_target_xcconfig = {
