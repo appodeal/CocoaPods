@@ -20,16 +20,18 @@ Pod::Spec.new do |spec|
 	spec.source_files 			= "Dummy.swift"
 
 	spec.pod_target_xcconfig = { 
-		"EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64 arm64e armv7 armv7s",
-    	"EXCLUDED_ARCHS[sdk=iphoneos*]": "i386 x86_64"
+		"VALID_ARCHS": "arm64 armv7 armv7s x86_64",
+		"VALID_ARCHS[sdk=iphoneos*]": "arm64 armv7 armv7s",
+    	"VALID_ARCHS[sdk=iphonesimulator*]": "x86_64"
 	}
 
   	spec.user_target_xcconfig = { 
-		"EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64 arm64e armv7 armv7s",
-    	"EXCLUDED_ARCHS[sdk=iphoneos*]": "i386 x86_64"
+  		"VALID_ARCHS": "arm64 armv7 armv7s x86_64",
+		"VALID_ARCHS[sdk=iphoneos*]": "arm64 armv7 armv7s",
+    	"VALID_ARCHS[sdk=iphonesimulator*]": "x86_64"
 	}
 	
 	spec.dependency "Appodeal", "2.10.0-Beta"
-	spec.dependency 'StartAppSDK', '4.5.0'
+	spec.dependency 'StartAppSDK', '4.6.3'
 end
 	
