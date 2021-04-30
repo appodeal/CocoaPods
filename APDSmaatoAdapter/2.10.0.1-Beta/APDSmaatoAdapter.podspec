@@ -32,6 +32,6 @@ Pod::Spec.new do |spec|
   	}
 
 	spec.dependency "Appodeal", "2.10.0-Beta"
-	spec.dependency 'smaato-ios-sdk', '~> 21.6.8'
+	spec.dependency 'smaato-ios-sdk', '~> 21.6.13'
 end
 	
