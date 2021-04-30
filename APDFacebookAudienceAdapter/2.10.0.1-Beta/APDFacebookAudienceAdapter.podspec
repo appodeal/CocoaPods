@@ -32,6 +32,6 @@ Pod::Spec.new do |spec|
   	}
 
 	spec.dependency "Appodeal", "2.10.0-Beta"
-	spec.dependency 'FBAudienceNetwork', '6.3.1'
+	spec.dependency 'FBAudienceNetwork', '6.4.1'
 end
 	
