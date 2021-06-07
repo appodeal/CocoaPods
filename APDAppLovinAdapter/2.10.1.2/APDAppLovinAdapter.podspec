@@ -30,5 +30,5 @@ Pod::Spec.new do |spec|
 	}
 	
 	spec.dependency "Appodeal", "2.10.1"
-	spec.dependency "AppLovinSDK", "~> 10.2.1"
+	spec.dependency "AppLovinSDK", "~> 10.3.0"
 end
