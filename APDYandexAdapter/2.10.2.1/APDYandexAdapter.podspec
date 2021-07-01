@@ -32,7 +32,7 @@ Pod::Spec.new do |spec|
     	"VALID_ARCHS[sdk=iphonesimulator*]": "x86_64"
 	}
 	
-	spec.dependency 'Appodeal', '2.10.1'
+	spec.dependency 'Appodeal', '2.10.2'
 	spec.dependency 'YandexMobileAds', '4.1.2'
 end
 	
