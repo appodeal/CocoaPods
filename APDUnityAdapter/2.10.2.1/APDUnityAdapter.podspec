@@ -31,6 +31,6 @@ Pod::Spec.new do |spec|
 	}
 	
 	spec.dependency "Appodeal", "2.10.2"
-	spec.dependency 'UnityAds', '3.7.1'
+	spec.dependency 'UnityAds', '3.7.2'
 end
 	
