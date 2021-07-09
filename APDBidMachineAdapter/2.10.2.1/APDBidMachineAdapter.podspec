@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   	ss.vendored_libraries = "#{spec.name}.embeddedframework/libBDMMyTargetAdapter.a"
     ss.source_files       = "Dummy.swift"
   	ss.dependency "#{spec.name}/Core"
-  	ss.dependency "myTargetSDK", "5.11.2"
+  	ss.dependency "myTargetSDK", "5.12.0"
   end 
 
   spec.subspec 'Smaato' do |ss|
@@ -113,6 +113,13 @@ Pod::Spec.new do |spec|
     ss.source_files       = "Dummy.swift"
   	ss.dependency "#{spec.name}/Core"
   	ss.dependency "AppRollSDK", "3.1.2"
+  end 
+
+  spec.subspec 'Pangle' do |ss|
+    ss.vendored_libraries = "#{spec.name}.embeddedframework/libBDMPangleAdapter.a"
+    ss.source_files       = "Dummy.swift"
+    ss.dependency "#{spec.name}/Core"
+    ss.dependency "Ads-Global", "3.5.1.2"
   end 
 end
 	
