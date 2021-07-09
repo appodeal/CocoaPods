@@ -32,6 +32,6 @@ Pod::Spec.new do |spec|
 	}
 	
 	spec.dependency "Appodeal", "2.10.2"
-	spec.dependency 'StartAppSDK', '4.6.4'
+	spec.dependency 'StartAppSDK', '4.6.5'
 end
 	
