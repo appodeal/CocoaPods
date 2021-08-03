@@ -33,6 +33,6 @@ Pod::Spec.new do |spec|
 	}
 	
 	spec.dependency 'Appodeal', '2.10.2'
-	spec.dependency 'YandexMobileAds', '4.2.0'
+	spec.dependency 'YandexMobileAds', '4.3.0'
 end
 	
