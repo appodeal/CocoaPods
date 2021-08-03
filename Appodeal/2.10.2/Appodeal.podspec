@@ -18,7 +18,8 @@ Pod::Spec.new do |spec|
 
   spec.vendored_frameworks = 'Appodeal.framework'
   spec.libraries = "c++", "z"
-
+  spec.swift_versions     = "4.0", "4.2", "5.0"
+  
   spec.pod_target_xcconfig = { 
     "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64 arm64e armv7 armv7s",
     "EXCLUDED_ARCHS[sdk=iphoneos*]": "i386 x86_64"
@@ -29,8 +30,8 @@ Pod::Spec.new do |spec|
     "EXCLUDED_ARCHS[sdk=iphoneos*]": "i386 x86_64"
   }
 
-  spec.dependency 'StackModules', '~> 1.1.0'
-  spec.dependency 'StackCrashReporter', '1.1.0-Beta.2'
-  spec.dependency 'StackIAB', '~> 1.4.1'
+  spec.dependency 'StackModules', '~> 1.1.6'
+  spec.dependency 'StackAnalytics', '~> 1.2.0'
+  spec.dependency 'StackIAB', '~> 1.4.3'
   spec.dependency 'Protobuf', '~> 3.12'
 end
