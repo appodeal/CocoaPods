@@ -37,7 +37,7 @@ Pod::Spec.new do |spec|
 	spec.subspec 'Core' do |ss|
     ss.vendored_libraries = "#{spec.name}.embeddedframework/lib#{spec.name}.a", "#{spec.name}.embeddedframework/libBDMIABAdapter.a"
     ss.source_files       = "Dummy.swift"
-	  ss.dependency 'BidMachine', '1.7.3'
+	  ss.dependency 'BidMachine', '1.7.3.4'
 	end
 
   spec.subspec 'HeaderBidding' do |ss|
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   	ss.vendored_libraries = "#{spec.name}.embeddedframework/libBDMMyTargetAdapter.a"
     ss.source_files       = "Dummy.swift"
   	ss.dependency "#{spec.name}/Core"
-  	ss.dependency "myTargetSDK", "5.12.0"
+  	ss.dependency "myTargetSDK", "5.12.1"
   end 
 
   spec.subspec 'Smaato' do |ss|
