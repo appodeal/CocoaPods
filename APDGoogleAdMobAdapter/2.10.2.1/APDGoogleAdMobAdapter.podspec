@@ -33,6 +33,6 @@ Pod::Spec.new do |spec|
 	}
 	
 	spec.dependency "Appodeal", "2.10.2"
-	spec.dependency "Google-Mobile-Ads-SDK", "~> 8.5.0"
+	spec.dependency "Google-Mobile-Ads-SDK", "~> 8.8.0"
 end
 	
