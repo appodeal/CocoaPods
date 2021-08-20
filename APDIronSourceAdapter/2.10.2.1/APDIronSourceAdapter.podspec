@@ -31,6 +31,6 @@ Pod::Spec.new do |spec|
 	}
 	
 	spec.dependency "Appodeal", "2.10.2"
-	spec.dependency 'IronSourceSDK', '7.1.7'
+	spec.dependency 'IronSourceSDK', '7.1.8'
 end
 	
