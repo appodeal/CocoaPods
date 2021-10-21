@@ -24,7 +24,9 @@ Pod::Spec.new do |spec|
   spec.swift_versions = "4.0", "4.2", "5.0"
 
   spec.dependency "BidMachine", "~> #{sdkVersion}"
-  spec.dependency "smaato-ios-sdk", "#{networkVersion}"
+  spec.dependency "smaato-ios-sdk/Banner", "#{networkVersion}"
+  spec.dependency "smaato-ios-sdk/Interstitial", "#{networkVersion}"
+  spec.dependency "smaato-ios-sdk/RewardedAds", "#{networkVersion}"
   spec.dependency "smaato-ios-sdk/Modules/UnifiedBidding", "#{networkVersion}"
 
   spec.static_framework         = true
