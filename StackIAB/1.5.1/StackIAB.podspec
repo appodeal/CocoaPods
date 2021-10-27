@@ -16,18 +16,6 @@ Pod::Spec.new do |s|
   s.source_files = "Dummy.swift"
   s.swift_versions = "4.0", "4.2", "5.0"
   s.static_framework = true
-  
-  s.pod_target_xcconfig = {
-    "VALID_ARCHS": "arm64 armv7 armv7s x86_64",
-    "VALID_ARCHS[sdk=iphoneos*]": "arm64 armv7 armv7s",
-    "VALID_ARCHS[sdk=iphonesimulator*]": "x86_64"
-  }
-
-  s.user_target_xcconfig = {
-    "VALID_ARCHS": "arm64 armv7 armv7s x86_64",
-    "VALID_ARCHS[sdk=iphoneos*]": "arm64 armv7 armv7s",
-    "VALID_ARCHS[sdk=iphonesimulator*]": "x86_64"
-  }
 
   s.subspec 'StackXML' do |ss|
     ss.vendored_frameworks = 'StackXML.framework' 
