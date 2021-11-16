@@ -32,7 +32,7 @@ Pod::Spec.new do |spec|
   }
 
   spec.subspec "Core" do |ss|
-  	ss.source_files = "HolisticSolutionSDK/**/*.{h,swift}"
+  	ss.source_files = "HolisticSolutionSDK/**/*.{h,swift}", "HolisticSolutionSDK/Appodeal**/*.{h,swift}"
     ss.dependency "Appodeal", "2.10.3"
     ss.dependency "StackIAB", "1.5.2"
     ss.dependency "StackConsentManager", "1.1.2"
