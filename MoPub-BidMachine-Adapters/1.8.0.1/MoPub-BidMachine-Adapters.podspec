@@ -20,8 +20,7 @@ Pod::Spec.new do |spec|
   spec.author       = { "Stack" => "https://explorestack.com/bidmachine/" }
 
   spec.platform     = :ios, '10.0'
-  # spec.source       = { :git => "https://github.com/bidmachine/BidMachine-IOS-MoPub-Adapter.git", :tag => "v#{tag}" }
-  spec.source       = { :git => "https://github.com/bidmachine/BidMachine-IOS-MoPub-Adapter.git", :branch => "master" }
+  spec.source       = { :git => "https://github.com/bidmachine/BidMachine-IOS-MoPub-Adapter.git", :tag => "v#{tag}" }
   spec.swift_versions = "4.0", "4.2", "5.0"
 
   spec.default_subspec = 'Prebid'
