@@ -1,34 +1,50 @@
 Pod::Spec.new do |spec|
 
-  spec.name         = "MoPub-BidMachine-Adapters"
-  spec.version      = "1.8.0.1"
+  sdkVersion        = "1.8.0.0"
+  adapterVersion    = "1.8.0.1"
+  networkVersion    = "5.18.0"
+  sourceName        = "MoPub-BidMachine-Adapters"
+  tag               = "#{adapterVersion}"
+
+  spec.name         = "#{sourceName}"
+  spec.version      = "#{adapterVersion}"
   spec.summary      = "BidMachine IOS adapter for MoPub mediation"
   spec.description  = <<-DESC
-  Supported ad formats: Banner, Interstitial, Rewarded Video.\n
-                   DESC
-  spec.homepage     = "https://github.com/bidmachine/BidMachine-MoPub-iOS-Adapters"
-  spec.license      = { :type => 'Apache License, Version 2.0', :text => <<-LICENSE
-  Copyright 2019 Appodeal, Inc.
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-    LICENSE
-}
+                      Appodeal’s supply-side platform is designed and built by veteran publishers,for publishers. Appodeal is not an ad network; it is a new approach to monetizing for publishers.
+                      The platform is a large auction house, accompanied by a mediation layer, that exposes a publisher’s inventory to all available buyers on the market via relationships with every major ad network, RTB exchange, and DSP. Appodeal showcases publisher inventory to the advertiser, and offers the highest rate in real time.
+                      Appodeal's goal is to cater to the needs of the publisher, not the advertiser, so you always know that you're in good hands.
+                      DESC
 
-  spec.author       = { "Appodeal" => "http://www.appodeal.com" }
+  spec.homepage     = "https://bidmachine.io"
+  spec.license      = { :type => 'GPL 3.0', :file => 'LICENSE' }
+  spec.author       = { "Stack" => "https://explorestack.com/bidmachine/" }
+
   spec.platform     = :ios, '10.0'
-  # spec.source       = { :git => "https://github.com/bidmachine/BidMachine-IOS-MoPub-Adapter.git", :tag => "v#{spec.version}" }
+  # spec.source       = { :git => "https://github.com/bidmachine/BidMachine-IOS-MoPub-Adapter.git", :tag => "v#{tag}" }
   spec.source       = { :git => "https://github.com/bidmachine/BidMachine-IOS-MoPub-Adapter.git", :branch => "master" }
+  spec.swift_versions = "4.0", "4.2", "5.0"
 
-  spec.swift_versions = "5.0"
-  spec.source_files = 'Adapter/**/*.{h,m}'
+  spec.default_subspec = 'Prebid'
+  
+  spec.subspec 'All' do |all|
+    all.dependency "#{sourceName}/Prebid"
+    all.dependency "#{sourceName}/Postbid"
+  end
+
+  spec.subspec 'Prebid' do |prebid|
+    prebid.dependency "BDMIABAdapter", "~> #{sdkVersion}"
+    prebid.dependency "mopub-ios-sdk", "~> #{networkVersion}"
+    prebid.source_files = 'Adapter/Prebid/*.{h,m}'
+  end
+
+  spec.subspec 'Postbid' do |postbid|
+    postbid.dependency "BDMIABAdapter", "~> #{sdkVersion}"
+    postbid.dependency "mopub-ios-sdk", "~> #{networkVersion}"
+    postbid.source_files = 'Adapter/Postbid/*.{h,m}'   
+  end
+
+  
   spec.static_framework = true
-
   spec.pod_target_xcconfig = {
     "VALID_ARCHS": "arm64 armv7 armv7s x86_64",
     "VALID_ARCHS[sdk=iphoneos*]": "arm64 armv7 armv7s",
@@ -39,7 +55,4 @@ limitations under the License.
     "VALID_ARCHS[sdk=iphoneos*]": "arm64 armv7 armv7s",
     "VALID_ARCHS[sdk=iphonesimulator*]": "x86_64"
   }
-
-  spec.dependency 'BDMIABAdapter', '~> 1.8.0.0'
-  spec.dependency 'mopub-ios-sdk', '~> 5.18.0'
 end
