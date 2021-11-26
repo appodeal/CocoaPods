@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
                                 DESC
 
   spec.homepage                 = "https://bidmachine.io"
-  spec.license                  = { :type => 'GPL 3.0', :file => 'OMSDK_Appodeal/LICENSE' }
+  spec.license                  = { :type => 'GPL 3.0', :file => 'LICENSE' }
   spec.author                   = { "Stack" => "https://explorestack.com/bidmachine/" }
 
   spec.platform                 = :ios, '10.0'
