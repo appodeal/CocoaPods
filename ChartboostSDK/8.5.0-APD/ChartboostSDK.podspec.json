@@ -1,0 +1,42 @@
+{
+    "name": "ChartboostSDK",
+    "version": "8.5.0-APD",
+    "license": {
+        "type": "Commercial",
+        "text": "LICENSE © 2011-2020 Chartboost. All rights reserved. LICENSE"
+    },
+    "summary": "Chartboost iOS SDK.",
+    "homepage": "https://chartboost.com/",
+    "authors": {
+        "Chartboost": "https://chartboost.com/"
+    },
+    "source": {
+        "http": "https://appodeal-ios.s3.us-west-1.amazonaws.com/external-sdks/ChartboostSDK/8.5.0/ChartboostSDK.zip"
+    },
+    "description": "A technology platform that helps mobile game developers find new users and monetize their games.",
+    "documentation_url": "https://github.com/ChartBoost/ios-sdk-example/blob/master/README.md",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "weak_frameworks": "AdSupport",
+    "frameworks": [
+        "CoreGraphics",
+        "StoreKit",
+        "Foundation",
+        "UIKit",
+        "WebKit",
+        "AVFoundation",
+        "CoreMedia"
+    ],
+    "vendored_frameworks": "Chartboost.framework",
+    "pod_target_xcconfig": {
+        "OTHER_LDFLAGS": "-lObjC",
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64 arm64e armv7 armv7s",
+        "EXCLUDED_ARCHS[sdk=iphoneos*]": "i386 x86_64"
+    },
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64 arm64e armv7 armv7s",
+        "EXCLUDED_ARCHS[sdk=iphoneos*]": "i386 x86_64"
+    },
+    "requires_arc": false
+}
