@@ -30,7 +30,7 @@
       "= 4.4.1"
     ],
     "Appodeal": [
-      "= 2.11.0-Alpha"
+      "2.11.0-Alpha"
     ]
   },
   "pod_target_xcconfig": {
