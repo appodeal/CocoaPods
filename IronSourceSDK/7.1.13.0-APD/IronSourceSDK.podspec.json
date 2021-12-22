@@ -14,9 +14,6 @@
   "source": {
     "http": "https://appodeal-ios.s3.us-west-1.amazonaws.com/external-sdks/IronSourceSDK/7.1.13.0/IronSourceSDK.zip"
   },
-  "source_files": "IronSource/IronSource.xcframework/**/*.{h,m}",
-  "public_header_files": "IronSource/IronSource.xcframework/**/*.h",
-  "preserve_paths": "IronSource/IronSource.xcframework/*",
   "platforms": {
     "ios": "8.0"
   },
