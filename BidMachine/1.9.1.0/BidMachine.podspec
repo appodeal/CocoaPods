@@ -35,7 +35,7 @@ Pod::Spec.new do |spec|
   spec.default_subspec = 'Core'
   spec.subspec 'Core' do |ss|
     ss.vendored_frameworks = "BidMachine.xcframework"
-    ss.dependency 'StackAPI', '~> 0.7.1'
+    ss.dependency 'StackProtobuf', '~> 0.7.1'
     ss.dependency 'StackModules', '~> 1.1.11'
     ss.dependency 'Protobuf', '~> 3.9'
   end
