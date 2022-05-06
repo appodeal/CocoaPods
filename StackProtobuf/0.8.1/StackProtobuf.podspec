@@ -26,15 +26,7 @@ Pod::Spec.new do |spec|
   spec.pod_target_xcconfig = {
     "GCC_PREPROCESSOR_DEFINITIONS" => "$(inherited) GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1",
 
-    "VALID_ARCHS": "arm64 armv7 armv7s x86_64",
-    "VALID_ARCHS[sdk=iphoneos*]": "arm64 armv7 armv7s",
-    "VALID_ARCHS[sdk=iphonesimulator*]": "arm64 x86_64"
-  }
-  spec.user_target_xcconfig = {
-    "GCC_PREPROCESSOR_DEFINITIONS" => "$(inherited) GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1",
-
-    "VALID_ARCHS": "arm64 armv7 armv7s x86_64",
-    "VALID_ARCHS[sdk=iphoneos*]": "arm64 armv7 armv7s",
+    "VALID_ARCHS[sdk=iphoneos*]": "arm64 armv7",
     "VALID_ARCHS[sdk=iphonesimulator*]": "arm64 x86_64"
   }
 end
