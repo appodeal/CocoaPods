@@ -21,22 +21,15 @@ Pod::Spec.new do |spec|
   spec.swift_versions           = "4.0", "4.2", "5.0"
   
   spec.pod_target_xcconfig = {
-    "VALID_ARCHS": "arm64 armv7 armv7s x86_64",
-    "VALID_ARCHS[sdk=iphoneos*]": "arm64 armv7 armv7s",
-    "VALID_ARCHS[sdk=iphonesimulator*]": "x86_64"
-  }
-  
-  spec.user_target_xcconfig = {
-    "VALID_ARCHS": "arm64 armv7 armv7s x86_64",
-    "VALID_ARCHS[sdk=iphoneos*]": "arm64 armv7 armv7s",
-    "VALID_ARCHS[sdk=iphonesimulator*]": "x86_64"
+    "VALID_ARCHS[sdk=iphoneos*]": "arm64 armv7",
+    "VALID_ARCHS[sdk=iphonesimulator*]": "arm64 x86_64"
   }
 
   spec.default_subspec = 'Core'
   spec.subspec 'Core' do |ss|
     ss.vendored_frameworks = "BidMachine.xcframework"
-    ss.dependency 'StackProtobuf', '~> 0.8.0'
-    ss.dependency 'StackModules', '~> 1.2.0'
+    ss.dependency 'StackProtobuf', '~> 0.8.1'
+    ss.dependency 'StackModules', '~> 1.2.1'
     ss.dependency 'Protobuf', '~> 3.9'
   end
   
