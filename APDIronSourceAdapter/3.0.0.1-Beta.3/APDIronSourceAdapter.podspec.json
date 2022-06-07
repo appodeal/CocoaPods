@@ -15,7 +15,7 @@
     "ios": "10.0"
   },
   "source": {
-    "http": "https://s3-us-west-1.amazonaws.com/appodeal-ios/Appodeal/Modular/APDIronSourceAdapter/3.0.0.1-Beta/APDIronSourceAdapter.zip"
+    "http": "https://s3-us-west-1.amazonaws.com/appodeal-ios/Appodeal/Modular/APDIronSourceAdapter/3.0.0.1-Beta.3/APDIronSourceAdapter.zip"
   },
   "swift_versions": [
     "4.0",
@@ -23,22 +23,24 @@
     "5.0"
   ],
   "vendored_frameworks": [
-    "APDIronSourceAdapter-3.0.0.1-Beta/APDIronSourceAdapter.xcframework"
+    "APDIronSourceAdapter-3.0.0.1-Beta.3/APDIronSourceAdapter.xcframework"
   ],
   "dependencies": {
     "IronSourceSDK": [
       "= 7.2.1.2"
     ],
     "Appodeal": [
-      "3.0.0-Beta"
+      "3.0.0-Beta.3"
     ]
   },
   "pod_target_xcconfig": {
+    "OTHER_LDFLAGS": "-lObjC",
     "VALID_ARCHS[sdk=iphoneos*]": "arm64 armv7",
     "VALID_ARCHS[sdk=iphonesimulator*]": "x86_64"
   },
   "user_target_xcconfig": {
-    "OTHER_LDFLAGS": "-lObjC"
+    "OTHER_LDFLAGS": "-lObjC",
+    "VALID_ARCHS[sdk=iphonesimulator*]": "x86_64"
   },
   "swift_version": "5.0"
 }
