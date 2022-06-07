@@ -22,14 +22,6 @@
     "4.2",
     "5.0"
   ],
-  "pod_target_xcconfig": {
-    "OTHER_LDFLAGS": "-lObjC",
-    "VALID_ARCHS[sdk=iphoneos*]": "arm64 armv7",
-    "VALID_ARCHS[sdk=iphonesimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "OTHER_LDFLAGS": "-lObjC"
-  },
   "vendored_frameworks": [
     "Appodeal-3.0.0-Beta.3/Appodeal.xcframework",
     "Appodeal-3.0.0-Beta.3/AppodealMediationCoreObjC.xcframework"
@@ -50,6 +42,14 @@
     "StackIAB": [
       "~> 1.7.0"
     ]
+  },
+  "pod_target_xcconfig": {
+    "OTHER_LDFLAGS": "-lObjC",
+    "VALID_ARCHS[sdk=iphoneos*]": "arm64 armv7",
+    "VALID_ARCHS[sdk=iphonesimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "OTHER_LDFLAGS": "-lObjC"
   },
   "swift_version": "5.0"
 }
