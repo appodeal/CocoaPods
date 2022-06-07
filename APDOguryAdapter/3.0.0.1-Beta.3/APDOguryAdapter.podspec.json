@@ -39,9 +39,7 @@
     "VALID_ARCHS[sdk=iphonesimulator*]": "x86_64"
   },
   "user_target_xcconfig": {
-    "OTHER_LDFLAGS": "-lObjC",
-    "VALID_ARCHS[sdk=iphoneos*]": "arm64 armv7",
-    "VALID_ARCHS[sdk=iphonesimulator*]": "x86_64"
+    "OTHER_LDFLAGS": "-lObjC"
   },
   "swift_version": "5.0"
 }
