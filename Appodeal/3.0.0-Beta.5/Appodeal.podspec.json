@@ -40,7 +40,7 @@
       "~> 1.2.0"
     ],
     "StackIAB": [
-      "~> 1.7.0"
+      "1.8.0-Beta.0"
     ]
   },
   "pod_target_xcconfig": {
