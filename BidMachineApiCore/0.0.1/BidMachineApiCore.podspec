@@ -10,13 +10,13 @@ Pod::Spec.new do |spec|
                                 DESC
 
   spec.homepage                 = "https://bidmachine.io"
-  # spec.license                  = { :type => 'GPL 3.0', :file => 'LICENSE' }
-  spec.license                  = { :type => 'GPL 3.0', :file => 'BidMachineApiCoreRelease/LICENSE' }
+  spec.license                  = { :type => 'GPL 3.0', :file => 'LICENSE' }
+  # spec.license                  = { :type => 'GPL 3.0', :file => 'BidMachineApiCoreRelease/LICENSE' }
   spec.author                   = { "Stack" => "https://explorestack.com/bidmachine/" }
 
   spec.platform                 = :ios, '10.0'
-  spec.source                   = { :git => 'https://github.com/bidmachine/BidMachine-IOS-API-Core.git', :tag => "v#{spec.version}" }
-  # spec.source                   = { :http => "https://s3-us-west-1.amazonaws.com/appodeal-ios/BidMachineApiCore/#{spec.version}/BidMachineApiCore.zip" }
+  # spec.source                   = { :git => 'https://github.com/bidmachine/BidMachine-IOS-API-Core.git', :tag => "v#{spec.version}" }
+  spec.source                   = { :http => "https://s3-us-west-1.amazonaws.com/appodeal-ios/BidMachineApiCore/#{spec.version}/BidMachineApiCore.zip" }
   spec.swift_versions           = "4.0", "4.2", "5.0"
   spec.swift_version            = "5.0"
   spec.requires_arc             = true
@@ -29,10 +29,10 @@ Pod::Spec.new do |spec|
 
   spec.default_subspec = 'Core'
   spec.subspec 'Core' do |ss|
-    ss.source_files = "*/*.{swift}"
+    # ss.source_files = "*/*.{swift}"
     ss.dependency 'SwiftProtobuf', '~> 1.0'
 
-    # ss.vendored_frameworks = "BidMachineApiCore.xcframework"
+    ss.vendored_frameworks = "BidMachineApiCore.xcframework"
   end
   
 end
