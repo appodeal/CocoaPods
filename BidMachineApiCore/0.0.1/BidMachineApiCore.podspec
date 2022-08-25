@@ -12,8 +12,15 @@ Pod::Spec.new do |spec|
   spec.swift_version            = "5.0"
 
    
-  spec.source                   = { :git => 'https://github.com/bidmachine/BidMachine-IOS-API-Core.git', :tag => "v#{spec.version}" }
-  spec.source_files             = "*/*.{swift}"
+  spec.pod_target_xcconfig = {
+    "VALID_ARCHS": "arm64 armv7 x86_64",
+    "VALID_ARCHS[sdk=iphoneos*]": "arm64 armv7",
+    "VALID_ARCHS[sdk=iphonesimulator*]": "arm64 x86_64",
+    "OTHER_CFLAGS": "-fno-autolink"
+  }
+
+  spec.source                   = { :http => "https://s3-us-west-1.amazonaws.com/appodeal-ios/BidMachineApiCore/#{spec.version}/BidMachineApiCore.zip" }
+  spec.vendored_frameworks      = "BidMachineApiCore.xcframework"
   
   spec.dependency 'SwiftProtobuf', '~> 1.0'
 end
