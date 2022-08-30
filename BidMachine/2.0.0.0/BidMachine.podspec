@@ -3,20 +3,11 @@ Pod::Spec.new do |spec|
   spec.version                  = "2.0.0.0"
   spec.summary                  = "BidMachine iOS SDK"
 
-  spec.description              = <<-DESC
-                                Appodeal’s supply-side platform is designed and built by veteran publishers,for publishers. Appodeal is not an ad network; it is a new approach to monetizing for publishers.
-                                The platform is a large auction house, accompanied by a mediation layer, that exposes a publisher’s inventory to all available buyers on the market via relationships with every major ad network, RTB exchange, and DSP. Appodeal showcases publisher inventory to the advertiser, and offers the highest rate in real time.
-                                Appodeal's goal is to cater to the needs of the publisher, not the advertiser, so you always know that you're in good hands.
-                                DESC
-
   spec.homepage                 = "https://bidmachine.io"
   spec.license                  = { :type => 'GPL 3.0', :file => 'LICENSE' }
   spec.author                   = { "Stack" => "https://explorestack.com/bidmachine/" }
 
   spec.platform                 = :ios, '10.0'
-  spec.source                   = { :http => "https://s3-us-west-1.amazonaws.com/appodeal-ios/BidMachine/#{spec.version}/BidMachine.zip" }
-
-  spec.swift_versions           = "4.0", "4.2", "5.0"
   spec.swift_version            = "5.0"
   
   spec.pod_target_xcconfig = {
@@ -25,17 +16,14 @@ Pod::Spec.new do |spec|
     "VALID_ARCHS[sdk=iphonesimulator*]": "arm64 x86_64"
   }
 
-  spec.default_subspec = 'Core'
-  spec.subspec 'Core' do |ss|
-    ss.vendored_frameworks = "BidMachine.xcframework"
-    ss.vendored_frameworks = "BidMachineAdapterCore.xcframework"
+  spec.source                   = { :http => "https://s3-us-west-1.amazonaws.com/appodeal-ios/BidMachine/#{spec.version}/BidMachine.zip" }
+  spec.vendored_frameworks = "BidMachine.xcframework", "BidMachineAdapterCore.xcframework"
 
-    ss.dependency 'StackIAB', '~> 1.7.4'
-    ss.dependency 'StackModules', '~> 1.2.5'
+  spec.dependency 'StackIAB', '~> 1.7.4'
+  spec.dependency 'StackModules', '~> 1.2.5'
 
-    ss.dependency 'BidMachineApiCore', '~> 0.0.1'
-    ss.dependency 'BidMachineNetworkCore', '~> 0.0.1'
-    ss.dependency 'BidMachineDisplayCore', '~> 0.0.1'
-    ss.dependency 'BidMachineBiddingCore', '~> 0.0.1'    
-  end
+  spec.dependency 'BidMachineApiCore', '~> 0.0.1'
+  spec.dependency 'BidMachineNetworkCore', '~> 0.0.1'
+  spec.dependency 'BidMachineDisplayCore', '~> 0.0.1'
+  spec.dependency 'BidMachineBiddingCore', '~> 0.0.1' 
 end
