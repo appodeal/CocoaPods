@@ -7,9 +7,8 @@ Pod::Spec.new do |spec|
   spec.license                  = { :type => 'GPL 3.0', :file => 'LICENSE' }
   spec.author                   = { "Stack" => "https://explorestack.com/bidmachine/" }
 
-  spec.platform                 = :ios, '13.0'
-  # spec.swift_versions           = "4.0", "4.2", "5.0"
-  spec.swift_version            = "5.3"
+  spec.platform                 = :ios, '10.0'
+  spec.swift_version            = "5.0"
 
    
   spec.pod_target_xcconfig = {
@@ -19,7 +18,5 @@ Pod::Spec.new do |spec|
   }
 
   spec.source                   = { :http => "https://s3-us-west-1.amazonaws.com/appodeal-ios/BidMachineApiCore/#{spec.version}/BidMachineApiCore.zip" }
-  spec.vendored_frameworks    = "BidMachineApiCore.xcframework", "SwiftProtobuf.xcframework"
-  
-  # spec.dependency 'SwiftProtobuf', '~> 1.0'
+  spec.vendored_frameworks      = "BidMachineApiCore.xcframework", "SwiftProtobuf.xcframework"
 end
