@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.author                   = { "Stack" => "https://explorestack.com/bidmachine/" }
 
   spec.platform                 = :ios, '10.0'
-  spec.swift_version            = "5.0"
+  spec.swift_version            = "5.1"
   
   spec.pod_target_xcconfig = {
     "VALID_ARCHS": "arm64 armv7 x86_64",
