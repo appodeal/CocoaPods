@@ -27,13 +27,13 @@
   ],
   "dependencies": {
     "Firebase/Core": [
-      "~> 9.5.0"
+      "~> 9.4.0"
     ],
     "Firebase/Analytics": [
-      "~> 9.5.0"
+      "~> 9.4.0"
     ],
     "Firebase/RemoteConfig": [
-      "~> 9.5.0"
+      "~> 9.4.0"
     ],
     "GoogleAppMeasurement": [
 
