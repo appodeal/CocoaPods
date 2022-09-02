@@ -13,12 +13,13 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'GPL 3.0', :file => 'LICENSE' }
   s.author       = { "Stack" => "http://www.explorestack.com" }
 
-  s.platform     = :ios, '9.0'
+  s.platform     = :ios, '10.0'
   s.source       = { :http => "https://s3-us-west-1.amazonaws.com/appodeal-ios/StackModules/#{s.version}/StackModules.zip" }
 
   s.default_subspec   = "StackProductPresentation"
   s.static_framework  = true
-  s.swift_versions    = "4.0", "4.2", "5.0"
+  s.swift_versions    = "4.0", "4.2", "5.0", "5.1"
+  s.swift_version = "5.1"
 
   s.subspec 'StackFoundation' do |ss|
     ss.vendored_frameworks = 'StackFoundation.xcframework'
