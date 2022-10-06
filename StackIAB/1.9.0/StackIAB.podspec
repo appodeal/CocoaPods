@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.source       = { :http => "https://s3-us-west-1.amazonaws.com/appodeal-ios/StackIAB/v#{s.version}/StackIAB.zip"  }
   s.platform     = :ios, '10.0'
 
-  s.dependency 'StackModules', '~> 1.3.0'
+  s.dependency 'StackModules', '~> 1.3.1'
   s.source_files = "Dummy.swift"
   s.swift_versions = "4.0", "4.2", "5.0", "5.1"
   s.swift_version = "5.1"
