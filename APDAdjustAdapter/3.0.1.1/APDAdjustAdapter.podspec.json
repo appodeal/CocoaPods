@@ -37,7 +37,6 @@
     ]
   },
   "pod_target_xcconfig": {
-    "ENABLE_BITCODE": "YES",
     "OTHER_LDFLAGS": "-lObjC",
     "VALID_ARCHS[sdk=iphoneos*]": "arm64 armv7",
     "VALID_ARCHS[sdk=iphonesimulator*]": "x86_64 arm64"
