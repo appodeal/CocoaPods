@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
   }
 
   spec.source = { :http => "https://s3-us-west-1.amazonaws.com/appodeal-ios/#{spec.name}/#{spec.version}/#{spec.name}.zip" }
-  spec.vendored_frameworks = "#{spec.name}.xcframework", "BidMachineDataBase.xcframework"
+  spec.vendored_frameworks = "#{spec.name}.xcframework", "BidMachineDataBase.xcframework" , "BidMachineAnalyticsWrapper.xcframework"
   spec.dependency 'BidMachineApiCore', '~> 0.0.3'
   spec.dependency 'BidMachineNetworkCore', '~> 0.0.1'
   
