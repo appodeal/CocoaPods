@@ -29,36 +29,6 @@
     "BidMachine": [
       "= 2.0.0.5"
     ],
-    "BidMachineAdColonyAdapter": [
-      "~> 2.0.0.0"
-    ],
-    "BidMachineAmazonAdapter": [
-      "~> 2.0.0.0"
-    ],
-    "BidMachineCriteoAdapter": [
-      "~> 2.0.0.0"
-    ],
-    "BidMachineMetaAudienceAdapter": [
-      "~> 2.0.0.0"
-    ],
-    "BidMachineMyTargetAdapter": [
-      "~> 2.0.0.2"
-    ],
-    "BidMachineSmaatoAdapter": [
-      "~> 2.0.0.0"
-    ],
-    "BidMachineTapjoyAdapter": [
-      "~> 2.0.0.0"
-    ],
-    "BidMachineVungleAdapter": [
-      "~> 2.0.0.1"
-    ],
-    "BidMachinePangleAdapter": [
-      "~> 2.0.0.0"
-    ],
-    "BidMachineNotsyAdapter": [
-      "~> 2.0.0.4"
-    ],
     "GoogleAppMeasurement": [
 
     ],
