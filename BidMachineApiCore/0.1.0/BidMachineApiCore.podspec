@@ -1,37 +1,23 @@
 Pod::Spec.new do |spec|
   spec.name                     = "BidMachineApiCore"
   spec.version                  = "0.1.0"
-  spec.summary                  = "Api proto && sources"
+  spec.summary                  = "BidMAchine Api sources"
 
   spec.homepage                 = "https://bidmachine.io"
   spec.license                  = { :type => 'GPL 3.0', :file => 'LICENSE' }
   spec.author                   = { "Stack" => "https://explorestack.com/bidmachine/" }
 
-  spec.platform                 = :ios, '10.0'
+  spec.platform                 = :ios, '12.0'
   spec.swift_version            = "5.1"
 
    
   spec.pod_target_xcconfig = {
-    "VALID_ARCHS": "arm64 armv7 x86_64",
-    "VALID_ARCHS[sdk=iphoneos*]": "arm64 armv7",
+    "VALID_ARCHS": "arm64 x86_64",
+    "VALID_ARCHS[sdk=iphoneos*]": "arm64",
     "VALID_ARCHS[sdk=iphonesimulator*]": "arm64 x86_64"
   }
 
   spec.source                   = { :http => "https://s3-us-west-1.amazonaws.com/appodeal-ios/#{spec.name}/#{spec.version}/#{spec.name}.zip" }
   
-  spec.default_subspecs = "Core"
-
-  spec.subspec 'Core' do |ss|
-    ss.dependency "BidMachineApiCore/Proto"
-    ss.dependency "BidMachineApiCore/Kit"
-  end
-  
-  spec.subspec 'Proto' do |ss|
-    ss.vendored_frameworks = "BidMachineApiProto.xcframework", "SwiftProtobuf.xcframework"
-    ss.dependency "BidMachineApiCore/Kit"
-  end
-
-  spec.subspec 'Kit' do |ss|
-    ss.vendored_frameworks = "BidMachineApiKit.xcframework"
-  end
+  spec.vendored_frameworks = "BidMachineApiCore.xcframework"
 end 
