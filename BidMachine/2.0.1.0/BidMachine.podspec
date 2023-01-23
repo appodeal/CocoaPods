@@ -7,12 +7,12 @@ Pod::Spec.new do |spec|
   spec.license                  = { :type => 'GPL 3.0', :file => 'LICENSE' }
   spec.author                   = { "Stack" => "https://explorestack.com/bidmachine/" }
 
-  spec.platform                 = :ios, '10.0'
+  spec.platform                 = :ios, '12.0'
   spec.swift_version            = "5.1"
   
   spec.pod_target_xcconfig = {
-    "VALID_ARCHS": "arm64 armv7 x86_64",
-    "VALID_ARCHS[sdk=iphoneos*]": "arm64 armv7",
+    "VALID_ARCHS": "arm64 x86_64",
+    "VALID_ARCHS[sdk=iphoneos*]": "arm64",
     "VALID_ARCHS[sdk=iphonesimulator*]": "arm64 x86_64"
   }
 
@@ -23,6 +23,7 @@ Pod::Spec.new do |spec|
   spec.dependency 'StackModules', '~> 1.3.1'
 
   spec.dependency 'BidMachineApiCore', '~> 0.1.0'
+  spec.dependency 'BidMachineProtoCore', '~> 0.1.0'
   spec.dependency 'BidMachineNetworkCore', '~> 0.1.0'
   spec.dependency 'BidMachineDisplayCore', '~> 0.2.0'
   spec.dependency 'BidMachineBiddingCore', '~> 0.1.0'
