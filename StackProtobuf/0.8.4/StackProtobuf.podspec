@@ -8,9 +8,9 @@ Pod::Spec.new do |spec|
                    DESC
 
   spec.homepage     = "https://appodealstack.com"
-  spec.license      = { 
-    :type => "Copyright", 
-    :text => "Copyright #{Time.new.year}. Appodeal, Inc." 
+  spec.license      =  {
+    :type => "Commercial License",
+    :text => "Copyright #{Time.new.year}. Appodeal Inc. All rights reserved.\nThe #{spec.name} is available under a commercial license (https://appodeal.com/sdk-license-agreement)."
   }
   
   spec.author       = { "Stack iOS Team" => "https://appodealstack.com" }
