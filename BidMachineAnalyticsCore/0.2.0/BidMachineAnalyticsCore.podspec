@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
   spec.summary                  = "Analytics module"
 
   spec.homepage                 = "https://bidmachine.io"
-  spec.license                  = { :type => 'GPL 3.0', :file => 'LICENSE' }
+  spec.license                  = { :type => 'Commercial', :text => 'https://bidmachine.io/sdk-license-agreement/' }
   spec.author                   = { "Stack" => "https://explorestack.com/bidmachine/" }
 
   spec.platform                 = :ios, '12.0'
