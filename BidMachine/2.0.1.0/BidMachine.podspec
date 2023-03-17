@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
   spec.summary                  = "BidMachine iOS SDK"
 
   spec.homepage                 = "https://bidmachine.io"
-  spec.license                  = { :type => 'GPL 3.0', :file => 'LICENSE' }
+  spec.license                  = { :type => 'Commercial', :text => 'https://bidmachine.io/sdk-license-agreement/' }
   spec.author                   = { "Stack" => "https://explorestack.com/bidmachine/" }
 
   spec.platform                 = :ios, '12.0'
@@ -19,13 +19,13 @@ Pod::Spec.new do |spec|
   spec.source                   = { :http => "https://s3-us-west-1.amazonaws.com/appodeal-ios/#{spec.name}/#{spec.version}/#{spec.name}.zip" }
   spec.vendored_frameworks = "#{spec.name}.xcframework", "BidMachineAdapterCore.xcframework"
 
-  spec.dependency 'StackIAB', '~> 2.0.0'
-  spec.dependency 'StackModules', '~> 1.3.1'
+  spec.dependency 'StackIAB', '~> 2.0.7'
+  spec.dependency 'StackModules', '~> 1.4.2'
 
-  spec.dependency 'BidMachineApiCore', '~> 0.1.0'
-  spec.dependency 'BidMachineProtoCore', '~> 0.1.0'
-  spec.dependency 'BidMachineNetworkCore', '~> 0.1.0'
-  spec.dependency 'BidMachineDisplayCore', '~> 0.2.0'
-  spec.dependency 'BidMachineBiddingCore', '~> 0.1.0'
-  spec.dependency 'BidMachineAnalyticsCore', '~> 0.2.0'
+  spec.dependency 'BidMachineApiCore', '~> 0.2.0'
+  spec.dependency 'BidMachineProtoCore', '~> 0.2.0'
+  spec.dependency 'BidMachineNetworkCore', '~> 0.2.0'
+  spec.dependency 'BidMachineDisplayCore', '~> 0.3.0'
+  spec.dependency 'BidMachineBiddingCore', '~> 0.2.0'
+  spec.dependency 'BidMachineAnalyticsCore', '~> 0.3.0'
 end
