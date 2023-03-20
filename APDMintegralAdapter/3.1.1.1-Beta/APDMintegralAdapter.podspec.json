@@ -27,16 +27,7 @@
   ],
   "dependencies": {
     "MintegralAdSDK": [
-      "= 7.0.5.0"
-    ],
-    "MintegralAdSDK/RewardVideoAd": [
-      "= 7.0.5.0"
-    ],
-    "MintegralAdSDK/InterstitialVideoAd": [
-      "= 7.0.5.0"
-    ],
-    "MintegralAdSDK/InterstitialAd": [
-      "= 7.0.5.0"
+      "~> 7.3.3"
     ],
     "Appodeal": [
       "3.1.1-Beta"
