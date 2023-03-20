@@ -12,7 +12,7 @@
     "Appodeal, Inc": "https://appodeal.com"
   },
   "platforms": {
-    "ios": "11.0"
+    "ios": "12.0"
   },
   "source": {
     "http": "https://s3-us-west-1.amazonaws.com/appodeal-ios/Appodeal/Modular/APDBidMachineAdapter/3.1.1.1-Beta/APDBidMachineAdapter.zip"
@@ -27,7 +27,7 @@
   ],
   "dependencies": {
     "BidMachine": [
-      "= 2.0.0.5"
+      "= 2.0.1.0"
     ],
     "GoogleUtilities": [
 
