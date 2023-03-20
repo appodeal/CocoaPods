@@ -27,7 +27,7 @@
   ],
   "dependencies": {
     "VungleSDK-iOS": [
-      "= 6.12.1"
+      "= 6.12.3"
     ],
     "Appodeal": [
       "3.1.1-Beta"
