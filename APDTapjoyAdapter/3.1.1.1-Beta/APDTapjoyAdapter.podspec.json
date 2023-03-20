@@ -27,7 +27,7 @@
   ],
   "dependencies": {
     "TapjoySDK": [
-      "~> 12.10.0"
+      "~> 12.11Vunge.0"
     ],
     "Appodeal": [
       "3.1.1-Beta"
