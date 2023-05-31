@@ -15,7 +15,7 @@
     "ios": "12.0"
   },
   "source": {
-    "http": "https://s3-us-west-1.amazonaws.com/appodeal-ios/Appodeal/Modular/APDBidonAdapter/3.1.4-alpha.1/APDBidonAdapter.zip"
+    "http": "https://s3-us-west-1.amazonaws.com/appodeal-ios/Appodeal/Modular/APDBidonAdapter/3.1.4.1-alpha.1/APDBidonAdapter.zip"
   },
   "swift_versions": [
     "4.0",
@@ -23,7 +23,7 @@
     "5.0"
   ],
   "vendored_frameworks": [
-    "APDBidonAdapter-3.1.4-alpha.1/APDBidonAdapter.xcframework"
+    "APDBidonAdapter-3.1.4.1-alpha.1/APDBidonAdapter.xcframework"
   ],
   "dependencies": {
     "Bidon": [
@@ -39,7 +39,7 @@
 
     ],
     "Appodeal": [
-
+      "3.1.4-alpha.1"
     ]
   },
   "pod_target_xcconfig": {
