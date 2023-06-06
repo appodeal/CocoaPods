@@ -27,13 +27,13 @@
   ],
   "dependencies": {
     "Firebase/Core": [
-      "~> 10.7.0"
+      "~> 10.7"
     ],
     "Firebase/Analytics": [
-      "~> 10.7.0"
+      "~> 10.7"
     ],
     "Firebase/RemoteConfig": [
-      "~> 10.7.0"
+      "~> 10.7"
     ],
     "GoogleUtilities": [
 
