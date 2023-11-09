@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
   sourceName               = "BidMachineAmazonAdapter"
   adapterPath              = "0"
   sdkPath                  = "2.4.0"
-  networkVersion           = "4.7.1"
+  networkVersion           = "4.7.6"
 
   spec.name                = "#{sourceName}"
   spec.version             = "#{sdkPath}.#{adapterPath}"
