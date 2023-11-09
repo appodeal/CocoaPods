@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
   sourceName               = "BidMachineMintegralAdapter"
   adapterPath              = "0"
   sdkPath                  = "2.4.0"
-  networkVersion           = "7.4.4"
+  networkVersion           = "7.4.8"
 
   spec.name                = "#{sourceName}"
   spec.version             = "#{sdkPath}.#{adapterPath}"
