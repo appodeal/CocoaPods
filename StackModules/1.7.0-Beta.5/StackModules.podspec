@@ -30,6 +30,7 @@ Pod::Spec.new do |s|
   s.swift_version = "5.1"
 
   s.subspec 'StackFoundation' do |ss|
+    ss.resources = ['StackFoundation.xcframework/ios-arm64/**/*.bundle']
     ss.vendored_frameworks = 'StackFoundation.xcframework'
     ss.library = 'z'
     ss.frameworks = 'SafariServices', 'StoreKit', 'WebKit', 'CoreTelephony', 'SystemConfiguration', 'AdSupport', 'CoreLocation', 'MobileCoreServices', 'AVFoundation', 'AudioToolbox', 'UIKit', 'ImageIO', 'CoreGraphics'
