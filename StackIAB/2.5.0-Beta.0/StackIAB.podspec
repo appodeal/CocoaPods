@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
   }
 
   spec.source                   = { :http => "https://s3-us-west-1.amazonaws.com/appodeal-ios/#{spec.name}/#{spec.version}/#{spec.name}.zip" }
-  spec.dependency 'StackModules', '~> 1.6.0'
+  spec.dependency 'StackModules', '~> 1.7.0-Beta.0'
   spec.static_framework = true
 
   spec.user_target_xcconfig = {
