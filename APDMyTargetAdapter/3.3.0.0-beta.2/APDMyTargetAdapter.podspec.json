@@ -12,7 +12,7 @@
     "Appodeal, Inc": "https://appodeal.com"
   },
   "platforms": {
-    "ios": "13.0"
+    "ios": "12.4"
   },
   "source": {
     "http": "https://s3-us-west-1.amazonaws.com/appodeal-ios/Appodeal/Modular/APDMyTargetAdapter/3.3.0.0-beta.2/APDMyTargetAdapter.zip"
