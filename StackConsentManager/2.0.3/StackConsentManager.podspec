@@ -24,6 +24,9 @@ Pod::Spec.new do |s|
   s.library = 'z'
   s.vendored_frameworks = 'StackConsentManager.xcframework'
   s.dependency 'GoogleUserMessagingPlatform', '~> 2.1'
+  s.resource_bundles = {
+    'ConsentPrivacyInfo' => ['StackConsentManager.xcframework/ios-arm64/**/*.xcprivacy']
+  }
 
   s.pod_target_xcconfig = {
     "VALID_ARCHS[sdk=iphoneos*]": "arm64 armv7",
