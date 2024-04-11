@@ -27,7 +27,7 @@
   ],
   "dependencies": {
     "Sentry": [
-      "= 8.23.0"
+      "= 8.21.0"
     ],
     "Appodeal": [
       "3.3.0-test.beta.4"
