@@ -24,6 +24,6 @@ Pod::Spec.new do |spec|
   
   spec.subspec 'Dynamic' do |ss|
     ss.vendored_frameworks = 'Dynamic/BidMachine.xcframework'
-    ss.dependency 'StackModules/Static', '2.0.0-beta.3'
+    ss.dependency 'StackModules/Dynamic', '2.0.0-beta.3'
   end
 end
