@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '10.0'
   s.source       = { 
-    :http => "https://s3-us-west-1.amazonaws.com/appodeal-ios/StackModules/1.7.2/StackModules.zip"
+    :http => "https://s3-us-west-1.amazonaws.com/appodeal-ios/StackModules/#{s.version}/StackModules.zip"
   }
 
   s.default_subspec   = "StackProductPresentation"
