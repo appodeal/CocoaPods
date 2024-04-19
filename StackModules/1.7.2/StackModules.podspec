@@ -30,20 +30,20 @@ Pod::Spec.new do |s|
   s.swift_version = "5.1"
 
   s.subspec 'StackFoundation' do |ss|
-    ss.resource_bundle = { "StackFoundation" => 'StackFoundation.bundle' }
+    ss.resource_bundle = { "StackFoundation" => 'StackFoundation.bundle/PrivacyInfo.xcprivacy' }
     ss.vendored_frameworks = 'StackFoundation.xcframework'
     ss.library = 'z'
     ss.frameworks = 'SafariServices', 'StoreKit', 'WebKit', 'CoreTelephony', 'SystemConfiguration', 'AdSupport', 'CoreLocation', 'MobileCoreServices', 'AVFoundation', 'AudioToolbox', 'UIKit', 'ImageIO', 'CoreGraphics'
   end
 
   s.subspec 'StackUIKit'  do |ss|
-    ss.resource_bundle = { "StackUIKit" => 'StackUIKit.bundle' }
+    ss.resource_bundle = { "StackUIKit" => 'StackUIKit.bundle/PrivacyInfo.xcprivacy' }
     ss.vendored_frameworks = 'StackUIKit.xcframework'
     ss.dependency'StackModules/StackFoundation'
   end
 
   s.subspec 'StackProductPresentation'  do |ss|
-    ss.resource_bundle = { "StackProductPresentation" => 'StackProductPresentation.bundle' }
+    ss.resource_bundle = { "StackProductPresentation" => 'StackProductPresentation.bundle/PrivacyInfo.xcprivacy' }
     ss.vendored_frameworks = 'StackProductPresentation.xcframework'
     ss.source_files = "Dummy.swift"
     ss.dependency'StackModules/StackUIKit'
