@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
   sourceName               = "BidMachineIronSourceCustomAdapter"
   adapterPath              = "0"
   sdkPath                  = "2.7"
-  networkVersion           = "7.9.0"
+  networkVersion           = "8.0.0"
 
   spec.name                = "#{sourceName}"
   spec.version             = "#{sdkPath}.#{adapterPath}"
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks = "#{sourceName}.xcframework"
   spec.resources = "#{sourceName}.bundle"
 
-  spec.dependency "BidMachine", "~> #{sdkPath}.0-beta.0"
+  spec.dependency "BidMachine", "~> #{sdkPath}.0"
   spec.dependency "IronSourceSDK", "~> #{networkVersion}"
 
 end
