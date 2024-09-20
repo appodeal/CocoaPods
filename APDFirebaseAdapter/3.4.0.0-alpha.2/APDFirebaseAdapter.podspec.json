@@ -27,13 +27,13 @@
   ],
   "dependencies": {
     "Firebase/Core": [
-      "~> 11.2"
+      "~> 11.0"
     ],
     "Firebase/Analytics": [
-      "~> 11.2"
+      "~> 11.0"
     ],
     "Firebase/RemoteConfig": [
-      "~> 11.2"
+      "~> 11.0"
     ],
     "GoogleUtilities": [
 
