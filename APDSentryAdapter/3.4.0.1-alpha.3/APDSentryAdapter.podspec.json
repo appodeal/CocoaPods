@@ -34,7 +34,7 @@
     ]
   },
   "pod_target_xcconfig": {
-    "OTHER_LDFLAGS": "$(inherited) -ObjC -lc++ -lswiftCore -lswiftFoundation -lswiftCoreGraphics -lswiftCoreFoundation -lswiftObjectiveC -lswiftDispatch",
+    "OTHER_LDFLAGS": "$(inherited)",
     "VALID_ARCHS[sdk=iphoneos*]": "arm64 armv7",
     "VALID_ARCHS[sdk=iphonesimulator*]": "x86_64 arm64"
   },
