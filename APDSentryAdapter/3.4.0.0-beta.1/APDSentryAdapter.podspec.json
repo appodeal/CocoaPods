@@ -34,12 +34,12 @@
     ]
   },
   "pod_target_xcconfig": {
-    "OTHER_LDFLAGS": "-lObjC",
+    "OTHER_LDFLAGS": "$(inherited)",
     "VALID_ARCHS[sdk=iphoneos*]": "arm64 armv7",
     "VALID_ARCHS[sdk=iphonesimulator*]": "x86_64 arm64"
   },
   "user_target_xcconfig": {
-    "OTHER_LDFLAGS": "-lObjC"
+    "OTHER_LDFLAGS": "$(inherited)"
   },
   "swift_version": "5.0"
 }
