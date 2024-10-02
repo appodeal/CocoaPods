@@ -20,16 +20,8 @@
   "swift_versions": [
     "4.0",
     "4.2",
-    "5.0",
-    "5.5"
+    "5.0"
   ],
-  "pod_target_xcconfig": {
-     "GCC_ENABLE_CPP_EXCEPTIONS": "YES",
-     "CLANG_CXX_LANGUAGE_STANDARD": "c++14",
-     "CLANG_CXX_LIBRARY": "libc++",
-     "APPLICATION_EXTENSION_API_ONLY": "YES",
-     "SWIFT_INCLUDE_PATHS": "${PODS_TARGET_SRCROOT}/Sources/Sentry/include"
-   },
   "vendored_frameworks": [
     "APDSentryAdapter-3.4.0.0-beta.1/APDSentryAdapter.xcframework"
   ],
@@ -41,5 +33,13 @@
       "3.4.0-beta.1"
     ]
   },
-  "swift_version": "5.5"
+  "pod_target_xcconfig": {
+    "OTHER_LDFLAGS": "-lObjC",
+    "VALID_ARCHS[sdk=iphoneos*]": "arm64 armv7",
+    "VALID_ARCHS[sdk=iphonesimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "OTHER_LDFLAGS": "-lObjC"
+  },
+  "swift_version": "5.0"
 }
