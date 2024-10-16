@@ -34,11 +34,11 @@
     ]
   },
   "pod_target_xcconfig": {
-    "OTHER_LDFLAGS": "$(inherited) -lObjC",
-    "ARCHS": "$(ARCHS_STANDARD)"
-  },
-  "user_target_xcconfig": {
-    "OTHER_LDFLAGS": "$(inherited) -lObjC"
-  },
+      "OTHER_LDFLAGS": "$(inherited) -lObjC",
+      "ARCHS": "$(ARCHS_STANDARD)"
+    },
+    "user_target_xcconfig": {
+      "OTHER_LDFLAGS": "$(inherited) -lObjC"
+    },
   "swift_version": "5.0"
 }
