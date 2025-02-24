@@ -27,7 +27,7 @@
   ],
   "dependencies": {
     "AppsFlyerFramework": [
-      "~> 6.15.3"
+      "~> 6.15.2"
     ],
     "Appodeal": [
       "3.5.0-alpha.4"
