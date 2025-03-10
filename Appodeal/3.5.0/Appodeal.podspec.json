@@ -30,7 +30,9 @@
     "Appodeal-3.5.0/AppodealMediationCore.xcframework"
   ],
   "dependencies": {
-    "Protobuf": [],
+    "Protobuf": [
+      "= 3.29.3"
+    ],
     "StackConsentManager": [
       "~> 2.0.10"
     ],
