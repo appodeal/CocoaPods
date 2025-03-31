@@ -26,63 +26,14 @@
     "APDLevelPlayAdapter-3.5.1.0/APDLevelPlayAdapter.xcframework"
   ],
   "dependencies": {
-    "IronSourceSDK": [
-      "= 8.7.0.0"
-    ],
-    "IronSourceAppLovinAdapter": [
-
-    ],
-    "IronSourceAPSAdapter": [
-
-    ],
-    "IronSourceBigoAdapter": [
-
-    ],
-    "IronSourceFyberAdapter": [
-
-    ],
-    "IronSourceAdMobAdapter": [
-
-    ],
-    "IronSourceInMobiAdapter": [
-
-    ],
-    "IronSourceVungleAdapter": [
-
-    ],
-    "IronSourceFacebookAdapter": [
-
-    ],
-    "IronSourceMintegralAdapter": [
-
-    ],
-    "MintegralAdSDK/BidSplashAd": [
-
-    ],
-    "IronSourceMobileFuseAdapter": [
-
-    ],
-    "IronSourceMolocoAdapter": [
-
-    ],
-    "IronSourceOguryAdapter": [
-
-    ],
-    "IronSourcePangleAdapter": [
-
-    ],
-    "IronSourceSmaatoAdapter": [
-
-    ],
-    "IronSourceUnityAdsAdapter": [
-
-    ],
-    "IronSourceVerveAdapter": [
-
-    ],
-    "IronSourceMyTargetAdapter": [
-
-    ],
+      "IronSourceSDK": [
+        "= 8.7.0.0"
+      ],
+      "MintegralAdSDK": [
+        "~> 7.7.6"
+      ],
+      "MintegralAdSDK/BidSplashAd": [
+      ],
     "Appodeal": [
       "3.5.1"
     ]
