@@ -27,7 +27,7 @@
   ],
   "dependencies": {
     "Adjust": [
-      "~> 5.1.1"
+      "= 5.1.1"
     ],
     "AdjustPurchase": [
       "= 1.0.1"
