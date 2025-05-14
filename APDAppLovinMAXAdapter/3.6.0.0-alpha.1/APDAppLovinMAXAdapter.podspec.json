@@ -29,21 +29,6 @@
     "AppLovinSDK": [
       "~> 13.1.0"
     ],
-    "GoogleUtilities": [
-
-    ],
-    "GoogleAppMeasurement": [
-
-    ],
-    "GoogleUserMessagingPlatform": [
-
-    ],
-    "MintegralAdSDK": [
-      "~> 7.7.6"
-    ],
-    "MintegralAdSDK/BidSplashAd": [
-
-    ],
     "Bidon": [
       "~> 0.7.16"
     ],
