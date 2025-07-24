@@ -27,7 +27,7 @@
   ],
   "dependencies": {
     "myTargetSDK": [
-      "= 5.29.1"
+      "= 5.32.1"
     ],
     "Appodeal": [
       "3.8.1"
