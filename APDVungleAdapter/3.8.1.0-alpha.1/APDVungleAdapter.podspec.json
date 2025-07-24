@@ -27,7 +27,7 @@
   ],
   "dependencies": {
     "VungleAds": [
-      "= 7.5.0"
+      "= 7.5.1"
     ],
     "Appodeal": [
       "3.8.1-alpha.1"
