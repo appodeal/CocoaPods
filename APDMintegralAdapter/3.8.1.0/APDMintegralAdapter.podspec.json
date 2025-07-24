@@ -29,9 +29,7 @@
     "MintegralAdSDK": [
       "= 7.7.7"
     ],
-    "MintegralAdSDK/BidSplashAd": [
-
-    ],
+    "MintegralAdSDK/BidSplashAd": [],
     "Appodeal": [
       "3.8.1"
     ]
