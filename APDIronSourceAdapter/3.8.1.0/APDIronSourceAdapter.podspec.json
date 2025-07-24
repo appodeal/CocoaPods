@@ -27,7 +27,7 @@
   ],
   "dependencies": {
     "IronSourceSDK": [
-      "= 8.8.0.0"
+      "= 8.10.0.0"
     ],
     "Appodeal": [
       "3.8.1"
