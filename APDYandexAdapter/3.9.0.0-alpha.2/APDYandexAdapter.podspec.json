@@ -26,6 +26,12 @@
     "APDYandexAdapter-3.9.0.0-alpha.2/APDYandexAdapter.xcframework"
   ],
   "dependencies": {
+    "DivKit": [
+      "= 32.6.0"
+    ],
+    "YandexMobileAds": [
+      "~> 7.14.1"
+    ],
     "Appodeal": [
       "3.9.0-alpha.2"
     ]
