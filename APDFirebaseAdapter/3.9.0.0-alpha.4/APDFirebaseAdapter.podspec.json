@@ -27,23 +27,17 @@
   ],
   "dependencies": {
     "Firebase/Core": [
-      "= 12.1.0"
+      "= 12.0.0"
     ],
     "Firebase/Analytics": [
-      "= 12.1.0"
+      "= 12.0.0"
     ],
     "Firebase/RemoteConfig": [
-      "= 12.1.0"
+      "= 12.0.0"
     ],
-    "GoogleUtilities": [
-
-    ],
-    "GoogleAppMeasurement": [
-
-    ],
-    "GoogleUserMessagingPlatform": [
-
-    ],
+    "GoogleUtilities": [],
+    "GoogleAppMeasurement": [],
+    "GoogleUserMessagingPlatform": [],
     "Appodeal": [
       "3.9.0-alpha.4"
     ]
