@@ -27,10 +27,10 @@
   ],
   "dependencies": {
     "AppsFlyerFramework": [
-      "= 6.17.2"
+      "= 6.17.1"
     ],
     "PurchaseConnector": [
-      "= 6.17.2"
+      "= 6.17.1"
     ],
     "Appodeal": [
       "3.9.0-alpha.4"
