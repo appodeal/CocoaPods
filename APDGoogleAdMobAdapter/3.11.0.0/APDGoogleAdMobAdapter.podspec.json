@@ -15,7 +15,7 @@
     "ios": "12.0"
   },
   "source": {
-    "http": "https://s3-us-west-1.amazonaws.com/appodeal-ios/Appodeal/Modular/AppodealGoogleAdMobAdapter/12.8.0.0/AppodealGoogleAdMobAdapter.zip"
+    "http": "https://s3-us-west-1.amazonaws.com/appodeal-ios/Appodeal/Modular/APDGoogleAdMobAdapter/3.11.0.0/APDGoogleAdMobAdapter.zip"
   },
   "swift_versions": [
     "4.0",
@@ -23,11 +23,23 @@
     "5.0"
   ],
   "vendored_frameworks": [
-    "AppodealGoogleAdMobAdapter-12.8.0.0/AppodealGoogleAdMobAdapter.xcframework"
+    "APDGoogleAdMobAdapter-3.11.0.0/APDGoogleAdMobAdapter.xcframework"
   ],
   "dependencies": {
     "Google-Mobile-Ads-SDK": [
       "= 12.8.0"
+    ],
+    "GoogleUtilities": [
+
+    ],
+    "GoogleAppMeasurement": [
+
+    ],
+    "GoogleUserMessagingPlatform": [
+
+    ],
+    "Bidon": [
+      "= 0.12.0"
     ],
     "Appodeal": [
       "3.11.0"
