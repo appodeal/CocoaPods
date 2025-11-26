@@ -15,7 +15,7 @@
     "ios": "12.0"
   },
   "source": {
-    "http": "https://s3-us-west-1.amazonaws.com/appodeal-ios/Appodeal/Modular/AppodealAppLovinAdapter/13.5.1.0-alpha.1/AppodealAppLovinAdapter.zip"
+    "http": "https://s3-us-west-1.amazonaws.com/appodeal-ios/Appodeal/Modular/AppodealAppLovinAdapter/13.5.0.0-alpha.1/AppodealAppLovinAdapter.zip"
   },
   "swift_versions": [
     "4.0",
@@ -23,11 +23,11 @@
     "5.0"
   ],
   "vendored_frameworks": [
-    "AppodealAppLovinAdapter-13.5.1.0-alpha.1/AppodealAppLovinAdapter.xcframework"
+    "AppodealAppLovinAdapter-13.5.0.0-alpha.1/AppodealAppLovinAdapter.xcframework"
   ],
   "dependencies": {
     "AppLovinSDK": [
-      "= 13.5.1"
+      "= 13.5.0"
     ],
     "Appodeal": [
       "3.12.0-alpha.1"
