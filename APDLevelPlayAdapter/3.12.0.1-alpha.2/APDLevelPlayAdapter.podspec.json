@@ -31,6 +31,9 @@
     ],
     "Appodeal": [
       "3.12.0-alpha.2"
+    ],
+    "AppLovinSDK": [
+      "13.5.1"
     ]
   },
   "pod_target_xcconfig": {
