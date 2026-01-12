@@ -37,7 +37,7 @@
       "= 3.0.0"
     ],
     "StackModules": [
-      "= 3.4.1"
+      "= 3.4.5"
     ]
   },
   "pod_target_xcconfig": {
