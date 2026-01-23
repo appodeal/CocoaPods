@@ -6,7 +6,7 @@
   "homepage": "https://appodeal.com",
   "license": {
     "type": "Commercial License",
-    "text": "Copyright 2025. Appodeal Inc. All rights reserved.\nThe AppodealSmaatoAdapter is available under a commercial license (https://appodeal.com/sdk-license-agreement)."
+    "text": "Copyright 2026. Appodeal Inc. All rights reserved.\nThe AppodealSmaatoAdapter is available under a commercial license (https://appodeal.com/sdk-license-agreement)."
   },
   "authors": {
     "Appodeal, Inc": "https://appodeal.com"
@@ -30,7 +30,8 @@
       "= 22.9.3"
     ],
     "Appodeal": [
-      "3.12.0"
+      ">= 4.0.0",
+      "< 5.0.0"
     ]
   },
   "pod_target_xcconfig": {
