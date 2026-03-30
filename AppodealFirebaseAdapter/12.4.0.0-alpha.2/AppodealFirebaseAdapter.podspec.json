@@ -39,7 +39,7 @@
     "GoogleAppMeasurement": [],
     "GoogleUserMessagingPlatform": [],
     "Appodeal": [
-      ">= 4.0.0-ac.3",
+      ">= 4.1.0-alpha.2",
       "< 5.0.0"
     ]
   },
