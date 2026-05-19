@@ -27,7 +27,7 @@
   ],
   "dependencies": {
     "Bidon": [
-      "= 0.15.0"
+      "= 0.15.0-alpha.1"
     ],
     "Appodeal": [
       ">= 4.0.0",
