@@ -1,12 +1,12 @@
 {
-  "name": "AppodealInMobiAdapter",
-  "version": "11.1.0.0-alpha.1",
-  "summary": "Appodeal adapter for AppodealInMobiAdapter",
+  "name": "Appodeal",
+  "version": "4.2.0-alpha.1",
+  "summary": "Appodeal iOS Framework",
   "description": "Appodeal's supply-side platform is designed and built by veteran publishers,for publishers. Appodeal is not an ad network; it is a new approach to monetizing for publishers.\nThe platform is a large auction house, accompanied by a mediation layer, that exposes a publisher's inventory to all available buyers on the market via relationships with every major ad network, RTB exchange, and DSP. Appodeal showcases publisher inventory to the advertiser, and offers the highest rate in real time.\nAppodeal's goal is to cater to the needs of the publisher, not the advertiser, so you always know that you're in good hands.",
   "homepage": "https://appodeal.com",
   "license": {
     "type": "Commercial License",
-    "text": "Copyright 2026. Appodeal Inc. All rights reserved.\nThe AppodealInMobiAdapter is available under a commercial license (https://appodeal.com/sdk-license-agreement)."
+    "text": "Copyright 2026. Appodeal Inc. All rights reserved.\nThe Appodeal is available under a commercial license (https://appodeal.com/sdk-license-agreement)."
   },
   "authors": {
     "Appodeal, Inc": "https://appodeal.com"
@@ -15,23 +15,29 @@
     "ios": "12.0"
   },
   "source": {
-    "http": "https://s3-us-west-1.amazonaws.com/appodeal-ios/Appodeal/Modular/AppodealInMobiAdapter/11.1.0.0-alpha.1/AppodealInMobiAdapter.zip"
+    "http": "https://s3-us-west-1.amazonaws.com/appodeal-ios/Appodeal/Modular/Appodeal/4.2.0-alpha.1/Appodeal.zip"
   },
   "swift_versions": [
     "4.0",
     "4.2",
     "5.0"
   ],
+  "resource_bundles": {
+    "AppodealPrivacyInfo": "Appodeal-4.2.0-alpha.1/Appodeal.xcframework/ios-arm64/**/*.xcprivacy"
+  },
   "vendored_frameworks": [
-    "AppodealInMobiAdapter-11.1.0.0-alpha.1/AppodealInMobiAdapter.xcframework"
+    "Appodeal-4.2.0-alpha.1/Appodeal.xcframework",
+    "Appodeal-4.2.0-alpha.1/AppodealMediationCore.xcframework"
   ],
   "dependencies": {
-    "InMobiSDK": [
-      "= 11.1.0"
+    "Protobuf": [
+      "= 3.29.3"
     ],
-    "Appodeal": [
-      ">= 4.0.0",
-      "< 5.0.0"
+    "StackConsentManager": [
+      "= 3.0.1"
+    ],
+    "StackModules": [
+      "= 3.4.7"
     ]
   },
   "pod_target_xcconfig": {
