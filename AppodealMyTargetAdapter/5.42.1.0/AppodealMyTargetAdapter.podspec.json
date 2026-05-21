@@ -12,7 +12,7 @@
     "Appodeal, Inc": "https://appodeal.com"
   },
   "platforms": {
-    "ios": "12.4"
+    "ios": "14.0"
   },
   "source": {
     "http": "https://s3-us-west-1.amazonaws.com/appodeal-ios/Appodeal/Modular/AppodealMyTargetAdapter/5.42.1.0/AppodealMyTargetAdapter.zip"
