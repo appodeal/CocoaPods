@@ -27,17 +27,11 @@
   },
   "vendored_frameworks": [
     "Appodeal-4.4.0/Appodeal.xcframework",
-    "Appodeal-4.4.0/AppodealMediationCore.xcframework",
-    "Appodeal-4.4.0/StackModules.xcframework",
-    "Appodeal-4.4.0/StackRendering.xcframework",
-    "Appodeal-4.4.0/StackProductPresentation.xcframework"
+    "Appodeal-4.4.0/AppodealMediationCore.xcframework"
   ],
   "dependencies": {
     "StackConsentManager": [
       "= 4.2.0"
-    ],
-    "SwiftProtobuf": [
-      "~> 1.38"
     ]
   },
   "pod_target_xcconfig": {
