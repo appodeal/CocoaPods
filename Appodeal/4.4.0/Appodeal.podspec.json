@@ -31,7 +31,7 @@
   ],
   "dependencies": {
     "StackConsentManager": [
-      "= 4.2.0"
+      "= 4.2.1"
     ]
   },
   "pod_target_xcconfig": {
